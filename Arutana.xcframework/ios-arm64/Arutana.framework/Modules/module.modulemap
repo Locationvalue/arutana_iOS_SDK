@@ -1,0 +1,11 @@
+framework module Arutana {
+  umbrella header "Arutana.h"
+  export *
+
+  module * { export * }
+}
+
+module Arutana.Swift {
+  header "Arutana-Swift.h"
+  requires objc
+}
