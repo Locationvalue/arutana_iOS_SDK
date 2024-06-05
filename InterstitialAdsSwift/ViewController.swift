@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         interstitial = ArutanaInterstitial()
-        interstitial?.setLocationId(locationId: "48549");    // 管理画面から払い出された広告枠ID
+        interstitial?.setLocationId("48549");    // 管理画面から払い出された広告枠ID
         interstitial?.delegate = self
-        interstitial?.setEnableTestMode(isTest: true);
+        interstitial?.setEnableTestMode(true);
         interstitial?.rootViewController = self;
     }
     

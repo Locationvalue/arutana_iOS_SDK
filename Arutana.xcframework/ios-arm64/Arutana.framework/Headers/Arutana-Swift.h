@@ -309,12 +309,13 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @interface ArutanaInterstitial : NSObject
 @property (nonatomic, strong) id <ArutanaInterstitialDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationId:(NSString * _Nonnull)locationId;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
+- (void)readyMakeKeyAndVisible;
 - (void)dismiss;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class ArutanaManagerViewController;

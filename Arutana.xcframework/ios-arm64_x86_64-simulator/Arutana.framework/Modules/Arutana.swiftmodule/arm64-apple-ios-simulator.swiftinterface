@@ -42,16 +42,17 @@ import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc public class ArutanaInterstitial : ObjectiveC.NSObject {
   @objc public var delegate: (any Arutana.ArutanaInterstitialDelegate)?
   @objc public var rootViewController: UIKit.UIViewController?
-  @objc(setLocationId:) public func setLocationId(locationId: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+  @objc(setLocationId:) public func setLocationId(_ locationId: Swift.String)
   public func setSpan(span: Swift.Int)
   public func setSpan(span: Swift.Int, isPercentage: Swift.Bool)
   public func setPreventAccidentClick(preventAccidentClick: Swift.Bool)
-  @objc(setEnableTestMode:) public func setEnableTestMode(isTest: Swift.Bool)
+  @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc public func preload()
   @objc public func show() -> Swift.Bool
+  @objc public func readyMakeKeyAndVisible()
   @objc public func dismiss()
-  @objc override dynamic public init()
-  @objc deinit
 }
 @objc @_Concurrency.MainActor(unsafe) public class ArutanaManagerViewController : UIKit.UIViewController {
   @objc @_Concurrency.MainActor(unsafe) public var delegate: (any Arutana.ArutanaManagerViewControllerDelegate)?
@@ -61,7 +62,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
   @objc(addAdContainerView:) @_Concurrency.MainActor(unsafe) public func addAdContainerView(adContainerView: UIKit.UIView)
-  @objc(setEnableTestMode:) @_Concurrency.MainActor(unsafe) public func setEnableTestMode(isTestMode: Swift.Bool)
+  @objc(setEnableTestMode:) @_Concurrency.MainActor(unsafe) public func setEnableTestMode(_ isTestMode: Swift.Bool)
   @objc @_Concurrency.MainActor(unsafe) public func loadRequest()
   @_Concurrency.MainActor(unsafe) public func resumeRefresh()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
