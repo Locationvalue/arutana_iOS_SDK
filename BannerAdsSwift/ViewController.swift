@@ -10,16 +10,17 @@ import Arutana
 
 class ViewController: UIViewController {
     @IBOutlet weak var adView: UIView!
-    private var arutana:ArutanaManagerViewController?
+    private var banner:ArutanaBanner?;
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.arutana = ArutanaManagerViewController(locationID: "test", adType: ArutanaAdType.sp, rootViewController: self);
-        self.arutana?.addAdContainerView(adContainerView: self.adView) // 広告Viewを配置するViewを指定
-        self.arutana?.delegate = self
-        self.arutana?.setEnableTestMode(isTestMode: true);
-        self.arutana?.loadRequest() // 広告リクエスト
+        self.adView.backgroundColor = .brown;
+        self.banner = ArutanaBanner(locationID: "test", adType: ArutanaAdType.sp);
+        self.banner?.addAdContainerView(self.adView) // 広告Viewを配置するViewを指定
+        self.banner?.delegate = self;
+        self.banner?.setEnableTestMode(true);
+        self.banner?.loadRequest(); // 広告リクエスト
     }
 
 
@@ -31,21 +32,21 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         // 画面復帰時のローテーション再開
-        self.arutana?.resumeRefresh()
+        self.banner?.resumeRefresh();
     }
     
     deinit {
         // インスタンスの破棄
-        self.arutana = nil
+        self.banner = nil;
     }
 }
 
-extension ViewController:ArutanaManagerViewControllerDelegate {
-    func arutanaManagerViewControllerReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController) {
+extension ViewController:ArutanaBannerDelegate {
+    func arutanaBannerReceiveAd() {
         print("Received an ad.");
     }
     
-    func arutanaManagerViewControllerFailedToReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController, code: kArutanaErrorCode) {
+    func arutanaBannerFailedToReceiveAd(code: kArutanaErrorCode) {
         print("Failed to receive an ad.")
         // エラー時のリトライは特段の理由がない限り必ず記述するようにしてください。
         
@@ -65,23 +66,11 @@ extension ViewController:ArutanaManagerViewControllerDelegate {
         @unknown default:
             break;
         }
-        /*
-        switch code {
-        case .arutanaErrorCode_CommunicationError
-        case .adgErrorCodeNeedConnection, // ネットワーク不通
-            .adgErrorCodeExceedLimit, // エラー多発
-            .adgErrorCodeNoAd: // 広告レスポンスなし
-            break
-        default:
-            adgManagerViewController.loadRequest()
-        }
-        */
     }
     
-    func arutanaManagerViewControllerDidTapAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController) {
+    func arutanaBannerDidTapAd() {
         print("Did tap an ad.");
     }
     
     
 }
-

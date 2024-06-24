@@ -277,6 +277,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -301,9 +302,32 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+@protocol ArutanaBannerDelegate;
+@class NSString;
+@class UIView;
+
+SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
+@interface ArutanaBanner : NSObject
+@property (nonatomic, strong) id <ArutanaBannerDelegate> _Nullable delegate;
+- (nonnull instancetype)initWithLocationID:(NSString * _Nonnull)locationID adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
+- (void)setEnableTestMode:(BOOL)isTest;
+- (void)addAdContainerView:(UIView * _Nonnull)adContainerView;
+- (void)loadRequest;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")
+@protocol ArutanaBannerDelegate
+- (void)arutanaBannerReceiveAd;
+- (void)arutanaBannerFailedToReceiveAdWithCode:(kArutanaErrorCode)code;
+- (void)arutanaBannerDidTapAd;
+@end
+
 @protocol ArutanaInterstitialDelegate;
 @class UIViewController;
-@class NSString;
+@class UIColor;
 
 SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @interface ArutanaInterstitial : NSObject
@@ -312,9 +336,10 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationId:(NSString * _Nonnull)locationId;
 - (void)setEnableTestMode:(BOOL)isTest;
+- (void)setTextColor:(UIColor * _Nonnull)color;
+- (void)setWitdh:(CGFloat)width;
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
-- (void)readyMakeKeyAndVisible;
 - (void)dismiss;
 @end
 
@@ -322,6 +347,13 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 
 SWIFT_PROTOCOL("_TtP7Arutana36ArutanaManagerViewControllerDelegate_")
 @protocol ArutanaManagerViewControllerDelegate
+- (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
+- (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
+- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
+@end
+
+
+@interface ArutanaInterstitial (SWIFT_EXTENSION(Arutana)) <ArutanaManagerViewControllerDelegate>
 - (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
 - (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
 - (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
@@ -352,23 +384,21 @@ typedef SWIFT_ENUM_NAMED(NSInteger, kArutanaLogLevel, "LogLevel", open) {
   kArutanaLogLevelError = 3,
 };
 
-@class NSDictionary;
-@class UIView;
 @class NSCoder;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC7Arutana28ArutanaManagerViewController")
 @interface ArutanaManagerViewController : UIViewController
 @property (nonatomic, strong) id <ArutanaManagerViewControllerDelegate> _Nullable delegate;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithParams:(NSDictionary * _Nonnull)params parentView:(UIView * _Nonnull)parentView OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithLocationID:(NSString * _Nonnull)locationID adType:(ArutanaAdType)adType rootViewController:(UIViewController * _Nonnull)rootViewController OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-- (void)addAdContainerView:(UIView * _Nonnull)adContainerView;
-- (void)setEnableTestMode:(BOOL)isTestMode;
-- (void)loadRequest;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithLocationID:(NSString * _Nonnull)locationID adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
 - (void)loadView;
 - (void)viewWillDisappear:(BOOL)animated;
+- (void)setEnableTestMode:(BOOL)isTest;
+- (void)addAdContainerView:(UIView * _Nonnull)adContainerView;
+- (void)loadRequest;
+- (void)resumeRefresh;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
@@ -380,6 +410,13 @@ SWIFT_CLASS("_TtC7Arutana13InArutunaUtil")
 + (void)clearTimer:(NSTimer * _Nullable)timer;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+
+
+
 
 #endif
 #if __has_attribute(external_source_symbol)

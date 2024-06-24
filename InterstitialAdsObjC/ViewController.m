@@ -55,7 +55,8 @@
         case kArutanaErrorCodeCommunicationError:
         case kArutanaErrorCodeReceivedFiller:
         case kArutanaErrorCodeTemplateFailed:
-            [arutanaManagerViewController loadRequest];
+            //ArutanaManagerViewControllerは使わない？
+//            [arutanaManagerViewController loadRequest];
             break;
     }
     

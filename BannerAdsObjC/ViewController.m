@@ -12,7 +12,8 @@
 @interface ViewController () <ArutanaManagerViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *adView;
-@property (nonatomic) ArutanaManagerViewController *arutana;
+//@property (nonatomic) ArutanaManagerViewController *arutana;
+@property (nonatomic) ArutanaBanner *banner;
 
 @end
 
@@ -30,14 +31,20 @@
                   kADG_AdType_Free:自由設定
      rootViewController: 広告を配置するViewController
      */
-    self.arutana = [[ArutanaManagerViewController alloc] initWithLocationID:@"48547"
-                                                                     adType:ArutanaAdType_Sp
-                                                         rootViewController:self];
+//    self.arutana = [[ArutanaManagerViewController alloc] initWithLocationID:@"48547"
+//                                                                     adType:ArutanaAdType_Sp
+//                                                         rootViewController:self];
+//    
+//    [self.arutana addAdContainerView:self.adView]; // 広告Viewを配置するViewを指定
+//    self.arutana.delegate = self;
+//    [self.arutana setEnableTestMode:YES];
+//    [self.arutana loadRequest]; // 広告リクエスト
     
-    [self.arutana addAdContainerView:self.adView]; // 広告Viewを配置するViewを指定
-    self.arutana.delegate = self;
-    [self.arutana setEnableTestMode:YES];
-    [self.arutana loadRequest]; // 広告リクエスト
+    self.banner = [[ArutanaBanner alloc] initWithLocationID:@"48547" adType:ArutanaAdType_Sp];
+    [self.banner addAdContainerView:self.adView]; // 広告Viewを配置するViewを指定
+    self.banner.delegate = self;
+    [self.banner setEnableTestMode:YES];
+    [self.banner loadRequest]; // 広告リクエスト
     
 }
 

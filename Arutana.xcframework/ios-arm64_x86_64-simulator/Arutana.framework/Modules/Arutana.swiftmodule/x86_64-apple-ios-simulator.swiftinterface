@@ -1,10 +1,12 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Arutana
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Arutana
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import Arutana
+import DeveloperToolsSupport
 import Foundation
 import Swift
+import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
@@ -36,37 +38,55 @@ import _SwiftConcurrencyShims
   @objc func arutanaManagerViewControllerFailedToReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController, code: Arutana.kArutanaErrorCode)
   @objc func arutanaManagerViewControllerDidTapAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
 }
+@objc public protocol ArutanaBannerDelegate {
+  @objc func arutanaBannerReceiveAd()
+  @objc func arutanaBannerFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
+  @objc func arutanaBannerDidTapAd()
+}
+@objc public class ArutanaBanner : ObjectiveC.NSObject {
+  @objc public var delegate: (any Arutana.ArutanaBannerDelegate)?
+  @objc public init(locationID: Swift.String, adType: Arutana.ArutanaAdType)
+  @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
+  @objc public func addAdContainerView(_ adContainerView: UIKit.UIView)
+  @objc public func loadRequest()
+  public func resumeRefresh()
+  @objc deinit
+}
 @objc public protocol ArutanaInterstitialDelegate : Arutana.ArutanaManagerViewControllerDelegate {
   @objc optional func arutanaInterstitialClose()
 }
 @_inheritsConvenienceInitializers @objc public class ArutanaInterstitial : ObjectiveC.NSObject {
   @objc public var delegate: (any Arutana.ArutanaInterstitialDelegate)?
-  @objc public var rootViewController: UIKit.UIViewController?
+  @objc public var rootViewController: UIKit.UIViewController? {
+    @objc get
+    @objc set(value)
+  }
   @objc override dynamic public init()
   @objc deinit
   @objc(setLocationId:) public func setLocationId(_ locationId: Swift.String)
-  public func setSpan(span: Swift.Int)
-  public func setSpan(span: Swift.Int, isPercentage: Swift.Bool)
-  public func setPreventAccidentClick(preventAccidentClick: Swift.Bool)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
+  @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
+  @objc(setWitdh:) public func setWitdh(_ width: CoreFoundation.CGFloat)
   @objc public func preload()
   @objc public func show() -> Swift.Bool
-  @objc public func readyMakeKeyAndVisible()
   @objc public func dismiss()
 }
-@objc @_Concurrency.MainActor(unsafe) public class ArutanaManagerViewController : UIKit.UIViewController {
+extension Arutana.ArutanaInterstitial : Arutana.ArutanaManagerViewControllerDelegate {
+  @objc dynamic public func arutanaManagerViewControllerReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
+  @objc dynamic public func arutanaManagerViewControllerFailedToReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController, code: Arutana.kArutanaErrorCode)
+  @objc dynamic public func arutanaManagerViewControllerDidTapAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ArutanaManagerViewController : UIKit.UIViewController {
   @objc @_Concurrency.MainActor(unsafe) public var delegate: (any Arutana.ArutanaManagerViewControllerDelegate)?
-  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
-  @objc @_Concurrency.MainActor(unsafe) public init(params: Foundation.NSDictionary, parentView: UIKit.UIView)
-  @objc @_Concurrency.MainActor(unsafe) public init(locationID: Swift.String, adType: Arutana.ArutanaAdType, rootViewController: UIKit.UIViewController)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor(unsafe) public init(locationID: Swift.String, adType: Arutana.ArutanaAdType)
   @objc deinit
-  @objc(addAdContainerView:) @_Concurrency.MainActor(unsafe) public func addAdContainerView(adContainerView: UIKit.UIView)
-  @objc(setEnableTestMode:) @_Concurrency.MainActor(unsafe) public func setEnableTestMode(_ isTestMode: Swift.Bool)
-  @objc @_Concurrency.MainActor(unsafe) public func loadRequest()
-  @_Concurrency.MainActor(unsafe) public func resumeRefresh()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc(setEnableTestMode:) @_Concurrency.MainActor(unsafe) public func setEnableTestMode(_ isTest: Swift.Bool)
+  @objc @_Concurrency.MainActor(unsafe) public func addAdContainerView(_ adContainerView: UIKit.UIView)
+  @objc @_Concurrency.MainActor(unsafe) public func loadRequest()
+  @objc @_Concurrency.MainActor(unsafe) public func resumeRefresh()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
 }
 extension Arutana.ArutanaLogger.LogLevel : Swift.Equatable {}
 extension Arutana.ArutanaLogger.LogLevel : Swift.Hashable {}

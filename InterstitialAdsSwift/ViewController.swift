@@ -15,17 +15,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        interstitial = ArutanaInterstitial()
-        interstitial?.setLocationId("48549");    // 管理画面から払い出された広告枠ID
-        interstitial?.delegate = self
-        interstitial?.setEnableTestMode(true);
-        interstitial?.rootViewController = self;
+        self.interstitial = ArutanaInterstitial()
+        self.interstitial?.setLocationId("48549");    // 管理画面から払い出された広告枠ID
+        self.interstitial?.delegate = self
+        self.interstitial?.setEnableTestMode(true);
+        self.interstitial?.rootViewController = self;
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         // 広告非表示
-        interstitial?.dismiss()
+        self.interstitial?.dismiss()
     }
     
     @IBAction func didTapPreloadButton(_ sender: Any) {
@@ -40,6 +40,9 @@ class ViewController: UIViewController {
         _ = self.interstitial?.show()
     }
 
+    @IBAction func tap(_ sender: Any) {
+        print("tap");
+    }
 }
 
 extension ViewController:ArutanaInterstitialDelegate {
