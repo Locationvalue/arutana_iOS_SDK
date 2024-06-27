@@ -26,4 +26,14 @@ typedef NS_ENUM(NSUInteger, kArutanaErrorCode) {
     kArutanaErrorCodeTemplateFailed
 };
 
+typedef NS_ENUM(NSUInteger, kArutanaVEnv) {
+    Arutana_ENV_PRODUCTION,
+    Arutana_ENV_TEST,
+    Arutana_ENV_DEVELOPMENT
+};
+typedef NS_ENUM(NSUInteger, kArutanaVPreloadType) {
+    kArutanaVPreloadTypeMeta,
+    kArutanaVPreloadTypeAll
+};
+
 #endif /* ArutanaConstants_h */

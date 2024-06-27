@@ -14,6 +14,8 @@
 		560AC0152C0475FD00B35DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560AC0142C0475FD00B35DC4 /* Assets.xcassets */; };
 		560AC0182C0475FD00B35DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560AC0162C0475FD00B35DC4 /* LaunchScreen.storyboard */; };
 		560AC01B2C0475FD00B35DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AC01A2C0475FD00B35DC4 /* main.m */; };
+		56148B3A2C2D0ACD00BF18D8 /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56148B392C2D0ACD00BF18D8 /* AdViewController.swift */; };
+		56148B3D2C2D100F00BF18D8 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56148B3C2C2D100F00BF18D8 /* AdViewController.m */; };
 		561523292C05735A00CB61C6 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
 		561523312C05D42000CB61C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561523302C05D42000CB61C6 /* AppDelegate.swift */; };
 		561523332C05D42000CB61C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561523322C05D42000CB61C6 /* SceneDelegate.swift */; };
@@ -82,6 +84,9 @@
 		560AC0172C0475FD00B35DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		560AC0192C0475FD00B35DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		560AC01A2C0475FD00B35DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56148B392C2D0ACD00BF18D8 /* AdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
+		56148B3B2C2D100F00BF18D8 /* AdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		56148B3C2C2D100F00BF18D8 /* AdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		5615232E2C05D42000CB61C6 /* InterstitialAdsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterstitialAdsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		561523302C05D42000CB61C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		561523322C05D42000CB61C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -245,6 +250,7 @@
 				561523A62C05D69B00CB61C6 /* Assets.xcassets */,
 				561523A82C05D69B00CB61C6 /* LaunchScreen.storyboard */,
 				561523AB2C05D69B00CB61C6 /* Info.plist */,
+				56148B392C2D0ACD00BF18D8 /* AdViewController.swift */,
 			);
 			path = MovieAdsSwift;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 				561523C32C05D6D200CB61C6 /* LaunchScreen.storyboard */,
 				561523C62C05D6D200CB61C6 /* Info.plist */,
 				561523C72C05D6D200CB61C6 /* main.m */,
+				56148B3B2C2D100F00BF18D8 /* AdViewController.h */,
+				56148B3C2C2D100F00BF18D8 /* AdViewController.m */,
 			);
 			path = MovieAdsObjC;
 			sourceTree = "<group>";
@@ -576,6 +584,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				561523A22C05D69900CB61C6 /* ViewController.swift in Sources */,
+				56148B3A2C2D0ACD00BF18D8 /* AdViewController.swift in Sources */,
 				5615239E2C05D69900CB61C6 /* AppDelegate.swift in Sources */,
 				561523A02C05D69900CB61C6 /* SceneDelegate.swift in Sources */,
 			);
@@ -588,6 +597,7 @@
 				561523BD2C05D6D000CB61C6 /* ViewController.m in Sources */,
 				561523B72C05D6D000CB61C6 /* AppDelegate.m in Sources */,
 				561523C82C05D6D200CB61C6 /* main.m in Sources */,
+				56148B3D2C2D100F00BF18D8 /* AdViewController.m in Sources */,
 				561523BA2C05D6D000CB61C6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -334,7 +334,7 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @property (nonatomic, strong) id <ArutanaInterstitialDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)setLocationId:(NSString * _Nonnull)locationId;
+- (void)setLocationID:(NSString * _Nonnull)locationID;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)setWitdh:(CGFloat)width;
@@ -402,6 +402,36 @@ SWIFT_CLASS("_TtC7Arutana28ArutanaManagerViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+
+@protocol ArutanaVIAdManagerDelegate;
+
+SWIFT_CLASS("_TtC7Arutana18ArutanaVIAdManager")
+@interface ArutanaVIAdManager : NSObject
+@property (nonatomic, readonly, strong) id <ArutanaVIAdManagerDelegate> _Nonnull delegate;
+@property (nonatomic) BOOL isReady;
+@property (nonatomic) BOOL autoPlayEnabled;
+@property (nonatomic) BOOL clickActionDisabled;
+@property (nonatomic) BOOL equalizerHidden;
+@property (nonatomic) BOOL closeButtonEnabled;
+@property (nonatomic) BOOL replayButtonEnabled;
+@property (nonatomic) BOOL soundButtonEnabled;
+- (nonnull instancetype)initWithPubId:(NSString * _Nonnull)pubId delegate:(id <ArutanaVIAdManagerDelegate> _Nonnull)delegate OBJC_DESIGNATED_INITIALIZER;
+- (void)load;
+- (UIView * _Nullable)showAdForViewWithView:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
+- (void)removeAd;
+- (void)setPreloadType:(kArutanaVPreloadType)type;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+SWIFT_PROTOCOL("_TtP7Arutana26ArutanaVIAdManagerDelegate_")
+@protocol ArutanaVIAdManagerDelegate
+- (UIViewController * _Nonnull)viewControllerForPresentingModalView SWIFT_WARN_UNUSED_RESULT;
+- (void)onReadyToPlayAd;
+- (void)onCloseAd;
+@end
 
 @class NSTimer;
 

@@ -2,12 +2,16 @@
 // swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Arutana
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
 @_exported import Arutana
+import CommonCrypto
+import CoreMedia
 import DeveloperToolsSupport
 import Foundation
 import Swift
 import SwiftUI
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -31,6 +35,27 @@ import _SwiftConcurrencyShims
   @objc public static var logLevel: Arutana.ArutanaLogger.LogLevel
   @objc public static func outputDebug(_ str: Swift.String, cls: Swift.AnyClass? = nil, method: ObjectiveC.Selector? = nil)
   @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol ArutanaVIAdManagerDelegate {
+  @objc func viewControllerForPresentingModalView() -> UIKit.UIViewController
+  @objc func onReadyToPlayAd()
+  @objc func onCloseAd()
+}
+@objc public class ArutanaVIAdManager : ObjectiveC.NSObject {
+  @objc final public let delegate: any Arutana.ArutanaVIAdManagerDelegate
+  @objc public var isReady: Swift.Bool
+  @objc public var autoPlayEnabled: Swift.Bool
+  @objc public var clickActionDisabled: Swift.Bool
+  @objc public var equalizerHidden: Swift.Bool
+  @objc public var closeButtonEnabled: Swift.Bool
+  @objc public var replayButtonEnabled: Swift.Bool
+  @objc public var soundButtonEnabled: Swift.Bool
+  @objc public init(pubId: Swift.String, delegate: any Arutana.ArutanaVIAdManagerDelegate)
+  @objc public func load()
+  @objc public func showAdForView(view: UIKit.UIView) -> UIKit.UIView?
+  @objc public func removeAd()
+  @objc public func setPreloadType(_ type: Arutana.kArutanaVPreloadType)
   @objc deinit
 }
 @objc public protocol ArutanaManagerViewControllerDelegate {
@@ -63,7 +88,7 @@ import _SwiftConcurrencyShims
   }
   @objc override dynamic public init()
   @objc deinit
-  @objc(setLocationId:) public func setLocationId(_ locationId: Swift.String)
+  @objc(setLocationID:) public func setLocationID(_ locationID: Swift.String)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
   @objc(setWitdh:) public func setWitdh(_ width: CoreFoundation.CGFloat)
