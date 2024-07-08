@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jRL-9U-XXg">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,7 +25,7 @@
         <!--Ad View Controller-->
         <scene sceneID="Aki-tL-qQ9">
             <objects>
-                <viewController id="9C2-yQ-wAA" customClass="AdViewController" customModule="AppVadorSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9C2-yQ-wAA" customClass="AdViewController" customModule="MovieAdsSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q25-DC-lAK"/>
                         <viewControllerLayoutGuide type="bottom" id="btn-xj-x2Z"/>
@@ -46,7 +45,7 @@
                                 <rect key="frame" x="173.66666666666666" y="688" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="xSs-2D-ryO" kind="show" id="pZL-JA-tyS"/>
+                                    <action selector="onClick:" destination="9C2-yQ-wAA" eventType="touchUpInside" id="XkO-XU-h59"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -71,7 +70,7 @@
         <!--View Controller-->
         <scene sceneID="Klb-QJ-9A4">
             <objects>
-                <viewController id="Tg0-Ma-3Jn" customClass="ViewController" customModule="AppVadorSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Tg0-Ma-3Jn" customClass="ViewController" customModule="MovieAdsSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qR4-1Q-uxh"/>
                         <viewControllerLayoutGuide type="bottom" id="O09-JK-el7"/>

@@ -403,35 +403,22 @@ SWIFT_CLASS("_TtC7Arutana28ArutanaManagerViewController")
 @end
 
 
-@protocol ArutanaVIAdManagerDelegate;
 
-SWIFT_CLASS("_TtC7Arutana18ArutanaVIAdManager")
-@interface ArutanaVIAdManager : NSObject
-@property (nonatomic, readonly, strong) id <ArutanaVIAdManagerDelegate> _Nonnull delegate;
-@property (nonatomic) BOOL isReady;
-@property (nonatomic) BOOL autoPlayEnabled;
-@property (nonatomic) BOOL clickActionDisabled;
-@property (nonatomic) BOOL equalizerHidden;
-@property (nonatomic) BOOL closeButtonEnabled;
-@property (nonatomic) BOOL replayButtonEnabled;
-@property (nonatomic) BOOL soundButtonEnabled;
-- (nonnull instancetype)initWithPubId:(NSString * _Nonnull)pubId delegate:(id <ArutanaVIAdManagerDelegate> _Nonnull)delegate OBJC_DESIGNATED_INITIALIZER;
-- (void)load;
-- (UIView * _Nullable)showAdForViewWithView:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
-- (void)removeAd;
-- (void)setPreloadType:(kArutanaVPreloadType)type;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
+@interface ArutanaMovieAd : NSObject
+@property (nonatomic, strong) id <ArutanaInterstitialDelegate> _Nullable delegate;
+@property (nonatomic, strong) UIViewController * _Nullable rootViewController;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)setLocationID:(NSString * _Nonnull)locationID;
+- (void)setEnableTestMode:(BOOL)isTest;
+- (void)setTextColor:(UIColor * _Nonnull)color;
+- (void)setWitdh:(CGFloat)width;
+- (void)dismiss;
+- (void)preload;
+- (void)show;
 @end
 
 
-
-SWIFT_PROTOCOL("_TtP7Arutana26ArutanaVIAdManagerDelegate_")
-@protocol ArutanaVIAdManagerDelegate
-- (UIViewController * _Nonnull)viewControllerForPresentingModalView SWIFT_WARN_UNUSED_RESULT;
-- (void)onReadyToPlayAd;
-- (void)onCloseAd;
-@end
 
 @class NSTimer;
 
@@ -440,6 +427,7 @@ SWIFT_CLASS("_TtC7Arutana13InArutunaUtil")
 + (void)clearTimer:(NSTimer * _Nullable)timer;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

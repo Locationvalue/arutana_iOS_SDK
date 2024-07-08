@@ -11,7 +11,6 @@ import Foundation
 import Swift
 import SwiftUI
 import UIKit
-import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -37,31 +36,26 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public protocol ArutanaVIAdManagerDelegate {
-  @objc func viewControllerForPresentingModalView() -> UIKit.UIViewController
-  @objc func onReadyToPlayAd()
-  @objc func onCloseAd()
-}
-@objc public class ArutanaVIAdManager : ObjectiveC.NSObject {
-  @objc final public let delegate: any Arutana.ArutanaVIAdManagerDelegate
-  @objc public var isReady: Swift.Bool
-  @objc public var autoPlayEnabled: Swift.Bool
-  @objc public var clickActionDisabled: Swift.Bool
-  @objc public var equalizerHidden: Swift.Bool
-  @objc public var closeButtonEnabled: Swift.Bool
-  @objc public var replayButtonEnabled: Swift.Bool
-  @objc public var soundButtonEnabled: Swift.Bool
-  @objc public init(pubId: Swift.String, delegate: any Arutana.ArutanaVIAdManagerDelegate)
-  @objc public func load()
-  @objc public func showAdForView(view: UIKit.UIView) -> UIKit.UIView?
-  @objc public func removeAd()
-  @objc public func setPreloadType(_ type: Arutana.kArutanaVPreloadType)
-  @objc deinit
-}
 @objc public protocol ArutanaManagerViewControllerDelegate {
   @objc func arutanaManagerViewControllerReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
   @objc func arutanaManagerViewControllerFailedToReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController, code: Arutana.kArutanaErrorCode)
   @objc func arutanaManagerViewControllerDidTapAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
+}
+@_inheritsConvenienceInitializers @objc public class ArutanaMovieAd : ObjectiveC.NSObject {
+  @objc public var delegate: (any Arutana.ArutanaInterstitialDelegate)?
+  @objc public var rootViewController: UIKit.UIViewController? {
+    @objc get
+    @objc set(value)
+  }
+  @objc override dynamic public init()
+  @objc deinit
+  @objc(setLocationID:) public func setLocationID(_ locationID: Swift.String)
+  @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
+  @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
+  @objc(setWitdh:) public func setWitdh(_ width: CoreFoundation.CGFloat)
+  @objc public func dismiss()
+  @objc public func preload()
+  @objc public func show()
 }
 @objc public protocol ArutanaBannerDelegate {
   @objc func arutanaBannerReceiveAd()

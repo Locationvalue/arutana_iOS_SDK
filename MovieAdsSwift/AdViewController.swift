@@ -11,19 +11,46 @@ import Arutana
 class AdViewController: UIViewController {
     @IBOutlet private weak var adWrapperView: UIView!
     
-    private var manager:ArutanaVIAdManager?;
+//    private var manager:ArutanaVIAdManager?;
+    private var movieAd:ArutanaMovieAd?;
 
+    /*
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.manager = ArutanaVIAdManager(pubId: "1", delegate: self);
-        self.manager?.setPreloadType(.arutanaVPreloadTypeAll);
+//        self.manager = ArutanaVIAdManager(pubId: "1", delegate: self);
+//        self.manager?.setPreloadType(.arutanaVPreloadTypeAll);
+//        
+//        self.manager?.load();
         
-        self.manager?.load();
+    }
+    */
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        self.movieAd = ArutanaMovieAd();
+        self.movieAd?.setLocationID("48549");    // 管理画面から払い出された広告枠ID
+//        self.movieAd?.delegate = self
+        self.movieAd?.setEnableTestMode(true);
+        self.movieAd?.rootViewController = self;
+        
+        self.movieAd?.preload();
     }
     
-
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        // 広告非表示
+//        self.movieAd?.dismiss()
+    }
+    
+    @IBAction func onClick(_ sender: Any) {
+        print("click");
+        // 広告リクエスト
+        self.movieAd?.show();
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -35,7 +62,7 @@ class AdViewController: UIViewController {
     */
 
 }
-
+/*
 extension AdViewController:ArutanaVIAdManagerDelegate {
     /*
     private func requestAppVador() {
@@ -50,10 +77,11 @@ extension AdViewController:ArutanaVIAdManagerDelegate {
     }
 
     func onReadyToPlayAd() {
-        self.manager?.showAdForView(view: self.adWrapperView);
+//        self.manager?.showAdForView(view: self.adWrapperView);
     }
 
     func onCloseAd() {
-        self.manager?.removeAd()
+//        self.manager?.removeAd()
     }
 }
+*/
