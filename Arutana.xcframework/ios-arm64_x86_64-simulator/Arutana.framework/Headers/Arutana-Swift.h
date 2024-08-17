@@ -318,6 +318,7 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 @end
 
 
+
 SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")
 @protocol ArutanaBannerDelegate
 - (void)arutanaBannerReceiveAd;
@@ -343,25 +344,13 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 - (void)dismiss;
 @end
 
-@class ArutanaManagerViewController;
-
-SWIFT_PROTOCOL("_TtP7Arutana36ArutanaManagerViewControllerDelegate_")
-@protocol ArutanaManagerViewControllerDelegate
-- (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-- (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
-- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-@end
-
-
-@interface ArutanaInterstitial (SWIFT_EXTENSION(Arutana)) <ArutanaManagerViewControllerDelegate>
-- (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-- (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
-- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-@end
 
 
 SWIFT_PROTOCOL("_TtP7Arutana27ArutanaInterstitialDelegate_")
-@protocol ArutanaInterstitialDelegate <ArutanaManagerViewControllerDelegate>
+@protocol ArutanaInterstitialDelegate
+- (void)arutanaInterstitialReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialFailedToReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial code:(kArutanaErrorCode)code;
+- (void)arutanaInterstitialDidTapAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
 @optional
 - (void)arutanaInterstitialClose;
 @end
@@ -384,6 +373,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, kArutanaLogLevel, "LogLevel", open) {
   kArutanaLogLevelError = 3,
 };
 
+@protocol ArutanaManagerViewControllerDelegate;
 @class NSCoder;
 @class NSBundle;
 
@@ -403,22 +393,37 @@ SWIFT_CLASS("_TtC7Arutana28ArutanaManagerViewController")
 @end
 
 
+SWIFT_PROTOCOL("_TtP7Arutana36ArutanaManagerViewControllerDelegate_")
+@protocol ArutanaManagerViewControllerDelegate
+- (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
+- (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
+- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
+@end
+
+@protocol ArutanaMovieAdDelegate;
 
 SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 @interface ArutanaMovieAd : NSObject
-@property (nonatomic, strong) id <ArutanaInterstitialDelegate> _Nullable delegate;
+@property (nonatomic, strong) id <ArutanaMovieAdDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
-- (void)setWitdh:(CGFloat)width;
 - (void)dismiss;
 - (void)preload;
 - (void)show;
 @end
 
 
+
+
+SWIFT_PROTOCOL("_TtP7Arutana22ArutanaMovieAdDelegate_")
+@protocol ArutanaMovieAdDelegate
+- (void)arutanaBannerReceiveAd;
+- (void)arutanaBannerFailedToReceiveAdWithCode:(kArutanaErrorCode)code;
+- (void)arutanaBannerDidTapAd;
+@end
 
 @class NSTimer;
 
@@ -427,6 +432,7 @@ SWIFT_CLASS("_TtC7Arutana13InArutunaUtil")
 + (void)clearTimer:(NSTimer * _Nullable)timer;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -764,6 +770,7 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 @end
 
 
+
 SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")
 @protocol ArutanaBannerDelegate
 - (void)arutanaBannerReceiveAd;
@@ -789,25 +796,13 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 - (void)dismiss;
 @end
 
-@class ArutanaManagerViewController;
-
-SWIFT_PROTOCOL("_TtP7Arutana36ArutanaManagerViewControllerDelegate_")
-@protocol ArutanaManagerViewControllerDelegate
-- (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-- (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
-- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-@end
-
-
-@interface ArutanaInterstitial (SWIFT_EXTENSION(Arutana)) <ArutanaManagerViewControllerDelegate>
-- (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-- (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
-- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-@end
 
 
 SWIFT_PROTOCOL("_TtP7Arutana27ArutanaInterstitialDelegate_")
-@protocol ArutanaInterstitialDelegate <ArutanaManagerViewControllerDelegate>
+@protocol ArutanaInterstitialDelegate
+- (void)arutanaInterstitialReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialFailedToReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial code:(kArutanaErrorCode)code;
+- (void)arutanaInterstitialDidTapAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
 @optional
 - (void)arutanaInterstitialClose;
 @end
@@ -830,6 +825,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, kArutanaLogLevel, "LogLevel", open) {
   kArutanaLogLevelError = 3,
 };
 
+@protocol ArutanaManagerViewControllerDelegate;
 @class NSCoder;
 @class NSBundle;
 
@@ -849,22 +845,37 @@ SWIFT_CLASS("_TtC7Arutana28ArutanaManagerViewController")
 @end
 
 
+SWIFT_PROTOCOL("_TtP7Arutana36ArutanaManagerViewControllerDelegate_")
+@protocol ArutanaManagerViewControllerDelegate
+- (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
+- (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
+- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
+@end
+
+@protocol ArutanaMovieAdDelegate;
 
 SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 @interface ArutanaMovieAd : NSObject
-@property (nonatomic, strong) id <ArutanaInterstitialDelegate> _Nullable delegate;
+@property (nonatomic, strong) id <ArutanaMovieAdDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
-- (void)setWitdh:(CGFloat)width;
 - (void)dismiss;
 - (void)preload;
 - (void)show;
 @end
 
 
+
+
+SWIFT_PROTOCOL("_TtP7Arutana22ArutanaMovieAdDelegate_")
+@protocol ArutanaMovieAdDelegate
+- (void)arutanaBannerReceiveAd;
+- (void)arutanaBannerFailedToReceiveAdWithCode:(kArutanaErrorCode)code;
+- (void)arutanaBannerDidTapAd;
+@end
 
 @class NSTimer;
 
@@ -873,6 +884,7 @@ SWIFT_CLASS("_TtC7Arutana13InArutunaUtil")
 + (void)clearTimer:(NSTimer * _Nullable)timer;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

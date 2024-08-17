@@ -41,21 +41,22 @@ import _SwiftConcurrencyShims
   @objc func arutanaManagerViewControllerFailedToReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController, code: Arutana.kArutanaErrorCode)
   @objc func arutanaManagerViewControllerDidTapAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
 }
+@objc public protocol ArutanaMovieAdDelegate {
+  @objc func arutanaBannerReceiveAd()
+  @objc func arutanaBannerFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
+  @objc func arutanaBannerDidTapAd()
+}
 @_inheritsConvenienceInitializers @objc public class ArutanaMovieAd : ObjectiveC.NSObject {
-  @objc public var delegate: (any Arutana.ArutanaInterstitialDelegate)?
-  @objc public var rootViewController: UIKit.UIViewController? {
-    @objc get
-    @objc set(value)
-  }
+  @objc public var delegate: (any Arutana.ArutanaMovieAdDelegate)?
+  @objc public var rootViewController: UIKit.UIViewController?
   @objc override dynamic public init()
-  @objc deinit
   @objc(setLocationID:) public func setLocationID(_ locationID: Swift.String)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
-  @objc(setWitdh:) public func setWitdh(_ width: CoreFoundation.CGFloat)
   @objc public func dismiss()
   @objc public func preload()
   @objc public func show()
+  @objc deinit
 }
 @objc public protocol ArutanaBannerDelegate {
   @objc func arutanaBannerReceiveAd()
@@ -71,7 +72,10 @@ import _SwiftConcurrencyShims
   public func resumeRefresh()
   @objc deinit
 }
-@objc public protocol ArutanaInterstitialDelegate : Arutana.ArutanaManagerViewControllerDelegate {
+@objc public protocol ArutanaInterstitialDelegate {
+  @objc func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial)
+  @objc func arutanaInterstitialFailedToReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial, code: Arutana.kArutanaErrorCode)
+  @objc func arutanaInterstitialDidTapAd(arutanaInterstitial: Arutana.ArutanaInterstitial)
   @objc optional func arutanaInterstitialClose()
 }
 @_inheritsConvenienceInitializers @objc public class ArutanaInterstitial : ObjectiveC.NSObject {
@@ -89,11 +93,6 @@ import _SwiftConcurrencyShims
   @objc public func preload()
   @objc public func show() -> Swift.Bool
   @objc public func dismiss()
-}
-extension Arutana.ArutanaInterstitial : Arutana.ArutanaManagerViewControllerDelegate {
-  @objc dynamic public func arutanaManagerViewControllerReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
-  @objc dynamic public func arutanaManagerViewControllerFailedToReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController, code: Arutana.kArutanaErrorCode)
-  @objc dynamic public func arutanaManagerViewControllerDidTapAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ArutanaManagerViewController : UIKit.UIViewController {
   @objc @_Concurrency.MainActor(unsafe) public var delegate: (any Arutana.ArutanaManagerViewControllerDelegate)?

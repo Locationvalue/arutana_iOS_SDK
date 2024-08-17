@@ -46,6 +46,41 @@ class ViewController: UIViewController {
 }
 
 extension ViewController:ArutanaInterstitialDelegate {
+    func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
+        print("Received an ad.");
+    }
+    
+    func arutanaInterstitialFailedToReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial, code: kArutanaErrorCode) {
+        print("Failed to receive an ad.");
+        // エラー時のリトライは特段の理由がない限り必ず記述するようにしてください。
+        switch code {
+        case .arutanaErrorCodeNeedConnection,
+                .arutanaErrorCodeExceedLimit,
+                .arutanaErrorCodeNoAd:
+            break;
+        case .arutanaErrorCodeUnknown:
+            break;
+        case .arutanaErrorCodeCommunicationError:
+            break;
+        case .arutanaErrorCodeReceivedFiller:
+            break;
+        case .arutanaErrorCodeTemplateFailed:
+            break;
+        @unknown default:
+            break;
+        }
+    }
+    
+    func arutanaInterstitialDidTapAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
+        print("Did tap an ad.");
+    }
+    
+    func arutanaInterstitialClose() {
+        print("Closed interstitial ads");
+    }
+}
+/*
+extension ViewController:ArutanaInterstitialDelegate {
     func arutanaManagerViewControllerReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController) {
         print("Received an ad.")
     }
@@ -80,4 +115,5 @@ extension ViewController:ArutanaInterstitialDelegate {
     }
     
 }
+*/
 

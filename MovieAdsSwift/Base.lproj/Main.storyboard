@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -34,8 +35,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Gw-Dq-p0D">
-                                <rect key="frame" x="0.0" y="64.5" width="600" height="337.5"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Gw-Dq-p0D">
+                                <rect key="frame" x="0.0" y="103" width="393" height="221"/>
                                 <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="0Gw-Dq-p0D" secondAttribute="height" multiplier="16:9" id="6P8-wx-yMk"/>
@@ -48,6 +49,11 @@
                                     <action selector="onClick:" destination="9C2-yQ-wAA" eventType="touchUpInside" id="XkO-XU-h59"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zyz-hN-8ap">
+                                <rect key="frame" x="76" y="462" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -60,6 +66,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="nkV-Gx-Xab"/>
                     <connections>
+                        <outlet property="adView" destination="zyz-hN-8ap" id="uDZ-KZ-4pN"/>
                         <outlet property="adWrapperView" destination="0Gw-Dq-p0D" id="6l6-rF-8gh"/>
                     </connections>
                 </viewController>
@@ -118,4 +125,9 @@
             <point key="canvasLocation" x="1999" y="411"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

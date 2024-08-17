@@ -37,7 +37,37 @@
     [self.interstitial show];
 }
 
-- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController { 
+- (void)arutanaInterstitialReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
+    NSLog(@"Received an ad.");
+}
+- (void)arutanaInterstitialFailedToReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial code:(kArutanaErrorCode)code {
+    NSLog(@"Failed to receive an ad.");
+    // エラー時のリトライは特段の理由がない限り必ず記述するようにしてください。
+    
+    switch (code) {
+        case kArutanaErrorCodeNeedConnection:// ネットワーク不通
+        case kArutanaErrorCodeExceedLimit:// エラー多発
+        case kArutanaErrorCodeNoAd:// 広告レスポンスなし
+            //non
+            break;
+        case kArutanaErrorCodeUnknown:
+        case kArutanaErrorCodeCommunicationError:
+        case kArutanaErrorCodeReceivedFiller:
+        case kArutanaErrorCodeTemplateFailed:
+            //ArutanaManagerViewControllerは使わない？
+//            [arutanaManagerViewController loadRequest];
+            break;
+    }
+}
+- (void)arutanaInterstitialDidTapAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
+    NSLog(@"Did tap an ad.");
+}
+- (void)arutanaInterstitialClose {
+    NSLog(@"Closed interstitial ads.");
+}
+
+/*
+- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController {
     NSLog(@"Received an ad.");
 }
 
@@ -69,5 +99,6 @@
 - (void)arutanaInterstitialClose {
     NSLog(@"Closed interstitial ads.");
 }
+*/
 
 @end

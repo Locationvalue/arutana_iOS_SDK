@@ -11,7 +11,8 @@ import Arutana
 class AdViewController: UIViewController {
     @IBOutlet private weak var adWrapperView: UIView!
     
-//    private var manager:ArutanaVIAdManager?;
+    @IBOutlet weak var adView: UIView!
+    //    private var manager:ArutanaVIAdManager?;
     private var movieAd:ArutanaMovieAd?;
 
     /*
@@ -35,6 +36,9 @@ class AdViewController: UIViewController {
 //        self.movieAd?.delegate = self
         self.movieAd?.setEnableTestMode(true);
         self.movieAd?.rootViewController = self;
+//        self.movieAd?.setAdShowView(view: self.adView);
+        
+        //
         
         self.movieAd?.preload();
     }
