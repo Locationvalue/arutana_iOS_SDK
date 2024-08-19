@@ -3,6 +3,8 @@
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Arutana
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
+import AdSupport
+import AppTrackingTransparency
 @_exported import Arutana
 import CommonCrypto
 import CoreMedia
@@ -51,6 +53,7 @@ import _SwiftConcurrencyShims
   @objc public var rootViewController: UIKit.UIViewController?
   @objc override dynamic public init()
   @objc(setLocationID:) public func setLocationID(_ locationID: Swift.String)
+  @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
   @objc public func dismiss()
@@ -66,6 +69,7 @@ import _SwiftConcurrencyShims
 @objc public class ArutanaBanner : ObjectiveC.NSObject {
   @objc public var delegate: (any Arutana.ArutanaBannerDelegate)?
   @objc public init(locationID: Swift.String, adType: Arutana.ArutanaAdType)
+  @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc public func addAdContainerView(_ adContainerView: UIKit.UIView)
   @objc public func loadRequest()
@@ -87,9 +91,10 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
   @objc(setLocationID:) public func setLocationID(_ locationID: Swift.String)
+  @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
-  @objc(setWitdh:) public func setWitdh(_ width: CoreFoundation.CGFloat)
+  @objc(setHeight:) public func setHeight(_ width: CoreFoundation.CGFloat)
   @objc public func preload()
   @objc public func show() -> Swift.Bool
   @objc public func dismiss()

@@ -310,6 +310,7 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 @interface ArutanaBanner : NSObject
 @property (nonatomic, strong) id <ArutanaBannerDelegate> _Nullable delegate;
 - (nonnull instancetype)initWithLocationID:(NSString * _Nonnull)locationID adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
+- (void)setUserId:(NSString * _Nullable)userId;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)addAdContainerView:(UIView * _Nonnull)adContainerView;
 - (void)loadRequest;
@@ -336,9 +337,10 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
+- (void)setUserId:(NSString * _Nullable)userId;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
-- (void)setWitdh:(CGFloat)width;
+- (void)setHeight:(CGFloat)width;
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
 - (void)dismiss;
@@ -408,6 +410,7 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
+- (void)setUserId:(NSString * _Nullable)userId;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)dismiss;
@@ -762,6 +765,7 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 @interface ArutanaBanner : NSObject
 @property (nonatomic, strong) id <ArutanaBannerDelegate> _Nullable delegate;
 - (nonnull instancetype)initWithLocationID:(NSString * _Nonnull)locationID adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
+- (void)setUserId:(NSString * _Nullable)userId;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)addAdContainerView:(UIView * _Nonnull)adContainerView;
 - (void)loadRequest;
@@ -788,9 +792,10 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
+- (void)setUserId:(NSString * _Nullable)userId;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
-- (void)setWitdh:(CGFloat)width;
+- (void)setHeight:(CGFloat)width;
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
 - (void)dismiss;
@@ -860,6 +865,7 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
+- (void)setUserId:(NSString * _Nullable)userId;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)dismiss;
