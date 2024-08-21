@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "Arutana ad network"
   spec.homepage     = "https://github.com/Locationvalue/arutana_iOS_SDK/wiki"
   spec.license      = "PROPRIETARY"
-  spec.author             = { "DearOne, Inc." => "info@dearone.io" }
+  spec.author       = { "DearOne, Inc." => "info@dearone.io" }
   spec.platform     = :ios
   spec.source       = { :git => "https://github.com/Locationvalue/arutana_iOS_SDK", :tag => "#{spec.version}" }
   spec.vendored_frameworks = "Arutana.xcframework"
