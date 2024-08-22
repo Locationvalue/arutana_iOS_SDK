@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ArutanaSample
 //
-//  Created by MacBookPro002 on 2024/05/16.
+//  Created by ARUTANA.
 //
 
 import UIKit
@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         self.banner = ArutanaBanner(locationID: "test", adType: ArutanaAdType.sp);
         self.banner?.addAdContainerView(self.adView) // 広告Viewを配置するViewを指定
         self.banner?.delegate = self;
+        self.banner?.setUserId(nil);
         self.banner?.setEnableTestMode(true);
         self.banner?.loadRequest(); // 広告リクエスト
     }

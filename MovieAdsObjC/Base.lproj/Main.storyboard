@@ -40,7 +40,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="53k-1w-o3b" kind="show" id="KVH-6Y-EkG"/>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="msv-n7-yu6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,69 +52,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="668" y="14"/>
-        </scene>
-        <!--Ad View Controller-->
-        <scene sceneID="CXa-N4-FxN">
-            <objects>
-                <viewController id="53k-1w-o3b" customClass="AdViewController" customModule="AppVadorSample" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0n8-p1-gZb"/>
-                        <viewControllerLayoutGuide type="bottom" id="zw8-m4-ssu"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="hOc-ns-G0M">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SHj-Zr-vHV">
-                                <rect key="frame" x="0.0" y="64.5" width="600" height="337.5"/>
-                                <color key="backgroundColor" red="0.66666668650000005" green="0.66666668650000005" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="SHj-Zr-vHV" secondAttribute="height" multiplier="16:9" id="plc-wT-QFY"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mV-A9-K0s">
-                                <rect key="frame" x="173.66666666666666" y="688" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="uye-g9-q2c" kind="show" id="pbW-iw-j2W"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="dHX-jm-iQl"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="zw8-m4-ssu" firstAttribute="top" secondItem="7mV-A9-K0s" secondAttribute="bottom" constant="100" id="3BJ-Rh-e2w"/>
-                            <constraint firstAttribute="trailing" secondItem="SHj-Zr-vHV" secondAttribute="trailing" id="4AO-EF-Wh1"/>
-                            <constraint firstItem="SHj-Zr-vHV" firstAttribute="leading" secondItem="hOc-ns-G0M" secondAttribute="leading" id="Gpp-Dr-HVe"/>
-                            <constraint firstItem="7mV-A9-K0s" firstAttribute="centerX" secondItem="hOc-ns-G0M" secondAttribute="centerX" id="Tkm-aJ-xO5"/>
-                            <constraint firstItem="SHj-Zr-vHV" firstAttribute="top" secondItem="0n8-p1-gZb" secondAttribute="bottom" id="ttq-2f-5Bh"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="Gqk-6D-94A"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f68-xH-Olr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1294" y="411"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="efw-JI-fPw">
-            <objects>
-                <viewController id="uye-g9-q2c" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Fzc-Bh-zhc"/>
-                        <viewControllerLayoutGuide type="bottom" id="yL8-Ey-rvK"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="X2d-wd-etJ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="ErH-mr-TAG"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="nfu-Ee-nH5"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AV4-Z2-lmR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1999" y="411"/>
         </scene>
     </scenes>
 </document>

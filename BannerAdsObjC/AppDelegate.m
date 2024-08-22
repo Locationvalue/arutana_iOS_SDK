@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  BannerAdsObjC
 //
-//  Created by MacBookPro002 on 2024/05/27.
+//  Created by ARUTANA on 2024/05/27.
 //
 
 #import "AppDelegate.h"

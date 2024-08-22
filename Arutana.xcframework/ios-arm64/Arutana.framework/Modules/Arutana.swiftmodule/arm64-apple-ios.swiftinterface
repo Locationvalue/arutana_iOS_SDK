@@ -44,9 +44,15 @@ import _SwiftConcurrencyShims
   @objc func arutanaManagerViewControllerDidTapAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
 }
 @objc public protocol ArutanaMovieAdDelegate {
-  @objc func arutanaBannerReceiveAd()
-  @objc func arutanaBannerFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
-  @objc func arutanaBannerDidTapAd()
+  @objc func arutanaMovieNonad()
+  @objc func arutanaMovieReceiveAd()
+  @objc func arutanaMovieShowAd()
+  @objc func arutanaMovieDidTapAd()
+  @objc func arutanaMovieClose()
+  @objc func arutanaMovieStartFull()
+  @objc func arutanaMovieEndFull()
+  @objc func arutanaMovieDeinit()
+  @objc func arutanaMovieFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
 }
 @_inheritsConvenienceInitializers @objc public class ArutanaMovieAd : ObjectiveC.NSObject {
   @objc public var delegate: (any Arutana.ArutanaMovieAdDelegate)?
@@ -54,6 +60,7 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc(setLocationID:) public func setLocationID(_ locationID: Swift.String)
   @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
+  @objc(setPositionY:) public func setPositionY(pos: Swift.Int)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
   @objc public func dismiss()
@@ -92,6 +99,7 @@ import _SwiftConcurrencyShims
   @objc deinit
   @objc(setLocationID:) public func setLocationID(_ locationID: Swift.String)
   @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
+  @objc(setPositionY:) public func setPositionY(pos: Swift.Int)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
   @objc(setHeight:) public func setHeight(_ width: CoreFoundation.CGFloat)

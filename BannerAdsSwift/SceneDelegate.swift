@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  ArutanaSample
 //
-//  Created by MacBookPro002 on 2024/05/16.
+//  Created by ARUTANA on 2024/05/16.
 //
 
 import UIKit

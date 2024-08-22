@@ -3,7 +3,6 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,57 +22,6 @@
             </objects>
             <point key="canvasLocation" x="-108" y="411"/>
         </scene>
-        <!--Ad View Controller-->
-        <scene sceneID="Aki-tL-qQ9">
-            <objects>
-                <viewController id="9C2-yQ-wAA" customClass="AdViewController" customModule="MovieAdsSwift" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Q25-DC-lAK"/>
-                        <viewControllerLayoutGuide type="bottom" id="btn-xj-x2Z"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="3Cl-eQ-yt2">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Gw-Dq-p0D">
-                                <rect key="frame" x="0.0" y="103" width="393" height="221"/>
-                                <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="0Gw-Dq-p0D" secondAttribute="height" multiplier="16:9" id="6P8-wx-yMk"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voY-RA-7xB">
-                                <rect key="frame" x="173.66666666666666" y="688" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="onClick:" destination="9C2-yQ-wAA" eventType="touchUpInside" id="XkO-XU-h59"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zyz-hN-8ap">
-                                <rect key="frame" x="76" y="462" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="0Gw-Dq-p0D" firstAttribute="top" secondItem="Q25-DC-lAK" secondAttribute="bottom" id="2Oj-TP-KHg"/>
-                            <constraint firstItem="0Gw-Dq-p0D" firstAttribute="leading" secondItem="3Cl-eQ-yt2" secondAttribute="leading" id="bTV-R0-3Ev"/>
-                            <constraint firstAttribute="trailing" secondItem="0Gw-Dq-p0D" secondAttribute="trailing" id="cM8-Yw-7Bs"/>
-                            <constraint firstItem="btn-xj-x2Z" firstAttribute="top" secondItem="voY-RA-7xB" secondAttribute="bottom" constant="100" id="hwT-G3-vZx"/>
-                            <constraint firstItem="voY-RA-7xB" firstAttribute="centerX" secondItem="3Cl-eQ-yt2" secondAttribute="centerX" id="kgN-VT-hDJ"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="nkV-Gx-Xab"/>
-                    <connections>
-                        <outlet property="adView" destination="zyz-hN-8ap" id="uDZ-KZ-4pN"/>
-                        <outlet property="adWrapperView" destination="0Gw-Dq-p0D" id="6l6-rF-8gh"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OlU-O2-E2c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1294" y="411"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="Klb-QJ-9A4">
             <objects>
@@ -90,7 +38,7 @@
                                 <rect key="frame" x="173.66666666666666" y="411" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="9C2-yQ-wAA" kind="show" id="mda-u6-3dy"/>
+                                    <action selector="onClick:" destination="Tg0-Ma-3Jn" eventType="touchUpInside" id="NRM-Gj-Qbn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -106,28 +54,5 @@
             </objects>
             <point key="canvasLocation" x="586" y="411"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="j9Z-xK-tLc">
-            <objects>
-                <viewController id="xSs-2D-ryO" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ovm-Za-9Ch"/>
-                        <viewControllerLayoutGuide type="bottom" id="hAV-Hd-43N"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jFf-MX-u71">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5rG-GI-kTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1999" y="411"/>
-        </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-    </resources>
 </document>

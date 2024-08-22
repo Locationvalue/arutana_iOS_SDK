@@ -338,6 +338,7 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
 - (void)setUserId:(NSString * _Nullable)userId;
+- (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)setHeight:(CGFloat)width;
@@ -411,6 +412,7 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
 - (void)setUserId:(NSString * _Nullable)userId;
+- (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)dismiss;
@@ -423,9 +425,15 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 
 SWIFT_PROTOCOL("_TtP7Arutana22ArutanaMovieAdDelegate_")
 @protocol ArutanaMovieAdDelegate
-- (void)arutanaBannerReceiveAd;
-- (void)arutanaBannerFailedToReceiveAdWithCode:(kArutanaErrorCode)code;
-- (void)arutanaBannerDidTapAd;
+- (void)arutanaMovieNonad;
+- (void)arutanaMovieReceiveAd;
+- (void)arutanaMovieShowAd;
+- (void)arutanaMovieDidTapAd;
+- (void)arutanaMovieClose;
+- (void)arutanaMovieStartFull;
+- (void)arutanaMovieEndFull;
+- (void)arutanaMovieDeinit;
+- (void)arutanaMovieFailedToReceiveAdWithCode:(kArutanaErrorCode)code;
 @end
 
 @class NSTimer;
@@ -793,6 +801,7 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
 - (void)setUserId:(NSString * _Nullable)userId;
+- (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)setHeight:(CGFloat)width;
@@ -866,6 +875,7 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
 - (void)setUserId:(NSString * _Nullable)userId;
+- (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)dismiss;
@@ -878,9 +888,15 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 
 SWIFT_PROTOCOL("_TtP7Arutana22ArutanaMovieAdDelegate_")
 @protocol ArutanaMovieAdDelegate
-- (void)arutanaBannerReceiveAd;
-- (void)arutanaBannerFailedToReceiveAdWithCode:(kArutanaErrorCode)code;
-- (void)arutanaBannerDidTapAd;
+- (void)arutanaMovieNonad;
+- (void)arutanaMovieReceiveAd;
+- (void)arutanaMovieShowAd;
+- (void)arutanaMovieDidTapAd;
+- (void)arutanaMovieClose;
+- (void)arutanaMovieStartFull;
+- (void)arutanaMovieEndFull;
+- (void)arutanaMovieDeinit;
+- (void)arutanaMovieFailedToReceiveAdWithCode:(kArutanaErrorCode)code;
 @end
 
 @class NSTimer;

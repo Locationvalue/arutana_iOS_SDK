@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  MovieAdsObjC
 //
-//  Created by MacBookPro002 on 2024/05/28.
+//  Created by ARUTANA on 2024/05/28.
 //
 
 #import "AppDelegate.h"

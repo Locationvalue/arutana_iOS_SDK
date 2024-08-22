@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  InterstitialAdsSwift
 //
-//  Created by MacBookPro002 on 2024/05/28.
+//  Created by ARUTANA.
 //
 
 import UIKit
@@ -16,9 +16,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.interstitial = ArutanaInterstitial()
-        self.interstitial?.setLocationID("48549");    // 管理画面から払い出された広告枠ID
+        self.interstitial?.setLocationID("1");    // 管理画面から払い出された広告枠ID
         self.interstitial?.delegate = self
         self.interstitial?.setEnableTestMode(true);
+        self.interstitial?.setUserId(nil);
+        self.interstitial?.setPositionY(pos: 0);
         self.interstitial?.rootViewController = self;
     }
     
@@ -79,41 +81,3 @@ extension ViewController:ArutanaInterstitialDelegate {
         print("Closed interstitial ads");
     }
 }
-/*
-extension ViewController:ArutanaInterstitialDelegate {
-    func arutanaManagerViewControllerReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController) {
-        print("Received an ad.")
-    }
-    
-    func arutanaManagerViewControllerFailedToReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController, code: kArutanaErrorCode) {
-        print("Failed to receive an ad.")
-        // エラー時のリトライは特段の理由がない限り必ず記述するようにしてください。
-        switch code {
-        case .arutanaErrorCodeNeedConnection,
-                .arutanaErrorCodeExceedLimit,
-                .arutanaErrorCodeNoAd:
-            break;
-        case .arutanaErrorCodeUnknown:
-            break;
-        case .arutanaErrorCodeCommunicationError:
-            break;
-        case .arutanaErrorCodeReceivedFiller:
-            break;
-        case .arutanaErrorCodeTemplateFailed:
-            break;
-        @unknown default:
-            break;
-        }
-    }
-    
-    func arutanaManagerViewControllerDidTapAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController) {
-        print("Did tap an ad.")
-    }
-    
-    func arutanaInterstitialClose() {
-        print("Closed interstitial ads")
-    }
-    
-}
-*/
-

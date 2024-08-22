@@ -2,50 +2,78 @@
 //  ViewController.swift
 //  MovieAdsSwift
 //
-//  Created by MacBookPro002 on 2024/05/28.
+//  Created by ARUTANA on 2024/05/28.
 //
 
 import UIKit
 import Arutana
 
 class ViewController: UIViewController {
+    private var movieAd:ArutanaMovieAd?;
     
-//    @IBOutlet private weak var adWrapperView: UIView!
-//    
-//    private var manager:ArutanaVIAdManager?;
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-//        self.manager = ArutanaVIAdManager(pubId: "1", delegate: self);
-//        self.manager?.preloadType = .Arutana_PRELOAD_ALL;
-//        
-//        self.manager?.load();
+        
+        self.movieAd = ArutanaMovieAd();
+        self.movieAd?.setLocationID("48549");// 管理画面から払い出された広告枠ID
+        self.movieAd?.delegate = self;
+        self.movieAd?.setEnableTestMode(true);
+        self.movieAd?.setUserId(nil);
+        self.movieAd?.setPositionY(pos: 0);
+        self.movieAd?.rootViewController = self;
+        
+        self.movieAd?.preload();
     }
 
-
-}
-
-/*
-extension ViewController:ArutanaVIAdManagerDelegate {
-    /*
-    private func requestAppVador() {
-        if appVadorManager.isReady {
-            appVadorManager.removeAd()
-        }
-        appVadorManager.load()
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        // 広告非表示
+        self.movieAd?.dismiss()
     }
-    */
-    func viewControllerForPresentingModalView() -> UIViewController {
-        return self
-    }
-
-    func onReadyToPlayAd() {
-        self.manager?.showAdForView(view: adWrapperView);
-    }
-
-    func onCloseAd() {
-        self.manager?.removeAd()
+    
+    @IBAction func onClick(_ sender: Any) {
+        print("click");
+        // 広告リクエスト
+        self.movieAd?.show();
     }
 }
-*/
+
+extension ViewController:ArutanaMovieAdDelegate {
+    func arutanaMovieNonad() {
+        // 広告なし
+    }
+    
+    func arutanaMovieReceiveAd() {
+        // 広告取得完了
+    }
+    
+    func arutanaMovieShowAd() {
+        // 広告表示
+    }
+    
+    func arutanaMovieDidTapAd() {
+        // クリック
+    }
+    
+    func arutanaMovieClose() {
+        // クローズ
+    }
+    
+    func arutanaMovieStartFull() {
+        // 全画面開始（動画）
+    }
+    
+    func arutanaMovieEndFull() {
+        // 全画面終了（動画）
+    }
+    
+    func arutanaMovieDeinit() {
+        // インスタンス破棄
+    }
+    
+    func arutanaMovieFailedToReceiveAd(code: kArutanaErrorCode) {
+        // 通信エラー
+    }
+    
+    
+}
