@@ -322,7 +322,7 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")
 @protocol ArutanaBannerDelegate
 - (void)arutanaBannerReceiveAd;
-- (void)arutanaBannerFailedToReceiveAdWithCode:(kArutanaErrorCode)code;
+- (void)arutanaBannerFailedToReceiveAd:(kArutanaErrorCode)code;
 - (void)arutanaBannerDidTapAd;
 @end
 
@@ -786,7 +786,7 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")
 @protocol ArutanaBannerDelegate
 - (void)arutanaBannerReceiveAd;
-- (void)arutanaBannerFailedToReceiveAdWithCode:(kArutanaErrorCode)code;
+- (void)arutanaBannerFailedToReceiveAd:(kArutanaErrorCode)code;
 - (void)arutanaBannerDidTapAd;
 @end
 

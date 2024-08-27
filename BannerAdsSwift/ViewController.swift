@@ -16,10 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.adView.backgroundColor = .brown;
-        self.banner = ArutanaBanner(locationID: "test", adType: ArutanaAdType.sp);
+        self.banner = ArutanaBanner(locationID: "1", adType: ArutanaAdType.sp);
         self.banner?.addAdContainerView(self.adView) // 広告Viewを配置するViewを指定
         self.banner?.delegate = self;
-        self.banner?.setUserId(nil);
+        self.banner?.setUserId("1");
         self.banner?.setEnableTestMode(true);
         self.banner?.loadRequest(); // 広告リクエスト
     }

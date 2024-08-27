@@ -69,9 +69,9 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @objc public protocol ArutanaBannerDelegate {
-  @objc func arutanaBannerReceiveAd()
-  @objc func arutanaBannerFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
-  @objc func arutanaBannerDidTapAd()
+  @objc(arutanaBannerReceiveAd) func arutanaBannerReceiveAd()
+  @objc(arutanaBannerFailedToReceiveAd:) func arutanaBannerFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
+  @objc(arutanaBannerDidTapAd) func arutanaBannerDidTapAd()
 }
 @objc public class ArutanaBanner : ObjectiveC.NSObject {
   @objc public var delegate: (any Arutana.ArutanaBannerDelegate)?

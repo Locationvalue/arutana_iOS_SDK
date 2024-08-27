@@ -23,10 +23,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.banner = [[ArutanaBanner alloc] initWithLocationID:@"48547" adType:ArutanaAdType_Sp];
+    self.banner = [[ArutanaBanner alloc] initWithLocationID:@"1" adType:ArutanaAdType_Sp];
     [self.banner addAdContainerView:self.adView]; // 広告Viewを配置するViewを指定
     self.banner.delegate = self;
-    [self.banner setUserId:nil];
+    [self.banner setUserId:@"1"];
     [self.banner setEnableTestMode:YES];
     [self.banner loadRequest]; // 広告リクエスト
     
