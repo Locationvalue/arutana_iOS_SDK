@@ -15,13 +15,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.interstitial = ArutanaInterstitial()
-        self.interstitial?.setLocationID("1");    // 管理画面から払い出された広告枠ID
+        self.interstitial = ArutanaInterstitial();
+        self.interstitial?.setSiteID(1);
+        self.interstitial?.setLocationID("4");    // 管理画面から払い出された広告枠ID
         self.interstitial?.delegate = self
         self.interstitial?.setEnableTestMode(true);
-        self.interstitial?.setUserId(nil);
-        self.interstitial?.setPositionY(pos: 0);
+        self.interstitial?.setUserID("1");
+        self.interstitial?.setPositionY(pos: -100);
         self.interstitial?.rootViewController = self;
+        
+        //モーダルが見やすいようにライトグレーの背景にする
+        self.view.backgroundColor = .lightGray;
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -48,6 +52,22 @@ class ViewController: UIViewController {
 }
 
 extension ViewController:ArutanaInterstitialDelegate {
+    func arutanaInterstitialNonad(arutanaInterstitial: Arutana.ArutanaInterstitial) {
+        //
+    }
+    
+    func arutanaInterstitialShowAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
+        //
+    }
+    
+    func arutanaInterstitialClose(arutanaInterstitial: Arutana.ArutanaInterstitial) {
+        //
+    }
+    
+    func arutanaInterstitialDeinit(arutanaInterstitial: Arutana.ArutanaInterstitial) {
+        //
+    }
+    
     func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
         print("Received an ad.");
     }

@@ -21,12 +21,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.interstitial = [[ArutanaInterstitial alloc] init];
-    [self.interstitial setLocationID:@"48549"]; // 管理画面から払い出された広告枠ID
+    [self.interstitial setLocationID:@"4"]; // 管理画面から払い出された広告枠ID
     self.interstitial.delegate = self;
     [self.interstitial setEnableTestMode:YES];
-    [self.interstitial setUserId:nil];
-    [self.interstitial setPositionY:0];
+    [self.interstitial setUserID:@"1"];
+    [self.interstitial setPositionY:-100];
     self.interstitial.rootViewController = self;
+    
+    //モーダルが見やすいようにライトグレーの背景にする
+    self.view.backgroundColor = [UIColor lightGrayColor];
 }
 
 - (IBAction)didTapPreloadButton:(id)sender {
@@ -39,10 +42,25 @@
     [self.interstitial show];
 }
 
-- (void)arutanaInterstitialReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
+- (void)arutanaInterstitialNonad:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
+    
+}
+- (void)arutanaInterstitialReceiveAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
     NSLog(@"Received an ad.");
 }
-- (void)arutanaInterstitialFailedToReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial code:(kArutanaErrorCode)code {
+- (void)arutanaInterstitialShowAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
+    
+}
+- (void)arutanaInterstitialDidTapAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
+    NSLog(@"Did tap an ad.");
+}
+- (void)arutanaInterstitialClose:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
+    NSLog(@"Closed interstitial ads.");
+}
+- (void)arutanaInterstitialDeinit:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
+    
+}
+- (void)arutanaInterstitialFailedToReceiveAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial code:(kArutanaErrorCode)code {
     NSLog(@"Failed to receive an ad.");
     // エラー時のリトライは特段の理由がない限り必ず記述するようにしてください。
     
@@ -60,12 +78,6 @@
 //            [arutanaManagerViewController loadRequest];
             break;
     }
-}
-- (void)arutanaInterstitialDidTapAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
-    NSLog(@"Did tap an ad.");
-}
-- (void)arutanaInterstitialClose {
-    NSLog(@"Closed interstitial ads.");
 }
 
 @end

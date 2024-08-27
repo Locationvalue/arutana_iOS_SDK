@@ -277,7 +277,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -336,12 +335,12 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @property (nonatomic, strong) id <ArutanaInterstitialDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)setSiteID:(NSInteger)siteId;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
-- (void)setUserId:(NSString * _Nullable)userId;
+- (void)setUserID:(NSString * _Nullable)userId;
 - (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
-- (void)setHeight:(CGFloat)width;
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
 - (void)dismiss;
@@ -351,11 +350,13 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 
 SWIFT_PROTOCOL("_TtP7Arutana27ArutanaInterstitialDelegate_")
 @protocol ArutanaInterstitialDelegate
-- (void)arutanaInterstitialReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
-- (void)arutanaInterstitialFailedToReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial code:(kArutanaErrorCode)code;
-- (void)arutanaInterstitialDidTapAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
-@optional
-- (void)arutanaInterstitialClose;
+- (void)arutanaInterstitialNonad:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialReceiveAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialShowAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialDidTapAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialClose:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialDeinit:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialFailedToReceiveAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial :(kArutanaErrorCode)code;
 @end
 
 enum kArutanaLogLevel : NSInteger;
@@ -740,7 +741,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreFoundation;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -799,12 +799,12 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @property (nonatomic, strong) id <ArutanaInterstitialDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)setSiteID:(NSInteger)siteId;
 - (void)setLocationID:(NSString * _Nonnull)locationID;
-- (void)setUserId:(NSString * _Nullable)userId;
+- (void)setUserID:(NSString * _Nullable)userId;
 - (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
-- (void)setHeight:(CGFloat)width;
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
 - (void)dismiss;
@@ -814,11 +814,13 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 
 SWIFT_PROTOCOL("_TtP7Arutana27ArutanaInterstitialDelegate_")
 @protocol ArutanaInterstitialDelegate
-- (void)arutanaInterstitialReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
-- (void)arutanaInterstitialFailedToReceiveAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial code:(kArutanaErrorCode)code;
-- (void)arutanaInterstitialDidTapAdWithArutanaInterstitial:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
-@optional
-- (void)arutanaInterstitialClose;
+- (void)arutanaInterstitialNonad:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialReceiveAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialShowAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialDidTapAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialClose:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialDeinit:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
+- (void)arutanaInterstitialFailedToReceiveAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial :(kArutanaErrorCode)code;
 @end
 
 enum kArutanaLogLevel : NSInteger;
