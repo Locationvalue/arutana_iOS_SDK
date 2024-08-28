@@ -14,10 +14,10 @@ Pod::Spec.new do |spec|
   spec.license      = "PROPRIETARY"
   spec.author       = { "DearOne, Inc." => "info@dearone.io" }
   spec.platform     = :ios
-  spec.source       = { :git => "https://github.com/Locationvalue/arutana_iOS_SDK", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = "Arutana.xcframework/ios-arm64/Arutana.framework"
+  spec.source       = { :http => "https://github.com/Locationvalue/arutana_iOS_SDK/raw/main/Arutana.xcframework.zip" }
+  spec.vendored_frameworks = "Arutana.xcframework"
   spec.platform     = :ios, "14.0"
-  spec.public_header_files = 'Headers/**/*.h'
+  # spec.public_header_files = 'Headers/**/*.h'
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
