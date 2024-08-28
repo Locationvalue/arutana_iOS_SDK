@@ -19,11 +19,11 @@
     [super viewDidLoad];
     
     self.movieAd = [[ArutanaMovieAd alloc] init];
-    [self.movieAd setLocationID:@"48549"];// 管理画面から払い出された広告枠ID
+    [self.movieAd setLocationID:@"6"];// 管理画面から払い出された広告枠ID
     self.movieAd.delegate = self;
     [self.movieAd setEnableTestMode:YES];
-    [self.movieAd setUserId:nil];
-//    [self.movieAd setPositionY:0];
+    [self.movieAd setUserId:@"1"];
+    [self.movieAd setPositionY:-100];
     self.movieAd.rootViewController = self;
     
     [self.movieAd preload];
