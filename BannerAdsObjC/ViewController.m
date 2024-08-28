@@ -36,12 +36,11 @@
     //
 }
 
-- (void)arutanaBannerFailedToReceiveAdWithCode:(kArutanaErrorCode)code { 
-    //
-}
-
 - (void)arutanaBannerReceiveAd { 
     //
 }
 
+- (void)arutanaBannerFailedToReceiveAd:(kArutanaErrorCode)code { 
+    NSLog(@"Failed to receive ad.");
+}
 @end

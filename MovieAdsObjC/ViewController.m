@@ -23,7 +23,7 @@
     self.movieAd.delegate = self;
     [self.movieAd setEnableTestMode:YES];
     [self.movieAd setUserId:nil];
-    [self.movieAd setPositionY:0];
+//    [self.movieAd setPositionY:0];
     self.movieAd.rootViewController = self;
     
     [self.movieAd preload];

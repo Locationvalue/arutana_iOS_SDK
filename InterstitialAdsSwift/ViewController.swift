@@ -20,8 +20,8 @@ class ViewController: UIViewController {
         self.interstitial?.setLocationID("4");    // 管理画面から払い出された広告枠ID
         self.interstitial?.delegate = self
         self.interstitial?.setEnableTestMode(true);
-        self.interstitial?.setUserID("1");
-        self.interstitial?.setPositionY(pos: -100);
+        self.interstitial?.setUserID(nil);
+        self.interstitial?.setPositionY(pos: 0);
         self.interstitial?.rootViewController = self;
         
         //モーダルが見やすいようにライトグレーの背景にする
@@ -53,19 +53,19 @@ class ViewController: UIViewController {
 
 extension ViewController:ArutanaInterstitialDelegate {
     func arutanaInterstitialNonad(arutanaInterstitial: Arutana.ArutanaInterstitial) {
-        //
+        print("NoAd");
     }
     
     func arutanaInterstitialShowAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
-        //
+        print("Show ad");
     }
     
     func arutanaInterstitialClose(arutanaInterstitial: Arutana.ArutanaInterstitial) {
-        //
+        print("Close");
     }
     
     func arutanaInterstitialDeinit(arutanaInterstitial: Arutana.ArutanaInterstitial) {
-        //
+        print("Deinit");
     }
     
     func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
@@ -95,9 +95,5 @@ extension ViewController:ArutanaInterstitialDelegate {
     
     func arutanaInterstitialDidTapAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
         print("Did tap an ad.");
-    }
-    
-    func arutanaInterstitialClose() {
-        print("Closed interstitial ads");
     }
 }
