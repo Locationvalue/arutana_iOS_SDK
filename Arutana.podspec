@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "Arutana"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Arutana ad network"
   spec.homepage     = "https://github.com/Locationvalue/arutana_iOS_SDK/wiki"
   spec.license      = "PROPRIETARY"
