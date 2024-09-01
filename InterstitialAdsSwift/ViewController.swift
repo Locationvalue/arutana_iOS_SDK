@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         self.interstitial?.rootViewController = self;
         
         //モーダルが見やすいようにライトグレーの背景にする
-        self.view.backgroundColor = .lightGray;
+//        self.view.backgroundColor = .lightGray;
     }
     
     override func viewDidDisappear(_ animated: Bool) {
