@@ -46,7 +46,7 @@ extension ViewController:ArutanaMovieAdDelegate {
     
     func arutanaMovieReceiveAd() {
         // 広告取得完了
-        print("Show ad");
+        print("Received an ad.");
     }
     
     func arutanaMovieShowAd() {
@@ -56,7 +56,7 @@ extension ViewController:ArutanaMovieAdDelegate {
     
     func arutanaMovieDidTapAd() {
         // クリック
-        print("Received an ad.");
+        print("Did tap an ad.");
     }
     
     func arutanaMovieClose() {
