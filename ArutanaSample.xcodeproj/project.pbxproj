@@ -14,7 +14,6 @@
 		560AC0152C0475FD00B35DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560AC0142C0475FD00B35DC4 /* Assets.xcassets */; };
 		560AC0182C0475FD00B35DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560AC0162C0475FD00B35DC4 /* LaunchScreen.storyboard */; };
 		560AC01B2C0475FD00B35DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AC01A2C0475FD00B35DC4 /* main.m */; };
-		561523292C05735A00CB61C6 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
 		561523312C05D42000CB61C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561523302C05D42000CB61C6 /* AppDelegate.swift */; };
 		561523332C05D42000CB61C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561523322C05D42000CB61C6 /* SceneDelegate.swift */; };
 		561523352C05D42000CB61C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561523342C05D42000CB61C6 /* ViewController.swift */; };
@@ -49,26 +48,17 @@
 		56D5A6CE2BF5D8CE0021E25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D5A6CC2BF5D8CE0021E25C /* Main.storyboard */; };
 		56D5A6D02BF5D8D00021E25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56D5A6CF2BF5D8D00021E25C /* Assets.xcassets */; };
 		56D5A6D32BF5D8D00021E25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D5A6D12BF5D8D00021E25C /* LaunchScreen.storyboard */; };
-		56D5A7022BF740250021E25C /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
-		56D5A7032BF740250021E25C /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		56E375962C841123000A45A7 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
 		56E375972C841123000A45A7 /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		56E375992C841236000A45A7 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
 		56E3759A2C841236000A45A7 /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56E3759C2C84198C000A45A7 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
+		56E3759D2C84198C000A45A7 /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56E3759F2C841A70000A45A7 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
+		56E375A02C841A70000A45A7 /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		56D5A7042BF740260021E25C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				56D5A7032BF740250021E25C /* Arutana.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56E375982C841123000A45A7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,6 +77,28 @@
 			dstSubfolderSpec = 10;
 			files = (
 				56E3759A2C841236000A45A7 /* Arutana.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E3759E2C84198C000A45A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				56E3759D2C84198C000A45A7 /* Arutana.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E375A12C841A70000A45A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				56E375A02C841A70000A45A7 /* Arutana.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,7 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561523292C05735A00CB61C6 /* Arutana.xcframework in Frameworks */,
+				56E3759F2C841A70000A45A7 /* Arutana.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +214,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56D5A7022BF740250021E25C /* Arutana.xcframework in Frameworks */,
+				56E3759C2C84198C000A45A7 /* Arutana.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +362,7 @@
 				560AC0022C0475F900B35DC4 /* Sources */,
 				560AC0032C0475F900B35DC4 /* Frameworks */,
 				560AC0042C0475F900B35DC4 /* Resources */,
+				56E375A12C841A70000A45A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -437,7 +450,7 @@
 				56D5A6BF2BF5D8CE0021E25C /* Sources */,
 				56D5A6C02BF5D8CE0021E25C /* Frameworks */,
 				56D5A6C12BF5D8CE0021E25C /* Resources */,
-				56D5A7042BF740260021E25C /* Embed Frameworks */,
+				56E3759E2C84198C000A45A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -737,6 +750,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFM93BC3UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BannerAdsObjC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -744,6 +758,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -763,6 +778,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFM93BC3UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BannerAdsObjC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -770,6 +786,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1128,6 +1145,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFM93BC3UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BannerAdsSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1135,6 +1153,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1155,6 +1174,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFM93BC3UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BannerAdsSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1162,6 +1182,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
