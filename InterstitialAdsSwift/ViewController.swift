@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         self.interstitial?.delegate = self
         self.interstitial?.setEnableTestMode(true);
         self.interstitial?.setUserID(nil);
-        self.interstitial?.setPositionY(pos: 0);
+        self.interstitial?.setPositionY(pos: -100);
         self.interstitial?.rootViewController = self;
         
         //モーダルが見やすいようにライトグレーの背景にする
@@ -62,10 +62,6 @@ extension ViewController:ArutanaInterstitialDelegate {
     
     func arutanaInterstitialClose(arutanaInterstitial: Arutana.ArutanaInterstitial) {
         print("Close");
-    }
-    
-    func arutanaInterstitialDeinit(arutanaInterstitial: Arutana.ArutanaInterstitial) {
-        print("Deinit");
     }
     
     func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {

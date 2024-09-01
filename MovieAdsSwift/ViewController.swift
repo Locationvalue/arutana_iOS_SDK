@@ -41,38 +41,65 @@ class ViewController: UIViewController {
 extension ViewController:ArutanaMovieAdDelegate {
     func arutanaMovieNonad() {
         // 広告なし
+        print("NoAd");
     }
     
     func arutanaMovieReceiveAd() {
         // 広告取得完了
+        print("Show ad");
     }
     
     func arutanaMovieShowAd() {
         // 広告表示
+        print("Show ad");
     }
     
     func arutanaMovieDidTapAd() {
         // クリック
+        print("Received an ad.");
     }
     
     func arutanaMovieClose() {
         // クローズ
+        print("Close");
     }
     
     func arutanaMovieStartFull() {
         // 全画面開始（動画）
+        print("Movie start full.");
     }
     
     func arutanaMovieEndFull() {
         // 全画面終了（動画）
+        print("Movie end full.");
     }
     
-    func arutanaMovieDeinit() {
-        // インスタンス破棄
-    }
+//    func arutanaMovieDeinit() {
+//        // インスタンス破棄
+//        print("Received an ad.");
+//    }
     
     func arutanaMovieFailedToReceiveAd(code: kArutanaErrorCode) {
         // 通信エラー
+        print("Failed to receive an ad.")
+        // エラー時のリトライは特段の理由がない限り必ず記述するようにしてください。
+        
+        switch code {
+        case .arutanaErrorCodeCommunicationError,
+                .arutanaErrorCodeExceedLimit,
+                .arutanaErrorCodeNoAd:
+            break;
+        case .arutanaErrorCodeUnknown:
+            break;
+        case .arutanaErrorCodeReceivedFiller:
+            break;
+        case .arutanaErrorCodeNeedConnection:
+            break;
+        case .arutanaErrorCodeTemplateFailed:
+            break;
+        @unknown default:
+            break;
+        }
     }
         
 }

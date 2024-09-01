@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Arutana
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Arutana
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -50,7 +51,6 @@ import _SwiftConcurrencyShims
   @objc func arutanaMovieClose()
   @objc func arutanaMovieStartFull()
   @objc func arutanaMovieEndFull()
-  @objc func arutanaMovieDeinit()
   @objc func arutanaMovieFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
 }
 @_inheritsConvenienceInitializers @objc public class ArutanaMovieAd : ObjectiveC.NSObject {
@@ -88,8 +88,7 @@ import _SwiftConcurrencyShims
   @objc(arutanaInterstitialShowAd:) func arutanaInterstitialShowAd(arutanaInterstitial: Arutana.ArutanaInterstitial)
   @objc(arutanaInterstitialDidTapAd:) func arutanaInterstitialDidTapAd(arutanaInterstitial: Arutana.ArutanaInterstitial)
   @objc(arutanaInterstitialClose:) func arutanaInterstitialClose(arutanaInterstitial: Arutana.ArutanaInterstitial)
-  @objc(arutanaInterstitialDeinit:) func arutanaInterstitialDeinit(arutanaInterstitial: Arutana.ArutanaInterstitial)
-  @objc(arutanaInterstitialFailedToReceiveAd::) func arutanaInterstitialFailedToReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial, code: Arutana.kArutanaErrorCode)
+  @objc(arutanaInterstitialFailedToReceiveAd:code:) func arutanaInterstitialFailedToReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial, code: Arutana.kArutanaErrorCode)
 }
 @_inheritsConvenienceInitializers @objc public class ArutanaInterstitial : ObjectiveC.NSObject {
   @objc public var delegate: (any Arutana.ArutanaInterstitialDelegate)?

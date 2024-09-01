@@ -41,8 +41,6 @@
 		561523C22C05D6D200CB61C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561523C12C05D6D200CB61C6 /* Assets.xcassets */; };
 		561523C52C05D6D200CB61C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561523C32C05D6D200CB61C6 /* LaunchScreen.storyboard */; };
 		561523C82C05D6D200CB61C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 561523C72C05D6D200CB61C6 /* main.m */; };
-		561523D72C080B2800CB61C6 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
-		561523D82C080B2800CB61C6 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
 		561523D92C080B2900CB61C6 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
 		561523DA2C080B2900CB61C6 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
 		56D5A6C72BF5D8CE0021E25C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D5A6C62BF5D8CE0021E25C /* AppDelegate.swift */; };
@@ -53,6 +51,10 @@
 		56D5A6D32BF5D8D00021E25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D5A6D12BF5D8D00021E25C /* LaunchScreen.storyboard */; };
 		56D5A7022BF740250021E25C /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
 		56D5A7032BF740250021E25C /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56E375962C841123000A45A7 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
+		56E375972C841123000A45A7 /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56E375992C841236000A45A7 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
+		56E3759A2C841236000A45A7 /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +65,28 @@
 			dstSubfolderSpec = 10;
 			files = (
 				56D5A7032BF740250021E25C /* Arutana.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E375982C841123000A45A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				56E375972C841123000A45A7 /* Arutana.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E3759B2C841236000A45A7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				56E3759A2C841236000A45A7 /* Arutana.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561523D72C080B2800CB61C6 /* Arutana.xcframework in Frameworks */,
+				56E375962C841123000A45A7 /* Arutana.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561523D82C080B2800CB61C6 /* Arutana.xcframework in Frameworks */,
+				56E375992C841236000A45A7 /* Arutana.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +367,7 @@
 				5615232A2C05D42000CB61C6 /* Sources */,
 				5615232B2C05D42000CB61C6 /* Frameworks */,
 				5615232C2C05D42000CB61C6 /* Resources */,
+				56E375982C841123000A45A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -360,6 +385,7 @@
 				5615235E2C05D66E00CB61C6 /* Sources */,
 				5615235F2C05D66E00CB61C6 /* Frameworks */,
 				561523602C05D66E00CB61C6 /* Resources */,
+				56E3759B2C841236000A45A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -763,6 +789,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFM93BC3UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InterstitialAdsSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -770,6 +797,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -790,6 +818,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFM93BC3UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InterstitialAdsSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -797,6 +826,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -817,6 +847,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFM93BC3UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InterstitialAdsObjC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -824,6 +855,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -843,6 +875,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFM93BC3UZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InterstitialAdsObjC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -850,6 +883,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

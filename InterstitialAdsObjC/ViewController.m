@@ -25,7 +25,7 @@
     self.interstitial.delegate = self;
     [self.interstitial setEnableTestMode:YES];
     [self.interstitial setUserID:nil];
-    [self.interstitial setPositionY:0];
+    [self.interstitial setPositionY:-100];
     self.interstitial.rootViewController = self;
     
     //モーダルが見やすいようにライトグレーの背景にする
@@ -43,22 +43,19 @@
 }
 
 - (void)arutanaInterstitialNonad:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
-    
+    NSLog(@"NoAd");
 }
 - (void)arutanaInterstitialReceiveAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
     NSLog(@"Received an ad.");
 }
 - (void)arutanaInterstitialShowAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
-    
+    NSLog(@"Show ad");
 }
 - (void)arutanaInterstitialDidTapAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
     NSLog(@"Did tap an ad.");
 }
 - (void)arutanaInterstitialClose:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
     NSLog(@"Closed interstitial ads.");
-}
-- (void)arutanaInterstitialDeinit:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
-    
 }
 - (void)arutanaInterstitialFailedToReceiveAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial code:(kArutanaErrorCode)code {
     NSLog(@"Failed to receive an ad.");
