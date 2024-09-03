@@ -308,7 +308,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 @interface ArutanaBanner : NSObject
 @property (nonatomic, strong) id <ArutanaBannerDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithLocationID:(NSString * _Nonnull)locationID adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithLocationId:(NSString * _Nonnull)locationId adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
 - (void)setUserId:(NSString * _Nullable)userId;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)addAdContainerView:(UIView * _Nonnull)adContainerView;
@@ -335,12 +335,12 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @property (nonatomic, strong) id <ArutanaInterstitialDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)setSiteID:(NSInteger)siteId;
-- (void)setLocationID:(NSString * _Nonnull)locationID;
-- (void)setUserID:(NSString * _Nullable)userId;
+- (void)setLocationId:(NSString * _Nonnull)locationId;
+- (void)setUserId:(NSString * _Nullable)userId;
 - (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;
-- (void)setTextColor:(UIColor * _Nonnull)color;
+- (void)setAdBackgroundColor:(UIColor * _Nonnull)color;
+- (void)setAdTextColor:(UIColor * _Nonnull)color;
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
 - (void)dismiss;
@@ -410,7 +410,7 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 @property (nonatomic, strong) id <ArutanaMovieAdDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)setLocationID:(NSString * _Nonnull)locationID;
+- (void)setLocationId:(NSString * _Nonnull)locationId;
 - (void)setUserId:(NSString * _Nullable)userId;
 - (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;
@@ -770,7 +770,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 @interface ArutanaBanner : NSObject
 @property (nonatomic, strong) id <ArutanaBannerDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithLocationID:(NSString * _Nonnull)locationID adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithLocationId:(NSString * _Nonnull)locationId adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
 - (void)setUserId:(NSString * _Nullable)userId;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)addAdContainerView:(UIView * _Nonnull)adContainerView;
@@ -797,12 +797,12 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @property (nonatomic, strong) id <ArutanaInterstitialDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)setSiteID:(NSInteger)siteId;
-- (void)setLocationID:(NSString * _Nonnull)locationID;
-- (void)setUserID:(NSString * _Nullable)userId;
+- (void)setLocationId:(NSString * _Nonnull)locationId;
+- (void)setUserId:(NSString * _Nullable)userId;
 - (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;
-- (void)setTextColor:(UIColor * _Nonnull)color;
+- (void)setAdBackgroundColor:(UIColor * _Nonnull)color;
+- (void)setAdTextColor:(UIColor * _Nonnull)color;
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
 - (void)dismiss;
@@ -872,7 +872,7 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 @property (nonatomic, strong) id <ArutanaMovieAdDelegate> _Nullable delegate;
 @property (nonatomic, strong) UIViewController * _Nullable rootViewController;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)setLocationID:(NSString * _Nonnull)locationID;
+- (void)setLocationId:(NSString * _Nonnull)locationId;
 - (void)setUserId:(NSString * _Nullable)userId;
 - (void)setPositionY:(NSInteger)pos;
 - (void)setEnableTestMode:(BOOL)isTest;

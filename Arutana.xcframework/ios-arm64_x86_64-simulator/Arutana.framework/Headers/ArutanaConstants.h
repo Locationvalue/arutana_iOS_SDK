@@ -9,8 +9,8 @@
 #define ArutanaConstants_h
 
 typedef NS_ENUM(NSUInteger, ArutanaAdType) {
-    ArutanaAdType_Sp = 0,
-    ArutanaAdType_Large,
+//    ArutanaAdType_Sp = 0,
+    ArutanaAdType_Large = 0,
     ArutanaAdType_Rect,
     ArutanaAdType_Tablet,
     ArutanaAdType_Free

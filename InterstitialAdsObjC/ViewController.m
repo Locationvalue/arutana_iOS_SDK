@@ -21,12 +21,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.interstitial = [[ArutanaInterstitial alloc] init];
-    [self.interstitial setLocationID:@"4"]; // 管理画面から払い出された広告枠ID
+    [self.interstitial setLocationId:@"4"]; // 管理画面から払い出された広告枠ID
     self.interstitial.delegate = self;
     [self.interstitial setEnableTestMode:YES];
-    [self.interstitial setUserID:nil];
+    [self.interstitial setUserId:nil];
     [self.interstitial setPositionY:-100];
     self.interstitial.rootViewController = self;
+    
+    [self.interstitial setAdTextColor:[UIColor blueColor]];
+    [self.interstitial setAdBackgroundColor:[UIColor brownColor]];
     
     //モーダルが見やすいようにライトグレーの背景にする
     self.view.backgroundColor = [UIColor lightGrayColor];

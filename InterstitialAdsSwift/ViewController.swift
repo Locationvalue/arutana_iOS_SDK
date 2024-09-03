@@ -16,13 +16,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.interstitial = ArutanaInterstitial();
-        self.interstitial?.setSiteID(1);
-        self.interstitial?.setLocationID("4");    // 管理画面から払い出された広告枠ID
-        self.interstitial?.delegate = self
+        self.interstitial?.setLocationId("4");    // 管理画面から払い出された広告枠ID
+        self.interstitial?.delegate = self;
         self.interstitial?.setEnableTestMode(true);
-        self.interstitial?.setUserID(nil);
+        self.interstitial?.setUserId(nil);
         self.interstitial?.setPositionY(pos: -100);
         self.interstitial?.rootViewController = self;
+        
+        self.interstitial?.setAdTextColor(.blue);
+        self.interstitial?.setAdBackgroundColor(.brown);
         
         //モーダルが見やすいようにライトグレーの背景にする
 //        self.view.backgroundColor = .lightGray;

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.movieAd = ArutanaMovieAd();
-        self.movieAd?.setLocationID("6");// 管理画面から払い出された広告枠ID
+        self.movieAd?.setLocationId("6");// 管理画面から払い出された広告枠ID
         self.movieAd?.delegate = self;
         self.movieAd?.setEnableTestMode(true);
         self.movieAd?.setUserId("1");
