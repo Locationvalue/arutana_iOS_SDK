@@ -26,13 +26,18 @@
     [self.movieAd setPositionY:-100];
     self.movieAd.rootViewController = self;
     
+//    [self.movieAd preload];
+}
+
+- (IBAction)didTapPreloadButton:(id)sender {
+    // 広告リクエスト
     [self.movieAd preload];
 }
 
-- (IBAction)onClick:(id)sender {
+- (IBAction)didTapShowButton:(id)sender {
+    // 広告表示
     [self.movieAd show];
 }
-
 
 - (void)arutanaMovieNonad {
     // 広告なし
@@ -40,6 +45,8 @@
 
 - (void)arutanaMovieReceiveAd {
     // 広告取得完了
+    // 広告表示
+//    [self.movieAd show];
 }
 
 - (void)arutanaMovieShowAd {

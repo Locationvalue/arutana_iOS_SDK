@@ -16,20 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p72-hy-Pce">
-                                <rect key="frame" x="36.666666666666664" y="718" width="320" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p72-hy-Pce">
+                                <rect key="frame" x="36.333333333333343" y="718" width="320" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="S8a-h5-AZi"/>
-                                    <constraint firstAttribute="height" constant="50" id="eZn-Fy-vRw"/>
+                                    <constraint firstAttribute="width" constant="320" id="Fq5-4C-AyR"/>
+                                    <constraint firstAttribute="height" constant="100" id="dqt-YB-WOH"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="p72-hy-Pce" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IbS-ab-rz3"/>
-                            <constraint firstItem="p72-hy-Pce" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="x4a-C2-VGs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p72-hy-Pce" secondAttribute="trailing" constant="36.670000000000002" id="OfE-H2-hpm"/>
+                            <constraint firstItem="p72-hy-Pce" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36.329999999999998" id="S15-aX-CF3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p72-hy-Pce" secondAttribute="bottom" id="z0I-Tr-8q5"/>
                         </constraints>
                     </view>
                     <connections>

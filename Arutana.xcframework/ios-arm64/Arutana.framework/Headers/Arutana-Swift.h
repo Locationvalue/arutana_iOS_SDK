@@ -318,7 +318,6 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 @end
 
 
-
 SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")
 @protocol ArutanaBannerDelegate
 - (void)arutanaBannerReceiveAd;

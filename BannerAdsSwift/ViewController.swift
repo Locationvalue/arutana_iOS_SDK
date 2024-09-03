@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.adView.backgroundColor = .brown;
+//        self.adView.backgroundColor = .blue;
         self.banner = ArutanaBanner(locationId: "1", adType: ArutanaAdType.large);
         self.banner?.addAdContainerView(self.adView) // 広告Viewを配置するViewを指定
         self.banner?.delegate = self;
@@ -48,8 +48,7 @@ extension ViewController:ArutanaBannerDelegate {
     }
     
     func arutanaBannerFailedToReceiveAd(code: kArutanaErrorCode) {
-        print("Failed to receive an ad.")
-        // エラー時のリトライは特段の理由がない限り必ず記述するようにしてください。
+        print("Failed to receive an ad.");
         
         switch code {
         case .arutanaErrorCodeCommunicationError,

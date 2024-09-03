@@ -50,6 +50,8 @@
 }
 - (void)arutanaInterstitialReceiveAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
     NSLog(@"Received an ad.");
+    // 広告表示
+    [self.interstitial show];
 }
 - (void)arutanaInterstitialShowAd:(ArutanaInterstitial * _Nonnull)arutanaInterstitial {
     NSLog(@"Show ad");

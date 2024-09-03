@@ -33,14 +33,30 @@
 }
 
 - (void)arutanaBannerDidTapAd { 
-    //
+    NSLog(@"Did tap an ad.");
 }
 
 - (void)arutanaBannerReceiveAd { 
-    //
+    NSLog(@"Received an ad.");
 }
 
 - (void)arutanaBannerFailedToReceiveAd:(kArutanaErrorCode)code { 
-    NSLog(@"Failed to receive ad.");
+    NSLog(@"Failed to receive an ad.");
+    
+    switch (code) {
+        case kArutanaErrorCodeCommunicationError:
+        case kArutanaErrorCodeExceedLimit:
+        case kArutanaErrorCodeNoAd:
+            break;
+        case kArutanaErrorCodeUnknown:
+            break;
+        case kArutanaErrorCodeReceivedFiller:
+            break;
+        case kArutanaErrorCodeNeedConnection:
+            break;
+        case kArutanaErrorCodeTemplateFailed:
+            break;
+    }
 }
+
 @end

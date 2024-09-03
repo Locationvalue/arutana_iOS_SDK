@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dq3-Rx-1Um">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sample-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InterstitialAdsSwift" customModuleProvider="target" sceneMemberID="viewController">
@@ -23,16 +24,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnD-uS-pT3">
                                 <rect key="frame" x="120" y="411" width="53" height="30"/>
                                 <state key="normal" title="Preload"/>
-                                <connections>
-                                    <action selector="didTapPreloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="daa-yb-tlj"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WjJ-Vj-N9n">
                                 <rect key="frame" x="227.66666666666666" y="411" width="37.999999999999972" height="30"/>
                                 <state key="normal" title="Show"/>
-                                <connections>
-                                    <action selector="didTapShowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tDV-Nt-H6y"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV4-NF-0kN">
                                 <rect key="frame" x="159" y="700" width="75" height="35"/>
@@ -53,10 +48,54 @@
                             <constraint firstItem="WjJ-Vj-N9n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Wwt-uc-NOn"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Sample" id="cX4-K7-Ohg">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="IsM-vw-JoB">
+                            <connections>
+                                <segue destination="2vi-Du-10b" kind="show" id="4kY-cJ-h0h"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="112.21374045801527" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="254" y="12"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bzG-Be-hEo">
+            <objects>
+                <viewController id="2vi-Du-10b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XYj-Z7-aCs">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ktD-0S-Znj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8MO-68-v7O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DYH-7x-zfe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1120" y="12"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Nka-Ra-7KQ">
+            <objects>
+                <navigationController id="Dq3-Rx-1Um" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="h59-O2-1GN">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="00N-S7-js4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9vn-8K-OFj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-712" y="12"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

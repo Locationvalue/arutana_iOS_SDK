@@ -318,7 +318,6 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 @end
 
 
-
 SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")
 @protocol ArutanaBannerDelegate
 - (void)arutanaBannerReceiveAd;
@@ -778,7 +777,6 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
 
 
 SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")

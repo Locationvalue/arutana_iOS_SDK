@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         self.movieAd?.setPositionY(pos: -100);
         self.movieAd?.rootViewController = self;
         
-        self.movieAd?.preload();
+//        self.movieAd?.preload();
     }
 
     override func viewDidDisappear(_ animated: Bool) {
@@ -31,10 +31,16 @@ class ViewController: UIViewController {
         self.movieAd?.dismiss()
     }
     
-    @IBAction func onClick(_ sender: Any) {
-        print("click");
+    @IBAction func didTapPreloadButton(_ sender: Any) {
+        print("didTapPreloadButton");
         // 広告リクエスト
-        self.movieAd?.show();
+        self.movieAd?.preload()
+    }
+
+    @IBAction func didTapShowButton(_ sender: Any) {
+        print("didTapShowButton");
+        // 広告表示
+        _ = self.movieAd?.show();
     }
 }
 
@@ -47,6 +53,8 @@ extension ViewController:ArutanaMovieAdDelegate {
     func arutanaMovieReceiveAd() {
         // 広告取得完了
         print("Received an ad.");
+        // 広告表示
+//        _ = self.movieAd?.show();
     }
     
     func arutanaMovieShowAd() {

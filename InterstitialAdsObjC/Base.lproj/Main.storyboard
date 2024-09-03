@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sIK-Cm-mCS">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="KvM-rt-UNn">
+            <objects>
+                <navigationController id="sIK-Cm-mCS" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QeC-7a-Nst">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="geC-pO-X2j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="akC-fs-63E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1392" y="-13"/>
+        </scene>
+        <!--Sample-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -22,16 +40,10 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNc-AY-JE3">
                                 <rect key="frame" x="120" y="411" width="53" height="30"/>
                                 <state key="normal" title="Preload"/>
-                                <connections>
-                                    <action selector="didTapPreloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nc3-an-kx0"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNy-GJ-9IL">
                                 <rect key="frame" x="227.66666666666666" y="411" width="37.999999999999972" height="30"/>
                                 <state key="normal" title="Show"/>
-                                <connections>
-                                    <action selector="didTapShowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LLW-ia-HAw"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HGH-Gy-Nrq"/>
@@ -43,10 +55,38 @@
                             <constraint firstItem="wNy-GJ-9IL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="P5a-OC-iGj"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Sample" id="Gu3-fc-ayr">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="lOT-4f-WsL">
+                            <connections>
+                                <segue destination="vAV-nR-5eq" kind="show" id="Ys3-dF-6hs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48" y="-2"/>
+            <point key="canvasLocation" x="-392" y="-13"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cDN-t0-ggW">
+            <objects>
+                <viewController id="vAV-nR-5eq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pon-wu-eXx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HyN-uo-p69"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RuX-Ng-L70"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Lx-5y-UF7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="408" y="-13"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

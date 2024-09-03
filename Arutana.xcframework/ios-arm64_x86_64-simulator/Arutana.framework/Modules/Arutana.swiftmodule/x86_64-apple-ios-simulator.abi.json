@@ -2814,8 +2814,7 @@
             "objc_name": "setLocationId:",
             "declAttributes": [
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2935,8 +2934,7 @@
             "objc_name": "setAdBackgroundColor:",
             "declAttributes": [
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -3029,7 +3027,8 @@
             "moduleName": "Arutana",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -4838,707 +4837,707 @@
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2836,
+      "offset": 2810,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 3765,
+      "offset": 3860,
       "length": 3,
       "value": "160"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 3778,
+      "offset": 3873,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 3887,
+      "offset": 3982,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 3899,
+      "offset": 3994,
       "length": 3,
       "value": "160"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 4110,
+      "offset": 4205,
       "length": 12,
       "value": "\"no network\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 4326,
+      "offset": 4669,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 4418,
+      "offset": 6339,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 4529,
+      "offset": 6450,
       "length": 11,
       "value": "\"not ready\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 4936,
+      "offset": 6857,
       "length": 11,
       "value": "\"call task\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 5253,
+      "offset": 7174,
       "length": 7,
       "value": "\"ready\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 5451,
+      "offset": 7372,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 5799,
+      "offset": 7720,
       "length": 6,
       "value": "\"play\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 6011,
+      "offset": 7932,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 6238,
+      "offset": 8159,
       "length": 15,
       "value": "\"scene is null\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 6455,
+      "offset": 8376,
       "length": 16,
       "value": "\"window is null\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 6748,
+      "offset": 8669,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 6851,
+      "offset": 8772,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 7240,
+      "offset": 9161,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 7269,
+      "offset": 9190,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 7414,
+      "offset": 9335,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 7443,
+      "offset": 9364,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 7500,
+      "offset": 9421,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 8740,
+      "offset": 10661,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 9640,
+      "offset": 11561,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 9823,
+      "offset": 11744,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 9916,
+      "offset": 11837,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 10190,
+      "offset": 12111,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 10397,
+      "offset": 12318,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 10638,
+      "offset": 12559,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 10802,
+      "offset": 12723,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 10962,
+      "offset": 12883,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 11144,
+      "offset": 13065,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 11367,
+      "offset": 13288,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 11811,
+      "offset": 13732,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 11929,
+      "offset": 13850,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 12144,
+      "offset": 14065,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 12150,
+      "offset": 14071,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 12160,
+      "offset": 14081,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 12172,
+      "offset": 14093,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 12271,
+      "offset": 14192,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 12277,
+      "offset": 14198,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 12287,
+      "offset": 14208,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 12299,
+      "offset": 14220,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 13007,
+      "offset": 14928,
       "length": 21,
       "value": "\"call:\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 13027,
+      "offset": 14948,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 13412,
+      "offset": 15333,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 13418,
+      "offset": 15339,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 13447,
+      "offset": 15368,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 13478,
+      "offset": 15399,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 13917,
+      "offset": 15838,
       "length": 20,
       "value": "\"詳細はこちら\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 14447,
+      "offset": 16368,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 14492,
+      "offset": 16413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 14547,
+      "offset": 16468,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 14592,
+      "offset": 16513,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 15801,
+      "offset": 17722,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 15807,
+      "offset": 17728,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 15817,
+      "offset": 17738,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 15829,
+      "offset": 17750,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 16326,
+      "offset": 18247,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 16405,
+      "offset": 18326,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 16830,
+      "offset": 18751,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 16988,
+      "offset": 18909,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 17198,
+      "offset": 19119,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 17303,
+      "offset": 19224,
       "length": 36,
       "value": "\"call a:\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 17338,
+      "offset": 19259,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 17906,
+      "offset": 19827,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 18215,
+      "offset": 20136,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 18295,
+      "offset": 20216,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 18473,
+      "offset": 20394,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 18557,
+      "offset": 20478,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 18799,
+      "offset": 20720,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 18910,
+      "offset": 20831,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 19068,
+      "offset": 20989,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 19179,
+      "offset": 21100,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 19339,
+      "offset": 21260,
       "length": 3,
       "value": "180"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 19380,
+      "offset": 21301,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 19464,
+      "offset": 21385,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 19559,
+      "offset": 21480,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 19789,
+      "offset": 21710,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20098,
+      "offset": 22019,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20152,
+      "offset": 22073,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20203,
+      "offset": 22124,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20257,
+      "offset": 22178,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20310,
+      "offset": 22231,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20515,
+      "offset": 22436,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20564,
+      "offset": 22485,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20610,
+      "offset": 22531,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20659,
+      "offset": 22580,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 20707,
+      "offset": 22628,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "FloatLiteral",
-      "offset": 20815,
+      "offset": 22736,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21133,
+      "offset": 23054,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21139,
+      "offset": 23060,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21170,
+      "offset": 23091,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 21203,
+      "offset": 23124,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 21295,
+      "offset": 23216,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
-      "offset": 21966,
+      "offset": 23887,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 22419,
+      "offset": 24340,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 22433,
+      "offset": 24354,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 23126,
+      "offset": 25047,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 23365,
+      "offset": 25286,
       "length": 1,
       "value": "0"
     },
@@ -5608,896 +5607,686 @@
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 2460,
+      "offset": 2573,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 2686,
+      "offset": 3325,
+      "length": 11,
+      "value": "\"call ng1a\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3655,
       "length": 74,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 2737,
+      "offset": 3706,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 2746,
+      "offset": 3715,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 2759,
+      "offset": 3728,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 2940,
+      "offset": 3776,
+      "length": 11,
+      "value": "\"call ng1b\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4100,
+      "length": 10,
+      "value": "\"call ok1\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
+      "kind": "StringLiteral",
+      "offset": 4309,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 2973,
+      "offset": 4342,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 3013,
+      "offset": 4382,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 3055,
+      "offset": 4424,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 3095,
+      "offset": 4464,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3184,
+      "offset": 4553,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 4496,
+      "offset": 5428,
+      "length": 10,
+      "value": "\"call ng2\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5839,
+      "length": 10,
+      "value": "\"call ok2\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6061,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 5108,
+      "offset": 7152,
       "length": 33,
       "value": "\"Failed to decode JSON: \""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 5140,
+      "offset": 7184,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 5457,
+      "offset": 7583,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 5822,
-      "length": 6,
-      "value": "\"call\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6050,
-      "length": 74,
-      "value": "\"https:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6101,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6110,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6123,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6304,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6337,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6377,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6419,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6459,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6649,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 7945,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 8465,
-      "length": 33,
-      "value": "\"Failed to decode JSON: \""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 8497,
-      "length": 38,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 8695,
-      "length": 7,
-      "value": "\"error\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9135,
-      "length": 6,
-      "value": "\"call\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9363,
-      "length": 74,
-      "value": "\"https:\/\/\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9414,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9423,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9436,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9484,
-      "length": 8,
-      "value": "\"call b\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9693,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9726,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9766,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9808,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 9848,
-      "length": 8,
-      "value": "\"Accept\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10379,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 11045,
-      "length": 58,
-      "value": "\"httpBody set:\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 11102,
-      "length": 38,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 11245,
-      "length": 14,
-      "value": "\"httpBody nil\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 11342,
-      "length": 36,
-      "value": "\"request:url[\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 11376,
-      "length": 1,
-      "value": "\"]\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 11905,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12090,
-      "length": 49,
-      "value": "\"success:\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12138,
-      "length": 38,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12507,
-      "length": 33,
-      "value": "\"Failed to decode JSON: \""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12539,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 12701,
-      "length": 7,
-      "value": "\"error\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "StringLiteral",
-      "offset": 13039,
+      "offset": 19172,
       "length": 44,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 13065,
+      "offset": 19198,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 13074,
+      "offset": 19207,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 13082,
+      "offset": 19215,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 13259,
+      "offset": 19392,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 13291,
+      "offset": 19424,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 13331,
+      "offset": 19464,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 13439,
+      "offset": 19572,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 13479,
+      "offset": 19612,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 14432,
+      "offset": 20567,
       "length": 45,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 14458,
+      "offset": 20593,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 14468,
+      "offset": 20603,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 14476,
+      "offset": 20611,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 14653,
+      "offset": 20788,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 14685,
+      "offset": 20820,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 14725,
+      "offset": 20860,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 14833,
+      "offset": 20968,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 14873,
+      "offset": 21008,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 15914,
+      "offset": 22051,
       "length": 44,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 15940,
+      "offset": 22077,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 15949,
+      "offset": 22086,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 15957,
+      "offset": 22094,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 16134,
+      "offset": 22271,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 16166,
+      "offset": 22303,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 16206,
+      "offset": 22343,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 16314,
+      "offset": 22451,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 16354,
+      "offset": 22491,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 17451,
+      "offset": 23590,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 17544,
+      "offset": 23683,
       "length": 88,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 17593,
+      "offset": 23732,
       "length": 1,
       "value": "\"\/placement-setting\/\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 17626,
+      "offset": 23765,
       "length": 1,
       "value": "\".yaml\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 17812,
+      "offset": 23818,
+      "length": 10,
+      "value": "\"call ng1\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
+      "kind": "StringLiteral",
+      "offset": 24037,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 17844,
+      "offset": 24069,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 17884,
+      "offset": 24109,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 17926,
+      "offset": 24151,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 17966,
+      "offset": 24191,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
+      "kind": "StringLiteral",
+      "offset": 27496,
+      "length": 10,
+      "value": "\"call ng2\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 18108,
+      "offset": 27654,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
+      "kind": "StringLiteral",
+      "offset": 27755,
+      "length": 10,
+      "value": "\"call ok1\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "Dictionary",
-      "offset": 18686,
+      "offset": 28003,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 18914,
+      "offset": 28231,
       "length": 5,
       "value": "\"---\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 19034,
+      "offset": 28351,
       "length": 5,
       "value": "\"…\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 19171,
+      "offset": 28488,
       "length": 3,
       "value": "\"#\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 19380,
+      "offset": 28697,
       "length": 3,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 19434,
+      "offset": 28751,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 19625,
+      "offset": 28942,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 19677,
+      "offset": 28994,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 19903,
+      "offset": 29220,
       "length": 13,
       "value": "\"doTargeting\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 20040,
+      "offset": 29357,
       "length": 8,
       "value": "\"siteId\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 20166,
+      "offset": 29482,
       "length": 13,
       "value": "\"placementId\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 20303,
+      "offset": 29619,
       "length": 10,
       "value": "\"adTypeId\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 20830,
+      "offset": 30186,
       "length": 16,
       "value": "\"success:\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 20845,
+      "offset": 30201,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 20960,
+      "offset": 30351,
       "length": 10,
       "value": "\"success:\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 21218,
+      "offset": 30613,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
-      "kind": "FloatLiteral",
-      "offset": 21372,
-      "length": 3,
-      "value": "5.0"
+      "kind": "IntegerLiteral",
+      "offset": 30796,
+      "length": 2,
+      "value": "10"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 21421,
+      "offset": 37594,
       "length": 8,
       "value": "\"call a\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 21624,
+      "offset": 37797,
       "length": 31,
       "value": "\"iOS Version: \""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 21654,
+      "offset": 37827,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 24030,
+      "offset": 40203,
       "length": 37,
       "value": "\"call:\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 24066,
+      "offset": 40239,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "FloatLiteral",
-      "offset": 24240,
+      "offset": 40413,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 24624,
+      "offset": 40763,
       "length": 45,
       "value": "\"called a, description: %@ \/ statusCode: %ld\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 24987,
+      "offset": 41102,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 25020,
+      "offset": 41135,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 25091,
+      "offset": 41202,
       "length": 27,
       "value": "\"called b, statusCode: %ld\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 25552,
+      "offset": 41635,
       "length": 27,
       "value": "\"NSLocalizedDescriptionKey\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 25581,
+      "offset": 41664,
       "length": 21,
       "value": "\"HTTP Request failed\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 25727,
+      "offset": 41798,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 25773,
+      "offset": 41844,
       "length": 27,
       "value": "\"NSLocalizedDescriptionKey\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 25802,
+      "offset": 41873,
       "length": 21,
       "value": "\"HTTP Request failed\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 26123,
+      "offset": 42174,
       "length": 27,
       "value": "\"NSLocalizedDescriptionKey\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 26152,
+      "offset": 42203,
       "length": 21,
       "value": "\"HTTP Request failed\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 26298,
+      "offset": 42337,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 26344,
+      "offset": 42383,
       "length": 27,
       "value": "\"NSLocalizedDescriptionKey\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 26373,
+      "offset": 42412,
       "length": 21,
       "value": "\"HTTP Request failed\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Utils\/InArutanaHttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 26544,
+      "offset": 42567,
       "length": 45,
       "value": "\"called c, description: %@ \/ statusCode: %ld\""
     },
@@ -6553,203 +6342,189 @@
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 2137,
+      "offset": 2192,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 2586,
+      "offset": 2641,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 2774,
+      "offset": 2829,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 3025,
+      "offset": 3166,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3623,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 3114,
+      "offset": 3712,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3199,
+      "offset": 3797,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 3226,
+      "offset": 3824,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 3268,
+      "offset": 3866,
       "length": 32,
       "value": "\"Invalid Ad size(width\/height).\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 3613,
+      "offset": 4211,
       "length": 27,
       "value": "\"Network connection error.\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 4119,
+      "offset": 4717,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 4210,
+      "offset": 4808,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 4303,
+      "offset": 4901,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 4706,
+      "offset": 5304,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 4793,
+      "offset": 5391,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 4916,
+      "offset": 5514,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 5256,
+      "offset": 5854,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 5474,
+      "offset": 6072,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 5613,
+      "offset": 6211,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 5696,
+      "offset": 6294,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 5739,
+      "offset": 6337,
       "length": 22,
       "value": "\"locationid isn't set\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 6001,
+      "offset": 6599,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 6511,
-      "length": 8,
-      "value": "\"ad no?\""
+      "offset": 7142,
+      "length": 7,
+      "value": "\"ad ng\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 6621,
+      "offset": 7667,
       "length": 7,
       "value": "\"ad ok\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 6867,
-      "length": 6,
-      "value": "\"rslt\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
-      "kind": "StringLiteral",
-      "offset": 7044,
+      "offset": 7914,
       "length": 7,
-      "value": "\"rslt2\""
+      "value": "\"ad ng\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 7591,
+      "offset": 8617,
       "length": 7,
       "value": "\"rslt3\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
       "kind": "StringLiteral",
-      "offset": 8845,
-      "length": 17,
-      "value": "\"banner not show\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8982,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
-      "kind": "StringLiteral",
-      "offset": 9093,
+      "offset": 10022,
       "length": 6,
       "value": "\"call\""
     },
@@ -6759,20 +6534,6 @@
       "offset": 503,
       "length": 13,
       "value": "\"Arutana.ArutanaBanner\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
-      "kind": "StringLiteral",
-      "offset": 9489,
-      "length": 6,
-      "value": "\"call\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
-      "kind": "StringLiteral",
-      "offset": 9696,
-      "length": 6,
-      "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/Parts\/InArutanaCloseButton.swift",
@@ -7119,288 +6880,295 @@
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3288,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 3479,
+      "offset": 3608,
       "length": 36,
       "value": "\"debug debug get rootViewController\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 3675,
+      "offset": 3804,
       "length": 36,
       "value": "\"debug debug set rootViewController\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 3992,
+      "offset": 4121,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 4125,
+      "offset": 4254,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 4544,
+      "offset": 4484,
       "length": 24,
       "value": "\"LocationId not Integer\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 5969,
+      "offset": 5693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 5979,
+      "offset": 5703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 5988,
+      "offset": 5712,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "FloatLiteral",
-      "offset": 5998,
+      "offset": 5722,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 6091,
+      "offset": 5815,
       "length": 4,
       "value": "1206"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 6410,
+      "offset": 6134,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 6484,
+      "offset": 6208,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 6527,
+      "offset": 6251,
       "length": 16,
       "value": "\"location id no\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 6613,
+      "offset": 6337,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 6885,
+      "offset": 6609,
       "length": 33,
       "value": "\"arutana interstitial show next.\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 7037,
+      "offset": 6761,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 7157,
+      "offset": 6881,
       "length": 7,
       "value": "\"reset\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 7234,
+      "offset": 6958,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 7473,
+      "offset": 7088,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 7579,
-      "length": 11,
-      "value": "\"call task\""
+      "offset": 8076,
+      "length": 8,
+      "value": "\"ad ng1\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 8339,
-      "length": 44,
-      "value": "\"call response mainImageUrl:\""
+      "offset": 8614,
+      "length": 7,
+      "value": "\"ad ok\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 8382,
-      "length": 38,
-      "value": "\"\""
+      "offset": 8873,
+      "length": 8,
+      "value": "\"ad ng2\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 8578,
-      "length": 19,
-      "value": "\"call response ok3\""
+      "offset": 9241,
+      "length": 7,
+      "value": "\"rslt1\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 9015,
-      "length": 19,
-      "value": "\"call response ok4\""
+      "offset": 9431,
+      "length": 7,
+      "value": "\"rslt2\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 9493,
-      "length": 19,
-      "value": "\"call response ok5\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10673,
-      "length": 4,
-      "value": "true"
+      "offset": 9891,
+      "length": 7,
+      "value": "\"rslt3\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 11029,
+      "offset": 11850,
+      "length": 8,
+      "value": "\"ad ng3\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "StringLiteral",
+      "offset": 12391,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12610,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "StringLiteral",
+      "offset": 12652,
+      "length": 20,
+      "value": "\"call preload start\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12836,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "StringLiteral",
+      "offset": 12939,
+      "length": 22,
+      "value": "\"call preload timeout\""
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 11153,
+      "offset": 13284,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 11412,
-      "length": 10,
-      "value": "\"call xxa\""
+      "offset": 13390,
+      "length": 18,
+      "value": "\"call preload end\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 11553,
-      "length": 17,
-      "value": "\"call adUrl null\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11643,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11938,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12052,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 12202,
-      "length": 10,
-      "value": "\"call xxb\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 12575,
-      "length": 6,
-      "value": "\"call\""
-    },
-    {
-      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
-      "kind": "StringLiteral",
-      "offset": 12746,
+      "offset": 14068,
       "length": 13,
       "value": "\"no ad image\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 13913,
+      "offset": 14138,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15161,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15407,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 14214,
+      "offset": 22373,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 14572,
+      "offset": 22731,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 14999,
+      "offset": 23158,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 15238,
+      "offset": 23397,
       "length": 6,
       "value": "\"call\""
     },
