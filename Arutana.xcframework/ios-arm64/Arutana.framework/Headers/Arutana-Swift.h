@@ -411,7 +411,7 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)setLocationId:(NSString * _Nonnull)locationId;
 - (void)setUserId:(NSString * _Nullable)userId;
-- (void)setPositionY:(NSInteger)pos;
+- (void)setTopMargin:(NSInteger)margin;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)dismiss;

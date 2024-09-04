@@ -58,7 +58,7 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc(setLocationId:) public func setLocationId(_ locationId: Swift.String)
   @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
-  @objc(setPositionY:) public func setPositionY(pos: Swift.Int)
+  @objc(setTopMargin:) public func setTopMargin(_ margin: Swift.Int)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
   @objc public func dismiss()

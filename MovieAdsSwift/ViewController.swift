@@ -19,7 +19,8 @@ class ViewController: UIViewController {
         self.movieAd?.delegate = self;
         self.movieAd?.setEnableTestMode(true);
         self.movieAd?.setUserId("1");
-        self.movieAd?.setPositionY(pos: -100);
+//        self.movieAd?.setPositionY(pos: -100);
+        self.movieAd?.setTopMargin(100);
         self.movieAd?.rootViewController = self;
         
 //        self.movieAd?.preload();

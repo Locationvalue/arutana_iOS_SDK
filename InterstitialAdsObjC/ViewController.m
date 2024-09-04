@@ -25,7 +25,6 @@
     self.interstitial.delegate = self;
     [self.interstitial setEnableTestMode:YES];
     [self.interstitial setUserId:nil];
-//    [self.interstitial setPositionY:-100];
     [self.interstitial setTopMargin:100];
     self.interstitial.rootViewController = self;
     
@@ -33,7 +32,7 @@
     [self.interstitial setAdBackgroundColor:[UIColor brownColor]];
     
     //モーダルが見やすいようにライトグレーの背景にする
-    self.view.backgroundColor = [UIColor lightGrayColor];
+//    self.view.backgroundColor = [UIColor lightGrayColor];
 }
 
 - (IBAction)didTapPreloadButton:(id)sender {
