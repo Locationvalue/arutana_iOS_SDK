@@ -24,6 +24,12 @@ class ViewController: UIViewController {
         self.movieAd?.rootViewController = self;
         
 //        self.movieAd?.preload();
+        // タイマーのセットアップ: 20秒後に`timerDidFire`メソッドを一度だけ実行
+        Timer.scheduledTimer(timeInterval: 20.0,
+                             target: self,
+                             selector: #selector(timerDidFire),
+                             userInfo: nil,
+                             repeats: false);
     }
 
     override func viewDidDisappear(_ animated: Bool) {
@@ -42,6 +48,12 @@ class ViewController: UIViewController {
         print("didTapShowButton");
         // 広告表示
         _ = self.movieAd?.show();
+    }
+    
+    @objc func timerDidFire() {
+        print("Timer fired!");
+        //dismissテスト用
+        self.movieAd?.dismiss();
     }
 }
 
