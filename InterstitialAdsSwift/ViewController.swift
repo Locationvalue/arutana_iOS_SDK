@@ -69,7 +69,7 @@ extension ViewController:ArutanaInterstitialDelegate {
     func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
         print("Received an ad.");
         // 広告表示
-        _ = self.interstitial?.show();
+//        _ = self.interstitial?.show();
     }
     
     func arutanaInterstitialFailedToReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial, code: kArutanaErrorCode) {
