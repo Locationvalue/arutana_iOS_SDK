@@ -28,6 +28,13 @@ class ViewController: UIViewController {
         
         //モーダルが見やすいようにライトグレーの背景にする
 //        self.view.backgroundColor = .lightGray;
+        
+        // タイマーのセットアップ: 5秒後に`timerDidFire`メソッドを一度だけ実行
+//        Timer.scheduledTimer(timeInterval: 5.0,
+//                             target: self,
+//                             selector: #selector(timerDidFire),
+//                             userInfo: nil,
+//                             repeats: false);
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -50,6 +57,12 @@ class ViewController: UIViewController {
 
     @IBAction func tap(_ sender: Any) {
         print("tap");
+    }
+    
+    @objc func timerDidFire() {
+        print("Timer fired!");
+        //dismissテスト用
+        self.interstitial?.dismiss();
     }
 }
 
