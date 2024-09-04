@@ -24,10 +24,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnD-uS-pT3">
                                 <rect key="frame" x="120" y="411" width="53" height="30"/>
                                 <state key="normal" title="Preload"/>
+                                <connections>
+                                    <action selector="didTapPreloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pb8-j5-J9r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WjJ-Vj-N9n">
                                 <rect key="frame" x="227.66666666666666" y="411" width="37.999999999999972" height="30"/>
                                 <state key="normal" title="Show"/>
+                                <connections>
+                                    <action selector="didTapShowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4sg-Nx-wCs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV4-NF-0kN">
                                 <rect key="frame" x="159" y="700" width="75" height="35"/>

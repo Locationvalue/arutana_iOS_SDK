@@ -40,10 +40,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNc-AY-JE3">
                                 <rect key="frame" x="120" y="411" width="53" height="30"/>
                                 <state key="normal" title="Preload"/>
+                                <connections>
+                                    <action selector="didTapPreloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o4B-qI-NXW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNy-GJ-9IL">
                                 <rect key="frame" x="227.66666666666666" y="411" width="37.999999999999972" height="30"/>
                                 <state key="normal" title="Show"/>
+                                <connections>
+                                    <action selector="didTapShowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vbE-yJ-uaZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HGH-Gy-Nrq"/>

@@ -25,7 +25,8 @@
     self.interstitial.delegate = self;
     [self.interstitial setEnableTestMode:YES];
     [self.interstitial setUserId:nil];
-    [self.interstitial setPositionY:-100];
+//    [self.interstitial setPositionY:-100];
+    [self.interstitial setTopMargin:100];
     self.interstitial.rootViewController = self;
     
     [self.interstitial setAdTextColor:[UIColor blueColor]];
