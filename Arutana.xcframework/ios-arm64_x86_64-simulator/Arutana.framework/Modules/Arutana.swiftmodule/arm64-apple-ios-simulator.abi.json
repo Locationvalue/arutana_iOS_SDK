@@ -643,8 +643,7 @@
             "declAttributes": [
               "Final",
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -7044,287 +7043,287 @@
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 6461,
+      "offset": 6550,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 6535,
+      "offset": 6624,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 6578,
+      "offset": 6667,
       "length": 16,
       "value": "\"location id no\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 6664,
+      "offset": 6753,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 6936,
+      "offset": 7025,
       "length": 33,
       "value": "\"arutana interstitial show next.\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 7088,
+      "offset": 7177,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 7208,
+      "offset": 7297,
       "length": 7,
       "value": "\"reset\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 7285,
+      "offset": 7374,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 7415,
+      "offset": 7504,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 8403,
+      "offset": 8492,
       "length": 8,
       "value": "\"ad ng1\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 8941,
+      "offset": 9030,
       "length": 7,
       "value": "\"ad ok\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 9200,
+      "offset": 9289,
       "length": 8,
       "value": "\"ad ng2\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 9568,
+      "offset": 9657,
       "length": 7,
       "value": "\"rslt1\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 9758,
+      "offset": 9847,
       "length": 7,
       "value": "\"rslt2\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 10218,
+      "offset": 10307,
       "length": 7,
       "value": "\"rslt3\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 12177,
+      "offset": 12266,
       "length": 8,
       "value": "\"ad ng3\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 12718,
+      "offset": 12807,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 12937,
+      "offset": 13026,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 12979,
+      "offset": 13068,
       "length": 20,
       "value": "\"call preload start\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 13163,
+      "offset": 13252,
       "length": 2,
       "value": "90"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 13266,
+      "offset": 13355,
       "length": 22,
       "value": "\"call preload timeout\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 13611,
+      "offset": 13700,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 13717,
+      "offset": 13806,
       "length": 18,
       "value": "\"call preload end\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 13985,
+      "offset": 14074,
       "length": 13,
       "value": "\"no ad image\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 14055,
+      "offset": 14144,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 14106,
+      "offset": 14195,
       "length": 10,
       "value": "\"call aaa\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 14497,
+      "offset": 14586,
       "length": 10,
       "value": "\"call bbb\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 14579,
+      "offset": 14668,
       "length": 21,
       "value": "\"call frame:\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 14599,
+      "offset": 14688,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 15267,
+      "offset": 15356,
       "length": 10,
       "value": "\"call ccc\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 15512,
+      "offset": 15601,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 16097,
+      "offset": 16186,
       "length": 81,
       "value": "\"call ddd:\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 16145,
+      "offset": 16234,
       "length": 1,
       "value": "\"::\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 16177,
+      "offset": 16266,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 16232,
+      "offset": 16321,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 16317,
+      "offset": 16406,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 16582,
+      "offset": 16671,
       "length": 10,
       "value": "\"call not\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 16886,
+      "offset": 16975,
       "length": 9,
       "value": "\"call ok\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 17064,
+      "offset": 17153,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 17491,
+      "offset": 17580,
       "length": 6,
       "value": "\"call\""
     },
     {
       "filePath": "\/Users\/macb003\/git\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 17730,
+      "offset": 17819,
       "length": 6,
       "value": "\"call\""
     },
