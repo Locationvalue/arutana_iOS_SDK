@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         self.interstitial?.delegate = self;
         self.interstitial?.setEnableTestMode(true);
         self.interstitial?.setUserId(nil);
-        self.interstitial?.setTopMargin(100);
+//        self.interstitial?.setTopMargin(100);
         self.interstitial?.rootViewController = self;
         
         self.interstitial?.setAdTextColor(.blue);

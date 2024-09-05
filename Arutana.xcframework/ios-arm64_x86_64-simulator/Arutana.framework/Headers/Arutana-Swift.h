@@ -412,6 +412,7 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 - (void)setLocationId:(NSString * _Nonnull)locationId;
 - (void)setUserId:(NSString * _Nullable)userId;
 - (void)setTopMargin:(NSInteger)margin;
+- (void)setBottomMargin:(NSInteger)margin;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)dismiss;
@@ -873,6 +874,7 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 - (void)setLocationId:(NSString * _Nonnull)locationId;
 - (void)setUserId:(NSString * _Nullable)userId;
 - (void)setTopMargin:(NSInteger)margin;
+- (void)setBottomMargin:(NSInteger)margin;
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setTextColor:(UIColor * _Nonnull)color;
 - (void)dismiss;
