@@ -278,7 +278,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #import <Arutana/Arutana.h>
@@ -374,33 +373,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, kArutanaLogLevel, "LogLevel", open) {
   kArutanaLogLevelWarning = 2,
   kArutanaLogLevelError = 3,
 };
-
-@protocol ArutanaManagerViewControllerDelegate;
-@class NSCoder;
-@class NSBundle;
-
-SWIFT_CLASS("_TtC7Arutana28ArutanaManagerViewController")
-@interface ArutanaManagerViewController : UIViewController
-@property (nonatomic, strong) id <ArutanaManagerViewControllerDelegate> _Nullable delegate;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithLocationID:(NSString * _Nonnull)locationID adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
-- (void)loadView;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)setEnableTestMode:(BOOL)isTest;
-- (void)addAdContainerView:(UIView * _Nonnull)adContainerView;
-- (void)loadRequest;
-- (void)resumeRefresh;
-- (void)viewWillAppear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-
-SWIFT_PROTOCOL("_TtP7Arutana36ArutanaManagerViewControllerDelegate_")
-@protocol ArutanaManagerViewControllerDelegate
-- (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-- (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
-- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-@end
 
 @protocol ArutanaMovieAdDelegate;
 
@@ -740,7 +712,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #import <Arutana/Arutana.h>
@@ -836,33 +807,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, kArutanaLogLevel, "LogLevel", open) {
   kArutanaLogLevelWarning = 2,
   kArutanaLogLevelError = 3,
 };
-
-@protocol ArutanaManagerViewControllerDelegate;
-@class NSCoder;
-@class NSBundle;
-
-SWIFT_CLASS("_TtC7Arutana28ArutanaManagerViewController")
-@interface ArutanaManagerViewController : UIViewController
-@property (nonatomic, strong) id <ArutanaManagerViewControllerDelegate> _Nullable delegate;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithLocationID:(NSString * _Nonnull)locationID adType:(ArutanaAdType)adType OBJC_DESIGNATED_INITIALIZER;
-- (void)loadView;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)setEnableTestMode:(BOOL)isTest;
-- (void)addAdContainerView:(UIView * _Nonnull)adContainerView;
-- (void)loadRequest;
-- (void)resumeRefresh;
-- (void)viewWillAppear:(BOOL)animated;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-
-SWIFT_PROTOCOL("_TtP7Arutana36ArutanaManagerViewControllerDelegate_")
-@protocol ArutanaManagerViewControllerDelegate
-- (void)arutanaManagerViewControllerReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-- (void)arutanaManagerViewControllerFailedToReceiveAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController code:(kArutanaErrorCode)code;
-- (void)arutanaManagerViewControllerDidTapAdWithArutanaManagerViewController:(ArutanaManagerViewController * _Nonnull)arutanaManagerViewController;
-@end
 
 @protocol ArutanaMovieAdDelegate;
 

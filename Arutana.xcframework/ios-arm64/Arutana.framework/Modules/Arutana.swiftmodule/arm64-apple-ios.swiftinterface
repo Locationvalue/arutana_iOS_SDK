@@ -37,11 +37,6 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public protocol ArutanaManagerViewControllerDelegate {
-  @objc func arutanaManagerViewControllerReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
-  @objc func arutanaManagerViewControllerFailedToReceiveAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController, code: Arutana.kArutanaErrorCode)
-  @objc func arutanaManagerViewControllerDidTapAd(arutanaManagerViewController: Arutana.ArutanaManagerViewController)
-}
 @objc public protocol ArutanaMovieAdDelegate {
   @objc func arutanaMovieNonad()
   @objc func arutanaMovieReceiveAd()
@@ -107,18 +102,6 @@ import _SwiftConcurrencyShims
   @objc public func preload()
   @objc public func show() -> Swift.Bool
   @objc public func dismiss()
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class ArutanaManagerViewController : UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) public var delegate: (any Arutana.ArutanaManagerViewControllerDelegate)?
-  @objc @_Concurrency.MainActor(unsafe) public init(locationID: Swift.String, adType: Arutana.ArutanaAdType)
-  @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @objc(setEnableTestMode:) @_Concurrency.MainActor(unsafe) public func setEnableTestMode(_ isTest: Swift.Bool)
-  @objc @_Concurrency.MainActor(unsafe) public func addAdContainerView(_ adContainerView: UIKit.UIView)
-  @objc @_Concurrency.MainActor(unsafe) public func loadRequest()
-  @objc @_Concurrency.MainActor(unsafe) public func resumeRefresh()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
 }
 extension Arutana.ArutanaLogger.LogLevel : Swift.Equatable {}
 extension Arutana.ArutanaLogger.LogLevel : Swift.Hashable {}
