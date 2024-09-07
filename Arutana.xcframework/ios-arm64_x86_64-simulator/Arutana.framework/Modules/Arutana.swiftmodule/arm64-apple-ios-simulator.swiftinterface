@@ -9,6 +9,7 @@ import AppTrackingTransparency
 import CommonCrypto
 import DeveloperToolsSupport
 import Foundation
+import SafariServices
 import Swift
 import SwiftUI
 import UIKit
