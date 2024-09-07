@@ -26,11 +26,13 @@ class ViewController: UIViewController {
         
 //        self.movieAd?.preload();
         // タイマーのセットアップ: 20秒後に`timerDidFire`メソッドを一度だけ実行
-        Timer.scheduledTimer(timeInterval: 20.0,
-                             target: self,
-                             selector: #selector(timerDidFire),
-                             userInfo: nil,
-                             repeats: false);
+//        Timer.scheduledTimer(timeInterval: 20.0,
+//                             target: self,
+//                             selector: #selector(timerDidFire),
+//                             userInfo: nil,
+//                             repeats: false);
+        
+        _ = self.movieAd?.show();
     }
 
     override func viewDidDisappear(_ animated: Bool) {

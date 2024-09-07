@@ -35,6 +35,8 @@ class ViewController: UIViewController {
 //                             selector: #selector(timerDidFire),
 //                             userInfo: nil,
 //                             repeats: false);
+        
+//        _ = self.interstitial?.show();
     }
     
     override func viewDidDisappear(_ animated: Bool) {
