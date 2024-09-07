@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		cHuhvTfpoFAw54wEj/Np1S1wboA=
+		ai5CZ86oktTuUEvgIC3J0+7phGc=
 		</data>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bW/VXW25QBRKbjOtCv7g9jOhkgc=
+		GUGGxGTuW/A23MCPvdvQbud4bEg=
 		</data>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cHuhvTfpoFAw54wEj/Np1S1wboA=
+		ai5CZ86oktTuUEvgIC3J0+7phGc=
 		</data>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lwCst0+p8WqI8KzDrjsBCtCGaIk=
+		4/JiDIVaIEReSOP7Z6AB+gKjbJo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,7 +114,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ub+YYzOPYKEpEySeMpWBd7qVlGKZPeX8j2yAnRdZK6g=
+			+fwcIT7yLQnez/AiJn/pevxu1sO7NRzfmlxdh3WV+lc=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/mmn4TWPhP/ngM93g5vH3CgnCNKF1t+gz8QZAqOseGo=
+			fAc/tHRiczysnGScM7RUAc5FI5FU0FLN3+HzZQTaLgE=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ub+YYzOPYKEpEySeMpWBd7qVlGKZPeX8j2yAnRdZK6g=
+			+fwcIT7yLQnez/AiJn/pevxu1sO7NRzfmlxdh3WV+lc=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gx937tomJIGxiE3u0/B+QPtH311b93jcTdg766Xv5n4=
+			PncpULNscVc6dEI6BU04Bqo4BgrVP70H3UtgH14kwo8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
