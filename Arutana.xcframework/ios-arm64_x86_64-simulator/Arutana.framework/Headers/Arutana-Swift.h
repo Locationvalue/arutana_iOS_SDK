@@ -278,6 +278,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import SafariServices;
 #endif
 
 #import <Arutana/Arutana.h>
@@ -316,6 +317,12 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class SFSafariViewController;
+
+@interface ArutanaBanner (SWIFT_EXTENSION(Arutana)) <SFSafariViewControllerDelegate>
+- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
+@end
+
 
 SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")
 @protocol ArutanaBannerDelegate
@@ -342,6 +349,11 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
 - (void)dismiss;
+@end
+
+
+@interface ArutanaInterstitial (SWIFT_EXTENSION(Arutana)) <SFSafariViewControllerDelegate>
+- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
 @end
 
 
@@ -389,6 +401,13 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 - (void)dismiss;
 - (void)preload;
 - (void)show;
+@end
+
+@class NSURL;
+
+@interface ArutanaMovieAd (SWIFT_EXTENSION(Arutana)) <SFSafariViewControllerDelegate>
+- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
+- (void)safariViewController:(SFSafariViewController * _Nonnull)controller initialLoadDidRedirectToURL:(NSURL * _Nonnull)URL;
 @end
 
 
@@ -710,6 +729,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import SafariServices;
 #endif
 
 #import <Arutana/Arutana.h>
@@ -748,6 +768,12 @@ SWIFT_CLASS("_TtC7Arutana13ArutanaBanner")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class SFSafariViewController;
+
+@interface ArutanaBanner (SWIFT_EXTENSION(Arutana)) <SFSafariViewControllerDelegate>
+- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
+@end
+
 
 SWIFT_PROTOCOL("_TtP7Arutana21ArutanaBannerDelegate_")
 @protocol ArutanaBannerDelegate
@@ -774,6 +800,11 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 - (void)preload;
 - (BOOL)show SWIFT_WARN_UNUSED_RESULT;
 - (void)dismiss;
+@end
+
+
+@interface ArutanaInterstitial (SWIFT_EXTENSION(Arutana)) <SFSafariViewControllerDelegate>
+- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
 @end
 
 
@@ -821,6 +852,13 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 - (void)dismiss;
 - (void)preload;
 - (void)show;
+@end
+
+@class NSURL;
+
+@interface ArutanaMovieAd (SWIFT_EXTENSION(Arutana)) <SFSafariViewControllerDelegate>
+- (void)safariViewControllerDidFinish:(SFSafariViewController * _Nonnull)controller;
+- (void)safariViewController:(SFSafariViewController * _Nonnull)controller initialLoadDidRedirectToURL:(NSURL * _Nonnull)URL;
 @end
 
 

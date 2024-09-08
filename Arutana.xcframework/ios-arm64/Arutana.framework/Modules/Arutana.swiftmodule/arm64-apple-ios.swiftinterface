@@ -63,6 +63,10 @@ import _SwiftConcurrencyShims
   @objc public func show()
   @objc deinit
 }
+extension Arutana.ArutanaMovieAd : SafariServices.SFSafariViewControllerDelegate {
+  @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
+  @objc dynamic public func safariViewController(_ controller: SafariServices.SFSafariViewController, initialLoadDidRedirectTo URL: Foundation.URL)
+}
 @objc public protocol ArutanaBannerDelegate {
   @objc(arutanaBannerReceiveAd) func arutanaBannerReceiveAd()
   @objc(arutanaBannerFailedToReceiveAd:) func arutanaBannerFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
@@ -77,6 +81,9 @@ import _SwiftConcurrencyShims
   @objc public func loadRequest()
   public func resumeRefresh()
   @objc deinit
+}
+extension Arutana.ArutanaBanner : SafariServices.SFSafariViewControllerDelegate {
+  @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
 }
 @objc public protocol ArutanaInterstitialDelegate {
   @objc(arutanaInterstitialNonad:) func arutanaInterstitialNonad(arutanaInterstitial: Arutana.ArutanaInterstitial)
@@ -103,6 +110,9 @@ import _SwiftConcurrencyShims
   @objc public func preload()
   @objc public func show() -> Swift.Bool
   @objc public func dismiss()
+}
+extension Arutana.ArutanaInterstitial : SafariServices.SFSafariViewControllerDelegate {
+  @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
 }
 extension Arutana.ArutanaLogger.LogLevel : Swift.Equatable {}
 extension Arutana.ArutanaLogger.LogLevel : Swift.Hashable {}
