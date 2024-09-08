@@ -88,7 +88,7 @@ extension ViewController:ArutanaInterstitialDelegate {
     }
     
     func arutanaInterstitialFailedToReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial, code: kArutanaErrorCode) {
-        print("Failed to receive an ad.");
+        print("Failed to receive an ad.:\(code)");
         // エラー時のリトライは特段の理由がない限り必ず記述するようにしてください。
         switch code {
         case .arutanaErrorCodeNeedConnection,

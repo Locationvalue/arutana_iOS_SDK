@@ -345,7 +345,6 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @end
 
 
-
 SWIFT_PROTOCOL("_TtP7Arutana27ArutanaInterstitialDelegate_")
 @protocol ArutanaInterstitialDelegate
 - (void)arutanaInterstitialNonad:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
@@ -391,7 +390,6 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 - (void)preload;
 - (void)show;
 @end
-
 
 
 
@@ -779,7 +777,6 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 @end
 
 
-
 SWIFT_PROTOCOL("_TtP7Arutana27ArutanaInterstitialDelegate_")
 @protocol ArutanaInterstitialDelegate
 - (void)arutanaInterstitialNonad:(ArutanaInterstitial * _Nonnull)arutanaInterstitial;
@@ -825,7 +822,6 @@ SWIFT_CLASS("_TtC7Arutana14ArutanaMovieAd")
 - (void)preload;
 - (void)show;
 @end
-
 
 
 
