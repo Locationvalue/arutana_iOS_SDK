@@ -33,6 +33,8 @@
     
     //モーダルが見やすいようにライトグレーの背景にする
 //    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+//    [self.interstitial show];
 }
 
 - (IBAction)didTapPreloadButton:(id)sender {
