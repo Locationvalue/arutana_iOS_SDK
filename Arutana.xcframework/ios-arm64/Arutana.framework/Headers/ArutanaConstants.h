@@ -8,6 +8,8 @@
 #ifndef ArutanaConstants_h
 #define ArutanaConstants_h
 
+#define kArutanaSDKVerion @"0.0.10"
+
 typedef NS_ENUM(NSUInteger, ArutanaAdType) {
     ArutanaAdType_Sp = 0
 };
@@ -27,6 +29,7 @@ typedef NS_ENUM(NSUInteger, kArutanaVEnv) {
     Arutana_ENV_TEST,
     Arutana_ENV_DEVELOPMENT
 };
+
 typedef NS_ENUM(NSUInteger, kArutanaVPreloadType) {
     kArutanaVPreloadTypeMeta,
     kArutanaVPreloadTypeAll

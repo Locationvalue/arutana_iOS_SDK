@@ -16,61 +16,32 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.interstitial = ArutanaInterstitial();
-        self.interstitial?.setLocationId("4");    // 管理画面から払い出された広告枠ID
-        self.interstitial?.delegate = self;
-        self.interstitial?.setEnableTestMode(true);
-        self.interstitial?.setUserId(nil);
-//        self.interstitial?.setTopMargin(100);
         self.interstitial?.rootViewController = self;
-        
-        self.interstitial?.setAdTextColor(.blue);
-        self.interstitial?.setAdBackgroundColor(.brown);
-        
-        //モーダルが見やすいようにライトグレーの背景にする
-//        self.view.backgroundColor = .lightGray;
-        
-        // タイマーのセットアップ: 5秒後に`timerDidFire`メソッドを一度だけ実行
-//        Timer.scheduledTimer(timeInterval: 5.0,
-//                             target: self,
-//                             selector: #selector(timerDidFire),
-//                             userInfo: nil,
-//                             repeats: false);
-        
-//        _ = self.interstitial?.show();
+        self.interstitial?.delegate = self;
+        self.interstitial?.setLocationId("4"); // 管理画面から払い出された広告枠ID
+        self.interstitial?.setUserId("xxxx"); // ログイン中ユーザーの会員ID
+        self.interstitial?.setEnableTestMode(true); // テストモードを有効化. 本番リリース時は削除
+        self.interstitial?.preload(); // 広告の表示準備を開始
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.interstitial?.preload(); // 画面活性化時に広告の表示準備を開始
     }
     
     override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        // 広告非表示
-        self.interstitial?.dismiss()
+        super.viewDidDisappear(animated);
+        self.interstitial?.dismiss(); // 画面非活性時には広告を初期化
     }
     
-    @IBAction func didTapPreloadButton(_ sender: Any) {
-        print("didTapPreloadButton");
-        // 広告リクエスト
+    @IBAction func didTapReloadButton(_ sender: Any) {
         self.interstitial?.preload()
-    }
-
-    @IBAction func didTapShowButton(_ sender: Any) {
-        print("didTapShowButton");
-        // 広告表示
-        _ = self.interstitial?.show();
-    }
-
-    @IBAction func tap(_ sender: Any) {
-        print("tap");
-    }
-    
-    @objc func timerDidFire() {
-        print("Timer fired!");
-        //dismissテスト用
-        self.interstitial?.dismiss();
     }
 }
 
 extension ViewController:ArutanaInterstitialDelegate {
-    func arutanaInterstitialNonad(arutanaInterstitial: Arutana.ArutanaInterstitial) {
-        print("NoAd");
+    func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
+        print("Received an ad.");
+        _ = self.interstitial?.show(); // 広告の表示準備が完了したら広告を表示する
     }
     
     func arutanaInterstitialShowAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
@@ -81,31 +52,9 @@ extension ViewController:ArutanaInterstitialDelegate {
         print("Close");
     }
     
-    func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
-        print("Received an ad.");
-        // 広告表示
-//        _ = self.interstitial?.show();
-    }
-    
+
     func arutanaInterstitialFailedToReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial, code: kArutanaErrorCode) {
         print("Failed to receive an ad.:\(code)");
-        // エラー時のリトライは特段の理由がない限り必ず記述するようにしてください。
-        switch code {
-        case .arutanaErrorCodeNeedConnection,
-                .arutanaErrorCodeExceedLimit,
-                .arutanaErrorCodeNoAd:
-            break;
-        case .arutanaErrorCodeUnknown:
-            break;
-        case .arutanaErrorCodeCommunicationError:
-            break;
-        case .arutanaErrorCodeReceivedFiller:
-            break;
-        case .arutanaErrorCodeTemplateFailed:
-            break;
-        @unknown default:
-            break;
-        }
     }
     
     func arutanaInterstitialDidTapAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dq3-Rx-1Um">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dq3-Rx-1Um">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,36 +22,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnD-uS-pT3">
-                                <rect key="frame" x="120" y="411" width="53" height="30"/>
-                                <state key="normal" title="Preload"/>
+                                <rect key="frame" x="175" y="411" width="43" height="30"/>
+                                <state key="normal" title="reload"/>
                                 <connections>
-                                    <action selector="didTapPreloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pb8-j5-J9r"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WjJ-Vj-N9n">
-                                <rect key="frame" x="227.66666666666666" y="411" width="37.999999999999972" height="30"/>
-                                <state key="normal" title="Show"/>
-                                <connections>
-                                    <action selector="didTapShowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4sg-Nx-wCs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV4-NF-0kN">
-                                <rect key="frame" x="159" y="700" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1j0-g5-snC"/>
+                                    <action selector="didTapReloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pb8-j5-J9r"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zQf-1b-otI"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="WjJ-Vj-N9n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="50" id="9HR-Wc-Dtw"/>
-                            <constraint firstItem="YnD-uS-pT3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-50" id="W2O-de-u4g"/>
+                            <constraint firstItem="YnD-uS-pT3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W2O-de-u4g"/>
                             <constraint firstItem="YnD-uS-pT3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WTe-rt-1Sb"/>
-                            <constraint firstItem="WjJ-Vj-N9n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Wwt-uc-NOn"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sample" id="cX4-K7-Ohg">

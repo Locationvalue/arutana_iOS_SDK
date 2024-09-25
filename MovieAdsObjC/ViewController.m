@@ -19,35 +19,25 @@
     [super viewDidLoad];
     
     self.movieAd = [[ArutanaMovieAd alloc] init];
-    [self.movieAd setLocationId:@"6"];// 管理画面から払い出された広告枠ID
     self.movieAd.delegate = self;
-    [self.movieAd setEnableTestMode:YES];
-    [self.movieAd setUserId:@"1"];
-//    [self.movieAd setPositionY:-100];
-    [self.movieAd setTopMargin:100];
     self.movieAd.rootViewController = self;
-    
-//    [self.movieAd preload];
+    [self.movieAd setLocationId:@"6"];// 管理画面から払い出された広告枠ID
+    [self.movieAd setUserId:@"1"]; // ログイン中ユーザーの会員ID
+    [self.movieAd setEnableTestMode:YES]; // テストモードを有効化. 本番リリース時は削除
+    [self.movieAd preload]; // 広告の表示準備を開始
 }
 
-- (IBAction)didTapPreloadButton:(id)sender {
-    // 広告リクエスト
+- (void)viewWillAppear:(BOOL)animated {
+    [self.movieAd preload]; // 画面活性化時に広告の表示準備を開始
+}
+
+- (IBAction)didTapReloadButton:(id)sender {
     [self.movieAd preload];
-}
-
-- (IBAction)didTapShowButton:(id)sender {
-    // 広告表示
-    [self.movieAd show];
-}
-
-- (void)arutanaMovieNonad {
-    // 広告なし
 }
 
 - (void)arutanaMovieReceiveAd {
     // 広告取得完了
-    // 広告表示
-//    [self.movieAd show];
+    [self.movieAd show];// 広告の表示準備が完了したら広告を表示する
 }
 
 - (void)arutanaMovieShowAd {
@@ -68,10 +58,6 @@
 
 - (void)arutanaMovieEndFull {
     // 全画面終了（動画）
-}
-
-- (void)arutanaMovieDeinit {
-    // インスタンス破棄
 }
 
 - (void)arutanaMovieFailedToReceiveAdWithCode:(kArutanaErrorCode)code {

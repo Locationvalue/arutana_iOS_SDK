@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sIK-Cm-mCS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sIK-Cm-mCS">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -38,27 +38,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNc-AY-JE3">
-                                <rect key="frame" x="120" y="411" width="53" height="30"/>
-                                <state key="normal" title="Preload"/>
+                                <rect key="frame" x="173" y="411" width="47" height="30"/>
+                                <state key="normal" title="Reload"/>
                                 <connections>
-                                    <action selector="didTapPreloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o4B-qI-NXW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNy-GJ-9IL">
-                                <rect key="frame" x="227.66666666666666" y="411" width="37.999999999999972" height="30"/>
-                                <state key="normal" title="Show"/>
-                                <connections>
-                                    <action selector="didTapShowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vbE-yJ-uaZ"/>
+                                    <action selector="didTapReloadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o4B-qI-NXW"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HGH-Gy-Nrq"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="KNc-AY-JE3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-50" id="23D-wP-yeJ"/>
+                            <constraint firstItem="KNc-AY-JE3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="23D-wP-yeJ"/>
                             <constraint firstItem="KNc-AY-JE3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4X0-ml-Sxg"/>
-                            <constraint firstItem="wNy-GJ-9IL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="50" id="7p2-rQ-V0h"/>
-                            <constraint firstItem="wNy-GJ-9IL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="P5a-OC-iGj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sample" id="Gu3-fc-ayr">
