@@ -8,7 +8,7 @@
 #ifndef ArutanaConstants_h
 #define ArutanaConstants_h
 
-#define kArutanaSDKVerion @"0.0.10"
+#define kArutanaSDKVerion @"0.0.11"
 
 typedef NS_ENUM(NSUInteger, ArutanaAdType) {
     ArutanaAdType_Sp = 0
