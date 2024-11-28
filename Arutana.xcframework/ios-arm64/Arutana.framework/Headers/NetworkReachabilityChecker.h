@@ -70,7 +70,7 @@ typedef NS_ENUM(NSUInteger, NetworkStatus) {
 extern NSString *kReachabilityChangedNotification;
 
 
-@interface Reachability : NSObject
+@interface NetworkReachabilityChecker : NSObject
 
 /*!
  * Use to check the reachability of a given host name.
