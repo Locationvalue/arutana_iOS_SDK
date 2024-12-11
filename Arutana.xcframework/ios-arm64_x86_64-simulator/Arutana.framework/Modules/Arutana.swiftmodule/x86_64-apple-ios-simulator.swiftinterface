@@ -57,6 +57,7 @@ import _SwiftConcurrencyShims
   @objc(setBottomMargin:) public func setBottomMargin(_ margin: Swift.Int)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
+  @objc(useSafeAreaInsets:) public func useSafeAreaInsets(_ use: Swift.Bool)
   @objc public func dismiss()
   @objc public func preload()
   @objc public func show()

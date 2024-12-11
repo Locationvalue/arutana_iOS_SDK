@@ -1542,6 +1542,34 @@
           },
           {
             "kind": "Function",
+            "name": "useSafeAreaInsets",
+            "printedName": "useSafeAreaInsets(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMovieAd(im)useSafeAreaInsets:",
+            "mangledName": "$s7Arutana0A7MovieAdC17useSafeAreaInsetsyySbF",
+            "moduleName": "Arutana",
+            "objc_name": "useSafeAreaInsets:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "dismiss",
             "printedName": "dismiss()",
             "children": [
@@ -3397,6 +3425,13 @@
       "offset": 1176,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1447,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Network\/InArutanaHttpClient.swift",
