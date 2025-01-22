@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Arutana
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Arutana
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AdSupport
@@ -104,6 +104,7 @@ extension Arutana.ArutanaBanner : SafariServices.SFSafariViewControllerDelegate 
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setAdBackgroundColor:) public func setAdBackgroundColor(_ color: UIKit.UIColor)
   @objc(setAdTextColor:) public func setAdTextColor(_ color: UIKit.UIColor)
+  @objc(setWidth:) public func setWidth(_ widthPercentage: CoreFoundation.CGFloat)
   @objc public func preload()
   @objc public func show()
   @objc public func dismiss()

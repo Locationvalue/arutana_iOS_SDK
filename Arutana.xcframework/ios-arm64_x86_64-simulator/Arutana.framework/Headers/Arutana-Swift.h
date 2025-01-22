@@ -280,6 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
 @import SafariServices;
 #endif
@@ -350,6 +351,7 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setAdBackgroundColor:(UIColor * _Nonnull)color;
 - (void)setAdTextColor:(UIColor * _Nonnull)color;
+- (void)setWidth:(CGFloat)widthPercentage;
 - (void)preload;
 - (void)show;
 - (void)dismiss;
@@ -429,7 +431,6 @@ SWIFT_CLASS("_TtC7Arutana13InArutunaUtil")
 + (void)clearTimer:(NSTimer * _Nullable)timer;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 
@@ -729,6 +730,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
 @import ObjectiveC;
 @import SafariServices;
 #endif
@@ -799,6 +801,7 @@ SWIFT_CLASS("_TtC7Arutana19ArutanaInterstitial")
 - (void)setEnableTestMode:(BOOL)isTest;
 - (void)setAdBackgroundColor:(UIColor * _Nonnull)color;
 - (void)setAdTextColor:(UIColor * _Nonnull)color;
+- (void)setWidth:(CGFloat)widthPercentage;
 - (void)preload;
 - (void)show;
 - (void)dismiss;
@@ -878,7 +881,6 @@ SWIFT_CLASS("_TtC7Arutana13InArutunaUtil")
 + (void)clearTimer:(NSTimer * _Nullable)timer;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 
 

@@ -3046,6 +3046,34 @@
           },
           {
             "kind": "Function",
+            "name": "setWidth",
+            "printedName": "setWidth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaInterstitial(im)setWidth:",
+            "mangledName": "$s7Arutana0A12InterstitialC8setWidthyy12CoreGraphics7CGFloatVF",
+            "moduleName": "Arutana",
+            "objc_name": "setWidth:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "preload",
             "printedName": "preload()",
             "children": [
@@ -3275,7 +3303,7 @@
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Utils\/InArutunaUtil.swift",
       "kind": "BooleanLiteral",
-      "offset": 13838,
+      "offset": 6238,
       "length": 5,
       "value": "false"
     },
@@ -3485,126 +3513,133 @@
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 153,
+      "offset": 241,
       "length": 23,
       "value": "\"ad.stg.ads.arutana.jp\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 308,
       "length": 19,
       "value": "\"ad.ads.arutana.jp\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 299,
+      "offset": 490,
       "length": 29,
       "value": "\"contents.stg.ads.arutana.jp\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 380,
+      "offset": 571,
       "length": 25,
       "value": "\"contents.ads.arutana.jp\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 445,
+      "offset": 636,
       "length": 8,
       "value": "\"\/v1\/ad\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 475,
+      "offset": 666,
       "length": 8,
       "value": "\"\/v1\/cl\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 506,
+      "offset": 697,
       "length": 9,
       "value": "\"\/v1\/imp\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 537,
+      "offset": 728,
       "length": 8,
       "value": "\"\/v1\/ev\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 571,
+      "offset": 762,
       "length": 4,
       "value": "\"\/1\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 605,
+      "offset": 796,
       "length": 12,
       "value": "\"FULLSCREEN\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 643,
+      "offset": 834,
       "length": 9,
       "value": "\"WEBVIEW\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 699,
+      "offset": 890,
       "length": 34,
       "value": "\"arutana_interstitial_background_\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "FloatLiteral",
+      "offset": 496,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 533,
+      "offset": 581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 604,
+      "offset": 652,
       "length": 5,
       "value": "-9999"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 647,
+      "offset": 695,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 1056,
+      "offset": 1104,
       "length": 20,
       "value": "\"io.dearone.arutana\""
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 1116,
+      "offset": 1164,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 1448,
+      "offset": 1496,
       "length": 5,
       "value": "false"
     },
@@ -3631,73 +3666,59 @@
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
-      "kind": "FloatLiteral",
-      "offset": 294,
-      "length": 3,
-      "value": "0.7"
-    },
-    {
-      "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3148,
+      "offset": 3153,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3154,
+      "offset": 3159,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3164,
+      "offset": 3169,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3176,
+      "offset": 3181,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3223,
+      "offset": 3228,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3264,
+      "offset": 3269,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3307,
+      "offset": 3312,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3350,
+      "offset": 3355,
       "length": 2,
       "value": "14"
-    },
-    {
-      "filePath": "\/Users\/sanojimaru\/workspace\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3414,
-      "length": 3,
-      "value": "0.7"
     },
     {
       "filePath": "\/Users\/sanojimaru\/Library\/Developer\/Xcode\/DerivedData\/Arutana-dhdaauzhjewgcdajvimqcodmywbg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Arutana\/IntermediateBuildFilesPath\/Arutana.build\/Release-iphonesimulator\/Arutana.build\/DerivedSources\/GeneratedAssetSymbols.swift",
