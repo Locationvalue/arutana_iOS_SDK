@@ -144,3 +144,11 @@ Arutana SDK のデリゲートメソッドを使用して、広告の受信や�
 
 - [Objective-C](https://github.com/Locationvalue/arutana_iOS_SDK/blob/main/MovieAdsObjC/ViewController.m)
 - [Swift](https://github.com/Locationvalue/arutana_iOS_SDK/blob/main/MovieAdsSwift/ViewController.swift)
+
+## 注意事項
+
+### 広告枠IDについて
+
+テスト、本番で広告枠IDが違います。
+
+IDの間違いによる表示間違い事故が発生していますので、IDコピーの際お間違いがないように注意をお願いします。

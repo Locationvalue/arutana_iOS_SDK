@@ -100,6 +100,12 @@
 }
 ```
 
+**`注意事項`**
+
+モーダル配置デフォルト値を設定しない場合、中央に表示されます。
+
+設定については[reference](./references/ref_ArutanaInterstitial.md)をご参照ください。
+
 ### 3. 広告表示の動作確認
 
 広告の動作を確認するために、以下の条件でアプリを実行してください。
@@ -148,3 +154,11 @@ Arutana SDK のデリゲートメソッドを使用して、広告の受信や�
 
 - [Objective-C](https://github.com/Locationvalue/arutana_iOS_SDK/blob/main/InterstitialAdsObjC/ViewController.m)
 - [Swift](https://github.com/Locationvalue/arutana_iOS_SDK/blob/main/InterstitialAdsSwift/ViewController.swift)
+
+## 注意事項
+
+### 広告枠IDについて
+
+テスト、本番で広告枠IDが違います。
+
+IDの間違いによる表示間違い事故が発生していますので、IDコピーの際お間違いがないように注意をお願いします。
