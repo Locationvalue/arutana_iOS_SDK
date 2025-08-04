@@ -126,6 +126,24 @@ Arutana SDK のデリゲートメソッドを使用して、広告の受信や�
 - **`arutanaMovieFailedToReceiveAdWithCode`**  
   広告の受信に失敗した際に呼び出されます。
 
+- **`arutanaMovieStart`**  
+  動画広告が再生された際に呼び出されます。
+
+- **`arutanaMovieFirstQuartile`**  
+  動画広告が25%再生された際に呼び出されます。
+
+- **`arutanaMovieMidQuartile`**  
+  動画広告が50%再生された際に呼び出されます。
+
+- **`arutanaMovieThirdQuartile`**  
+  動画広告が75%再生された際に呼び出されます。
+
+- **`arutanaMovieComplete`**  
+  動画広告が再生完了された際に呼び出されます。
+
+- **`arutanaMovieEndFull`**  
+  動画広告が全画面終了された際に呼び出されます。
+
 ### 5. テストモードの解除（本番リリース時）
 
 アプリを本番リリースする前に、テストモードを無効にする必要があります。以下の行を削除またはコメントアウトしてください。
