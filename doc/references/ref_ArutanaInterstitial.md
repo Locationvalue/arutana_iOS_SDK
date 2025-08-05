@@ -51,7 +51,7 @@
 - **パラメータ**:
   - `color`: 設定するテキストカラー
 
-### `@objc(setWidth:) public func setWidth(_ widthPercentage:CGFloat) {`
+### `@objc(setWidth:) public func setWidth(_ widthPercentage:CGFloat)`
 - **説明**: インタースティシャル広告表示時の幅を指定します。
 - **パラメータ**:
   - `widthPercentage`: 画面幅に対する割合（例: 画面幅に対して50%の幅で表示する場合, 0.5）

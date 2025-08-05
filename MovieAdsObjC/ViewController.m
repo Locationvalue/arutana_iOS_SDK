@@ -24,7 +24,17 @@
     [self.movieAd setLocationId:@"6"];// 管理画面から払い出された広告枠ID
     [self.movieAd setUserId:@"1"]; // ログイン中ユーザーの会員ID
     [self.movieAd setEnableTestMode:YES]; // テストモードを有効化. 本番リリース時は削除
-    [self.movieAd preload]; // 広告の表示準備を開始
+    // 広告の表示準備を開始(下記1か2の処理どちらかを選択してください。)
+    // 1. idfaを使った配信をしない場合
+    [self.movieAd preload];
+    // 2. idfaを使った配信をする場合(サンプルコード上はコメントアウトしています)
+    // [[AdTrackingUtility shared] requestTrackingAuthorization:^(NSString *idfa) {
+    //     dispatch_async(dispatch_get_main_queue(), ^{
+    //         // 取得したIDFAを広告クラスにセットします。
+    //         [self.movieAd setIDFA:idfa];
+    //         [self.movieAd preload];
+    //     });
+    // }];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
