@@ -5,5 +5,5 @@
 - [Class: ArutanaMovieAd](./ref_ArutanaMovieAd.md)
 - [Protocol: ArutanaMovieAdDelegate](./ref_protocol_ArutanaMovieAdDelegate.md)
 - [Class: ArutanaInterstitial](./ref_ArutanaInterstitial.md)
-- [Protocol: ArutanaIntersitialDelegate](./ref_protocol_ArutanaInterstitialDelegate.md)
+- [Protocol: ArutanaInterstitialDelegate](./ref_protocol_ArutanaInterstitialDelegate.md)
 - [Enum: ArutanaErrorCode](./ref_ArutanaErrorCode.md)

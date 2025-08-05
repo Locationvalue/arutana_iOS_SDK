@@ -9,7 +9,7 @@
 
 ```swift
 // 従来
-self.interstitial.prelaod();
+self.interstitial.preload();
 
 // IDFAを取得する場合
 AdTrackingUtility.shared.requestTrackingAuthorization { idfa in
@@ -53,7 +53,6 @@ iOS 14 以降では、ATT によってユーザーの追跡許可を求める際
 ```xml
 <key>NSUserTrackingUsageDescription</key>
 <string>広告をパーソナライズするためにトラッキングを許可してください。</string>
-:contentReference[oaicite:4]{index=4}
 ```
 
 ---
