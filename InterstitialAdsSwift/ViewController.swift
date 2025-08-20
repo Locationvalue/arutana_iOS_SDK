@@ -21,7 +21,17 @@ class ViewController: UIViewController {
         self.interstitial?.setLocationId("4"); // 管理画面から払い出された広告枠ID
         self.interstitial?.setUserId("xxxx"); // ログイン中ユーザーの会員ID
         self.interstitial?.setEnableTestMode(true); // テストモードを有効化. 本番リリース時は削除
-        self.interstitial?.preload(); // 広告の表示準備を開始
+        // 広告の表示準備を開始(下記1か2の処理どちらかを選択してください。)
+        // 1. idfaを使った配信をしない場合
+        self.interstitial?.preload();
+        // 2. idfaを使った配信をする場合(サンプルコード上はコメントアウトしています)
+        // AdTrackingUtility.shared.requestTrackingAuthorization { idfa in
+        //     DispatchQueue.main.async {
+        //         // 取得したIDFAを広告クラスにセットします。
+        //         self.interstitial?.setIDFA(idfa);
+        //         self.interstitial?.preload();
+        //     }
+        // }
     }
     
     override func viewWillAppear(_ animated: Bool) {
