@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Arutana
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Arutana
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -45,6 +45,11 @@ import _SwiftConcurrencyShims
   @objc func arutanaMovieClose()
   @objc func arutanaMovieStartFull()
   @objc func arutanaMovieEndFull()
+  @objc func arutanaMovieStart()
+  @objc func arutanaMovieFirstQuartile()
+  @objc func arutanaMovieMidQuartile()
+  @objc func arutanaMovieThirdQuartile()
+  @objc func arutanaMovieComplete()
   @objc func arutanaMovieFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
 }
 @_inheritsConvenienceInitializers @objc public class ArutanaMovieAd : ObjectiveC.NSObject {
@@ -53,6 +58,7 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc(setLocationId:) public func setLocationId(_ locationId: Swift.String)
   @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
+  @objc(setIDFA:) public func setIDFA(_ idfa: Swift.String?)
   @objc(setTopMargin:) public func setTopMargin(_ margin: Swift.Int)
   @objc(setBottomMargin:) public func setBottomMargin(_ margin: Swift.Int)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
@@ -76,6 +82,7 @@ extension Arutana.ArutanaMovieAd : SafariServices.SFSafariViewControllerDelegate
   @objc public var delegate: (any Arutana.ArutanaBannerDelegate)?
   @objc public init(locationId: Swift.String, adType: Arutana.ArutanaAdType)
   @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
+  @objc(setIDFA:) public func setIDFA(_ idfa: Swift.String?)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc public func addAdContainerView(_ adContainerView: UIKit.UIView)
   @objc public func loadRequest()
@@ -83,6 +90,11 @@ extension Arutana.ArutanaMovieAd : SafariServices.SFSafariViewControllerDelegate
 }
 extension Arutana.ArutanaBanner : SafariServices.SFSafariViewControllerDelegate {
   @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class AdTrackingUtility : ObjectiveC.NSObject {
+  @objc public static let shared: Arutana.AdTrackingUtility
+  @objc final public func requestTrackingAuthorization(completion: @escaping (Swift.String) -> Swift.Void)
+  @objc deinit
 }
 @objc public protocol ArutanaInterstitialDelegate {
   @objc(arutanaInterstitialReceiveAd:) func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial)
@@ -100,6 +112,7 @@ extension Arutana.ArutanaBanner : SafariServices.SFSafariViewControllerDelegate 
   @objc override dynamic public init()
   @objc(setLocationId:) public func setLocationId(_ locationId: Swift.String)
   @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
+  @objc(setIDFA:) public func setIDFA(_ idfa: Swift.String?)
   @objc(setTopMargin:) public func setTopMargin(_ margin: Swift.Int)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
   @objc(setAdBackgroundColor:) public func setAdBackgroundColor(_ color: UIKit.UIColor)
