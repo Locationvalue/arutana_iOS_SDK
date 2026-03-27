@@ -45,6 +45,58 @@
 - SDK導入時に発生するビルドエラーやアプリクラッシュの原因の多くは、`Embed`の設定に関連しています。設定後は必ずビルドとテストを行い、動作確認をしてください。
 - 対応バージョンに準拠していることを確認し、使用するSDKやターゲットiOSバージョンに応じて設定を見直してください。
 
+### Swift 6 アプリへ導入する場合の回避策
+
+Arutana SDK は Swift 5 言語モードでビルドされていますが、`swiftinterface` を含む `xcframework` として配布しているため、Swift 6 アプリにも導入できます。
+
+ただし、Swift 6 では concurrency チェックが厳格になるため、SDK 利用コードでは以下の対応を推奨します。
+
+1. SDK を import するファイルでは、通常の import の代わりに `@preconcurrency import Arutana` を使用してください。
+
+```swift
+@preconcurrency import Arutana
+import UIKit
+```
+
+2. `UIViewController` や `UIView` を渡す処理、`show()` / `dismiss()` などの表示処理は `@MainActor` を付けた型、または `Task { @MainActor in ... }` / `await MainActor.run { ... }` の中で実行してください。
+
+```swift
+@MainActor
+final class SampleViewController: UIViewController {
+    private let interstitial = ArutanaInterstitial()
+
+    func showAd() {
+        interstitial.rootViewController = self
+        interstitial.show()
+    }
+}
+```
+
+3. delegate を実装する型に `@MainActor` を付ける場合は、concurrency チェックを回避するために conformance 側へ `@preconcurrency` を付与してください。
+
+```swift
+@MainActor
+final class SampleViewController: UIViewController, @preconcurrency ArutanaInterstitialDelegate {
+    func arutanaInterstitialClose(arutanaInterstitial: ArutanaInterstitial) {
+        Task { @MainActor in
+            self.closeButton.isHidden = false
+        }
+    }
+}
+```
+
+4. delegate コールバック内で UI を更新する場合も、main actor 上で処理してください。
+
+```swift
+func arutanaInterstitialClose(arutanaInterstitial: ArutanaInterstitial) {
+    Task { @MainActor in
+        self.closeButton.isHidden = false
+    }
+}
+```
+
+5. 上記の対応は、必要に応じて Arutana SDK を利用する画面やラッパー層に限定して適用してください。
+
 ---
 
 これでSDKの導入が完了です。引き続きアプリケーションの開発を進めてください。
