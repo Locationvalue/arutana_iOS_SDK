@@ -67,6 +67,31 @@
     NSLog(@"Closed movie ad.");
 }
 
+// 動画広告が再生開始されたときの処理
+- (void)arutanaMovieStart {
+    NSLog(@"Movie started.");
+}
+
+// 動画広告が25%再生されたときの処理
+- (void)arutanaMovieFirstQuartile {
+    NSLog(@"Movie first quartile.");
+}
+
+// 動画広告が50%再生されたときの処理
+- (void)arutanaMovieMidQuartile {
+    NSLog(@"Movie mid quartile.");
+}
+
+// 動画広告が75%再生されたときの処理
+- (void)arutanaMovieThirdQuartile {
+    NSLog(@"Movie third quartile.");
+}
+
+// 動画広告が再生完了したときの処理
+- (void)arutanaMovieComplete {
+    NSLog(@"Movie complete.");
+}
+
 // 動画広告が全画面で開始されたときの処理
 - (void)arutanaMovieStartFull {
     NSLog(@"Movie started in full screen.");
@@ -75,6 +100,31 @@
 // 動画広告が全画面で終了したときの処理
 - (void)arutanaMovieEndFull {
     NSLog(@"Movie ended in full screen.");
+}
+
+// 動画広告が再生開始されたときの処理
+- (void)arutanaMovieStart {
+    NSLog(@"Movie started.");
+}
+
+// 動画広告が25%再生されたときの処理
+- (void)arutanaMovieFirstQuartile {
+    NSLog(@"Movie first quartile.");
+}
+
+// 動画広告が50%再生されたときの処理
+- (void)arutanaMovieMidQuartile {
+    NSLog(@"Movie mid quartile.");
+}
+
+// 動画広告が75%再生されたときの処理
+- (void)arutanaMovieThirdQuartile {
+    NSLog(@"Movie third quartile.");
+}
+
+// 動画広告が再生完了したときの処理
+- (void)arutanaMovieComplete {
+    NSLog(@"Movie complete.");
 }
 
 // 広告受信に失敗したときの処理
