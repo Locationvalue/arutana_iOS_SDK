@@ -45,11 +45,13 @@
 - SDK導入時に発生するビルドエラーやアプリクラッシュの原因の多くは、`Embed`の設定に関連しています。設定後は必ずビルドとテストを行い、動作確認をしてください。
 - 対応バージョンに準拠していることを確認し、使用するSDKやターゲットiOSバージョンに応じて設定を見直してください。
 
-### Swift 6 アプリへ導入する場合の回避策
+### Swift 6 アプリへ導入する場合（v0.1.1 以前の SDK をご利用のアプリ向け）
 
-Arutana SDK は Swift 5 言語モードでビルドされていますが、`swiftinterface` を含む `xcframework` として配布しているため、Swift 6 アプリにも導入できます。
+**v0.1.2 以降の SDK をご利用の場合、この節の手順は不要です。** 通常どおり `import Arutana` で導入・利用できます。
 
-ただし、Swift 6 では concurrency チェックが厳格になるため、SDK 利用コードでは以下の対応を推奨します。
+以下は、**v0.1.1 以前の SDK** を Swift 6 アプリで利用する際の回避策です。当該バージョンの SDK は Swift 5 言語モードでビルドされていますが、`swiftinterface` を含む `xcframework` として配布しているため、Swift 6 アプリにも導入は可能です。
+
+ただし Swift 6 では concurrency チェックが厳格になるため、**v0.1.1 以前の SDK 利用時のみ**、アプリ側で以下の対応が必要になる場合があります。
 
 1. SDK を import するファイルでは、通常の import の代わりに `@preconcurrency import Arutana` を使用してください。
 
@@ -96,6 +98,8 @@ func arutanaInterstitialClose(arutanaInterstitial: ArutanaInterstitial) {
 ```
 
 5. 上記の対応は、必要に応じて Arutana SDK を利用する画面やラッパー層に限定して適用してください。
+
+**v0.1.2 以降へアップデートした場合**は、上記の `@preconcurrency import` や `@preconcurrency` 付き delegate 実装は削除して問題ありません。
 
 ---
 

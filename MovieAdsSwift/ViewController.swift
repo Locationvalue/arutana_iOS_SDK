@@ -42,7 +42,27 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController:ArutanaMovieAdDelegate {
+extension ViewController:@MainActor ArutanaMovieAdDelegate {
+    func arutanaMovieStart() {
+        print("Start");
+    }
+    
+    func arutanaMovieFirstQuartile() {
+        print("FirstQuartile");
+    }
+    
+    func arutanaMovieMidQuartile() {
+        print("MidQuartile");
+    }
+    
+    func arutanaMovieThirdQuartile() {
+        print("ThirdQuartile");
+    }
+    
+    func arutanaMovieComplete() {
+        print("Complete");
+    }
+    
     
     func arutanaMovieReceiveAd() {
         print("Received an ad.");
