@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController:ArutanaBannerDelegate {
+extension ViewController:@MainActor ArutanaBannerDelegate {
     func arutanaBannerReceiveAd() {
         print("Received an ad.");
     }

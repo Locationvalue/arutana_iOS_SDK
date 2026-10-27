@@ -8,7 +8,7 @@
 #ifndef ArutanaConstants_h
 #define ArutanaConstants_h
 
-#define kArutanaSDKVersion @"0.1.1"
+#define kArutanaSDKVersion @"0.1.2"
 #define kArutanaSDKVerion kArutanaSDKVersion
 
 typedef NS_ENUM(NSUInteger, ArutanaAdType) {

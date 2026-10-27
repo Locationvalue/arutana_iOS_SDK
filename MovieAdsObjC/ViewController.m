@@ -62,6 +62,26 @@
     // クローズ
 }
 
+- (void)arutanaMovieStart {
+    // 再生開始
+}
+
+- (void)arutanaMovieFirstQuartile {
+    // 再生25%
+}
+
+- (void)arutanaMovieMidQuartile {
+    // 再生50%
+}
+
+- (void)arutanaMovieThirdQuartile {
+    // 再生75%
+}
+
+- (void)arutanaMovieComplete {
+    // 再生完了
+}
+
 - (void)arutanaMovieStartFull {
     // 全画面開始（動画）
 }

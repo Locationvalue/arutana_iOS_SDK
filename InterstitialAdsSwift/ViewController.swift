@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController:ArutanaInterstitialDelegate {
+extension ViewController:@MainActor ArutanaInterstitialDelegate {
     func arutanaInterstitialReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial) {
         print("Received an ad.");
         _ = self.interstitial?.show(); // 広告の表示準備が完了したら広告を表示する

@@ -7,5 +7,4 @@ framework module Arutana {
 
 module Arutana.Swift {
   header "Arutana-Swift.h"
-  requires objc
 }
