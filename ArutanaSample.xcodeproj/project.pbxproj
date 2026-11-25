@@ -58,6 +58,14 @@
 		56E375A32C841AF8000A45A7 /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		56E375A52C84300F000A45A7 /* Arutana.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; };
 		56E375A62C84300F000A45A7 /* Arutana.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1C7A0000000000000000010 /* Arutana-fluct-adapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C7A0000000000000000002 /* Arutana-fluct-adapter.xcframework */; };
+		F1C7A0000000000000000020 /* FluctSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F1C7A0000000000000000030 /* FluctSDK */; };
+		F1C7A0000000000000000011 /* Arutana-fluct-adapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C7A0000000000000000002 /* Arutana-fluct-adapter.xcframework */; };
+		F1C7A0000000000000000021 /* FluctSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F1C7A0000000000000000031 /* FluctSDK */; };
+		F1C7A0000000000000000012 /* Arutana-fluct-adapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C7A0000000000000000002 /* Arutana-fluct-adapter.xcframework */; };
+		F1C7A0000000000000000022 /* FluctSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F1C7A0000000000000000032 /* FluctSDK */; };
+		F1C7A0000000000000000013 /* Arutana-fluct-adapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C7A0000000000000000002 /* Arutana-fluct-adapter.xcframework */; };
+		F1C7A0000000000000000023 /* FluctSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F1C7A0000000000000000033 /* FluctSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -190,6 +198,7 @@
 		56D5A6CF2BF5D8D00021E25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56D5A6D22BF5D8D00021E25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56D5A6D42BF5D8D00021E25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C7A0000000000000000002 /* Arutana-fluct-adapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "Arutana-fluct-adapter.xcframework"; sourceTree = "<group>"; };
 		56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Arutana.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +207,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C7A0000000000000000011 /* Arutana-fluct-adapter.xcframework in Frameworks */,
+				F1C7A0000000000000000021 /* FluctSDK in Frameworks */,
 				56E3759F2C841A70000A45A7 /* Arutana.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +217,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C7A0000000000000000012 /* Arutana-fluct-adapter.xcframework in Frameworks */,
+				F1C7A0000000000000000022 /* FluctSDK in Frameworks */,
 				56E375962C841123000A45A7 /* Arutana.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +227,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C7A0000000000000000013 /* Arutana-fluct-adapter.xcframework in Frameworks */,
+				F1C7A0000000000000000023 /* FluctSDK in Frameworks */,
 				56E375992C841236000A45A7 /* Arutana.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +253,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C7A0000000000000000010 /* Arutana-fluct-adapter.xcframework in Frameworks */,
+				F1C7A0000000000000000020 /* FluctSDK in Frameworks */,
 				56E3759C2C84198C000A45A7 /* Arutana.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +389,7 @@
 			isa = PBXGroup;
 			children = (
 				56D5A6F72BF5DBDB0021E25C /* Arutana.xcframework */,
+				F1C7A0000000000000000002 /* Arutana-fluct-adapter.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -392,6 +410,9 @@
 			);
 			dependencies = (
 			);
+			packageProductDependencies = (
+				F1C7A0000000000000000031 /* FluctSDK */,
+			);
 			name = BannerAdsObjC;
 			productName = BannerAdsObjC;
 			productReference = 560AC0062C0475F900B35DC4 /* BannerAdsObjC.app */;
@@ -410,6 +431,9 @@
 			);
 			dependencies = (
 			);
+			packageProductDependencies = (
+				F1C7A0000000000000000032 /* FluctSDK */,
+			);
 			name = InterstitialAdsSwift;
 			productName = InterstitialAdsSwift;
 			productReference = 5615232E2C05D42000CB61C6 /* InterstitialAdsSwift.app */;
@@ -427,6 +451,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			packageProductDependencies = (
+				F1C7A0000000000000000033 /* FluctSDK */,
 			);
 			name = InterstitialAdsObjC;
 			productName = InterstitialAdsObjC;
@@ -482,6 +509,9 @@
 			);
 			dependencies = (
 			);
+			packageProductDependencies = (
+				F1C7A0000000000000000030 /* FluctSDK */,
+			);
 			name = BannerAdsSwift;
 			productName = ArutanaSample;
 			productReference = 56D5A6C32BF5D8CE0021E25C /* BannerAdsSwift.app */;
@@ -526,6 +556,9 @@
 				Base,
 			);
 			mainGroup = 56D5A6BA2BF5D8CE0021E25C;
+			packageReferences = (
+				F1C7A0000000000000000001 /* XCRemoteSwiftPackageReference "FluctSDK-iOS-Swift-Package" */,
+			);
 			productRefGroup = 56D5A6C42BF5D8CE0021E25C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -790,6 +823,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.dearone.arutanasample.BannerAdsObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -818,6 +855,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.dearone.arutanasample.BannerAdsObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -846,6 +887,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.dearone.arutanasample.InterstitialAdsSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -875,6 +920,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.dearone.arutanasample.InterstitialAdsSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -904,6 +953,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.dearone.arutanasample.InterstitialAdsObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -932,6 +985,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.dearone.arutanasample.InterstitialAdsObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1197,6 +1254,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.dearone.arutanasample.ArutanaSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1226,6 +1287,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.dearone.arutanasample.ArutanaSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1301,6 +1366,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1C7A0000000000000000001 /* XCRemoteSwiftPackageReference "FluctSDK-iOS-Swift-Package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/voyagegroup/FluctSDK-iOS-Swift-Package";
+			requirement = {
+				kind = exactVersion;
+				version = 6.45.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1C7A0000000000000000030 /* FluctSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1C7A0000000000000000001 /* XCRemoteSwiftPackageReference "FluctSDK-iOS-Swift-Package" */;
+			productName = FluctSDK;
+		};
+		F1C7A0000000000000000031 /* FluctSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1C7A0000000000000000001 /* XCRemoteSwiftPackageReference "FluctSDK-iOS-Swift-Package" */;
+			productName = FluctSDK;
+		};
+		F1C7A0000000000000000032 /* FluctSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1C7A0000000000000000001 /* XCRemoteSwiftPackageReference "FluctSDK-iOS-Swift-Package" */;
+			productName = FluctSDK;
+		};
+		F1C7A0000000000000000033 /* FluctSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1C7A0000000000000000001 /* XCRemoteSwiftPackageReference "FluctSDK-iOS-Swift-Package" */;
+			productName = FluctSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 56D5A6BB2BF5D8CE0021E25C /* Project object */;
 }

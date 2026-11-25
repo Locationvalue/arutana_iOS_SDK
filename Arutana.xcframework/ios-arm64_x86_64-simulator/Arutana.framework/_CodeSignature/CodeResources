@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		WaZYg1ycHQjqOAvcTzxxY+NeHUI=
+		Q6OTCibm3wz4N/m1UjPXfSTovVQ=
 		</data>
 		<key>Headers/Arutana-Swift.h</key>
 		<data>
-		D9BPBJ9JdynQfWHetAO4G/oV2pU=
+		02gaM8SM8WiSN+GV8H9DKVKpt78=
 		</data>
 		<key>Headers/Arutana.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/ArutanaConstants.h</key>
 		<data>
-		aIBLb2kc5KzsMV15gMhQAR/Hy/s=
+		gDiwFcZWy2SLRzzuPCJvUDWrn3Q=
 		</data>
 		<key>Headers/NetworkReachabilityChecker.h</key>
 		<data>
@@ -26,55 +26,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xcW7+RikVn73VvrP0zj6I/lz1EI=
+		uVjA6Y/XtKBYyazcO3MBUXpRWOg=
 		</data>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ku7gQjNG/+88vER24xVRGgrxuro=
+		GHLa3xZHJsAujSv9UEP2/gzoywU=
 		</data>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		W+3A4Gjcp2XZ1u3KgybE1gLWkEA=
+		vyQtOvM711+XdABti3Yg0OUwGxQ=
 		</data>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OuGA9x3apv5SXG+dYcE+OjrsGGg=
+		RLIxVMKFpSSSwjKM6nOIiuf/d5U=
 		</data>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		W+3A4Gjcp2XZ1u3KgybE1gLWkEA=
+		vyQtOvM711+XdABti3Yg0OUwGxQ=
 		</data>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TVkjwmcAbehGT0bYWlXann12Gxg=
+		vlOUMDDDO5ErE0adcpUWA4R8PCI=
 		</data>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ku7gQjNG/+88vER24xVRGgrxuro=
+		GHLa3xZHJsAujSv9UEP2/gzoywU=
 		</data>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QILGeNhKiDiX9y6X2TYlJGuEGRI=
+		GkeIh8vtM/niALNPE1Ptk114hJI=
 		</data>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		igKMhD4EMwAvJ/i6Z+SHHigHkno=
+		E0FTmWdJZXnObLwHVmM5VnpPjgA=
 		</data>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QILGeNhKiDiX9y6X2TYlJGuEGRI=
+		GkeIh8vtM/niALNPE1Ptk114hJI=
 		</data>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YiUUkBV5pzaVwHCYgsQbayXw6PY=
+		DKCHWIm0jN+VfTW7LPQXGaQDjvQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		J7LmWG1DZdwGu5/bzL05DTw1tV4=
+		Ud/9JteLgyq2ocp0fMisecYhFNQ=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		lvZM5+Jj+wXwI1R/+5oIDUlZC0s=
+		ZCPFlueFVsveIQ5FCve0Lvv1ZRc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9wLKXdB/1rVW+MkiJ45kuXkH2Hi40LdlkdVQQC8EXB0=
+			jO4aWfKBy9+SKpDmEPywnTBkoGWVIe+KAG1K4/KXZRw=
 			</data>
 		</dict>
 		<key>Headers/Arutana-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XIMh2FtjmVgXILL7lQlidk7arkqNy3mlJnNifhMo6fI=
+			UDHH/3ey1x+k8tjStQDhheJRSgrJOgNwrYl0PI6TQqs=
 			</data>
 		</dict>
 		<key>Headers/Arutana.h</key>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Vf5PcxOMEAR5u2dkiXArglywhddazb+ECZg+X3T4V0=
+			okf/86Z4AYbamm3w8K/FC30S4Ht3zX8vNGi3babKysg=
 			</data>
 		</dict>
 		<key>Headers/NetworkReachabilityChecker.h</key>
@@ -118,84 +118,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pehkY9ayTM+ZdSsQ8DY34+cocSXATWTdiZG3+isURi0=
+			L4fO8N346pr0LNW5QOg+hbZ9x8/cLEdQVJiJYByT0eU=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bstQOeqDSrphOHedov9UOu7GA2zkIIHPJ1Fc77VSxXU=
+			CP3Xp4YidfeGaV7i2Snyhh3E1yQRCrz0KbpSEGoSUkw=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WOFGAWx12RULy8ZBJQiiPIJu3+T2jr3Xy3bAsNGx5yY=
+			MiMncWj9pyJ/SlyI+FgAx4eC/135YSjNpTffwmY6zk8=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bstQOeqDSrphOHedov9UOu7GA2zkIIHPJ1Fc77VSxXU=
+			CP3Xp4YidfeGaV7i2Snyhh3E1yQRCrz0KbpSEGoSUkw=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			je9GvYOkLnNeZiMlZDBAc2jN5fFyvSyrg3JJNwBCqjY=
+			s22q3lUSv3y2mv61RFFlTjM5euXXmxH8hwB5fB+TjOk=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pehkY9ayTM+ZdSsQ8DY34+cocSXATWTdiZG3+isURi0=
+			L4fO8N346pr0LNW5QOg+hbZ9x8/cLEdQVJiJYByT0eU=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/gDMGyHsnVoxZTV4YGgeQFYwooi5gCJuHcaejUpulp8=
+			Z9m1V+eMKeX9gzyu4nVpxbct1l9ERQ8eZn6CNMMaFd8=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			seLgamn7i8GpDNa8Z4SlGZKAtGxLDEnmt/nbL6mJ4QY=
+			4YV0QTKf9BLV6W487VvhToFs5MHjsgGq/hd+DlO/h3I=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/gDMGyHsnVoxZTV4YGgeQFYwooi5gCJuHcaejUpulp8=
+			Z9m1V+eMKeX9gzyu4nVpxbct1l9ERQ8eZn6CNMMaFd8=
 			</data>
 		</dict>
 		<key>Modules/Arutana.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8YL42Rvb+gjK4lMNsiscW7/FTQGJ5V3r8lRPMZSiyOw=
+			94k+I2cpvJrQQ4ASPjQ2mUwCIE0ZA0jXNfnXr+g1HTw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eVP1RwuD7NNHL3Wwuj4pcuPOZNMESXOELy8w8a8r8rE=
+			3Y2AfCPaU9U7rjZhIDqwUBZ/fOLFj+2QEMN6yGjbHkc=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wmclhfd79aB2eBrUJd5/jQJSiZcVmugDzNL+Ku6g+nc=
+			pb62j8kmyZUmKJLkqJrWo69t49TgEh5MpKnfc6cNAac=
 			</data>
 		</dict>
 	</dict>

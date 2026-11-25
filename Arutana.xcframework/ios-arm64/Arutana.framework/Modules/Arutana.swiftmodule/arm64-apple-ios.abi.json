@@ -121,52 +121,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -177,10 +135,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -461,17 +461,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Escapable",
                 "printedName": "Escapable",
                 "usr": "s:s9EscapableP",
                 "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
               },
               {
                 "kind": "Conformance",
@@ -732,52 +732,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -788,10 +746,52 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -853,16 +853,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Arutana",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Arutana",
         "declAttributes": [
@@ -1690,6 +1680,35 @@
           },
           {
             "kind": "Function",
+            "name": "setEnableDevMode",
+            "printedName": "setEnableDevMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMovieAd(im)setEnableDevMode:",
+            "mangledName": "$s7Arutana0A7MovieAdC16setEnableDevModeyySbF",
+            "moduleName": "Arutana",
+            "objc_name": "setEnableDevMode:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setTextColor",
             "printedName": "setTextColor(_:)",
             "children": [
@@ -1901,59 +1920,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -1964,10 +1934,59 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2001,6 +2020,1854 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Arutana"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Arutana",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Arutana",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Arutana",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Arutana"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Arutana",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArutanaMediationErrorType",
+        "printedName": "ArutanaMediationErrorType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noAd",
+            "printedName": "noAd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Arutana.ArutanaMediationErrorType.Type) -> Arutana.ArutanaMediationErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArutanaMediationErrorType",
+                    "printedName": "Arutana.ArutanaMediationErrorType",
+                    "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Arutana.ArutanaMediationErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ArutanaMediationErrorType",
+                        "printedName": "Arutana.ArutanaMediationErrorType",
+                        "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Arutana@E@ArutanaMediationErrorType@ArutanaMediationErrorTypeNoAd",
+            "mangledName": "$s7Arutana0A18MediationErrorTypeO4noAdyA2CmF",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Arutana.ArutanaMediationErrorType.Type) -> Arutana.ArutanaMediationErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArutanaMediationErrorType",
+                    "printedName": "Arutana.ArutanaMediationErrorType",
+                    "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Arutana.ArutanaMediationErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ArutanaMediationErrorType",
+                        "printedName": "Arutana.ArutanaMediationErrorType",
+                        "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Arutana@E@ArutanaMediationErrorType@ArutanaMediationErrorTypeTimeout",
+            "mangledName": "$s7Arutana0A18MediationErrorTypeO7timeoutyA2CmF",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "network",
+            "printedName": "network",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Arutana.ArutanaMediationErrorType.Type) -> Arutana.ArutanaMediationErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArutanaMediationErrorType",
+                    "printedName": "Arutana.ArutanaMediationErrorType",
+                    "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Arutana.ArutanaMediationErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ArutanaMediationErrorType",
+                        "printedName": "Arutana.ArutanaMediationErrorType",
+                        "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Arutana@E@ArutanaMediationErrorType@ArutanaMediationErrorTypeNetwork",
+            "mangledName": "$s7Arutana0A18MediationErrorTypeO7networkyA2CmF",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "invalidConfig",
+            "printedName": "invalidConfig",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Arutana.ArutanaMediationErrorType.Type) -> Arutana.ArutanaMediationErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArutanaMediationErrorType",
+                    "printedName": "Arutana.ArutanaMediationErrorType",
+                    "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Arutana.ArutanaMediationErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ArutanaMediationErrorType",
+                        "printedName": "Arutana.ArutanaMediationErrorType",
+                        "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Arutana@E@ArutanaMediationErrorType@ArutanaMediationErrorTypeInvalidConfig",
+            "mangledName": "$s7Arutana0A18MediationErrorTypeO13invalidConfigyA2CmF",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Arutana.ArutanaMediationErrorType.Type) -> Arutana.ArutanaMediationErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArutanaMediationErrorType",
+                    "printedName": "Arutana.ArutanaMediationErrorType",
+                    "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Arutana.ArutanaMediationErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ArutanaMediationErrorType",
+                        "printedName": "Arutana.ArutanaMediationErrorType",
+                        "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Arutana@E@ArutanaMediationErrorType@ArutanaMediationErrorTypeOther",
+            "mangledName": "$s7Arutana0A18MediationErrorTypeO5otheryA2CmF",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Arutana.ArutanaMediationErrorType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArutanaMediationErrorType",
+                    "printedName": "Arutana.ArutanaMediationErrorType",
+                    "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Arutana0A18MediationErrorTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7Arutana0A18MediationErrorTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "Arutana",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Arutana0A18MediationErrorTypeO8rawValueSivp",
+            "mangledName": "$s7Arutana0A18MediationErrorTypeO8rawValueSivp",
+            "moduleName": "Arutana",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Arutana0A18MediationErrorTypeO8rawValueSivg",
+                "mangledName": "$s7Arutana0A18MediationErrorTypeO8rawValueSivg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@Arutana@E@ArutanaMediationErrorType",
+        "mangledName": "$s7Arutana0A18MediationErrorTypeO",
+        "moduleName": "Arutana",
+        "objc_name": "ArutanaMediationErrorType",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArutanaMediationError",
+        "printedName": "ArutanaMediationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noNetworkCode",
+            "printedName": "noNetworkCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(cpy)noNetworkCode",
+            "mangledName": "$s7Arutana0A14MediationErrorC13noNetworkCodeSivpZ",
+            "moduleName": "Arutana",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(cm)noNetworkCode",
+                "mangledName": "$s7Arutana0A14MediationErrorC13noNetworkCodeSivgZ",
+                "moduleName": "Arutana",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationErrorType",
+                "printedName": "Arutana.ArutanaMediationErrorType",
+                "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(py)type",
+            "mangledName": "$s7Arutana0A14MediationErrorC4typeAA0abC4TypeOvp",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArutanaMediationErrorType",
+                    "printedName": "Arutana.ArutanaMediationErrorType",
+                    "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(im)type",
+                "mangledName": "$s7Arutana0A14MediationErrorC4typeAA0abC4TypeOvg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "networkCode",
+            "printedName": "networkCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(py)networkCode",
+            "mangledName": "$s7Arutana0A14MediationErrorC11networkCodeSivp",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(im)networkCode",
+                "mangledName": "$s7Arutana0A14MediationErrorC11networkCodeSivg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(py)message",
+            "mangledName": "$s7Arutana0A14MediationErrorC7messageSSvp",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(im)message",
+                "mangledName": "$s7Arutana0A14MediationErrorC7messageSSvg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:networkCode:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationError",
+                "printedName": "Arutana.ArutanaMediationError",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationErrorType",
+                "printedName": "Arutana.ArutanaMediationErrorType",
+                "usr": "c:@M@Arutana@E@ArutanaMediationErrorType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(im)initWithType:networkCode:message:",
+            "mangledName": "$s7Arutana0A14MediationErrorC4type11networkCode7messageAcA0abC4TypeO_SiSStcfc",
+            "moduleName": "Arutana",
+            "objc_name": "initWithType:networkCode:message:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(py)description",
+            "mangledName": "$s7Arutana0A14MediationErrorC11descriptionSSvp",
+            "moduleName": "Arutana",
+            "overriding": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(im)description",
+                "mangledName": "$s7Arutana0A14MediationErrorC11descriptionSSvg",
+                "moduleName": "Arutana",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationError",
+                "printedName": "Arutana.ArutanaMediationError",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError(im)init",
+            "mangledName": "$s7Arutana0A14MediationErrorCACycfc",
+            "moduleName": "Arutana",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError",
+        "mangledName": "$s7Arutana0A14MediationErrorC",
+        "moduleName": "Arutana",
+        "objc_name": "ArutanaMediationError",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Arutana",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArutanaMediationParams",
+        "printedName": "ArutanaMediationParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "placementId",
+            "printedName": "placementId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(py)placementId",
+            "mangledName": "$s7Arutana0A15MediationParamsC11placementIdSSvp",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(im)placementId",
+                "mangledName": "$s7Arutana0A15MediationParamsC11placementIdSSvg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "groupId",
+            "printedName": "groupId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(py)groupId",
+            "mangledName": "$s7Arutana0A15MediationParamsC7groupIdSSvp",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(im)groupId",
+                "mangledName": "$s7Arutana0A15MediationParamsC7groupIdSSvg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unitId",
+            "printedName": "unitId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(py)unitId",
+            "mangledName": "$s7Arutana0A15MediationParamsC6unitIdSSvp",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(im)unitId",
+                "mangledName": "$s7Arutana0A15MediationParamsC6unitIdSSvg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isTest",
+            "printedName": "isTest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(py)isTest",
+            "mangledName": "$s7Arutana0A15MediationParamsC6isTestSbvp",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(im)isTest",
+                "mangledName": "$s7Arutana0A15MediationParamsC6isTestSbvg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDev",
+            "printedName": "isDev",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(py)isDev",
+            "mangledName": "$s7Arutana0A15MediationParamsC5isDevSbvp",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(im)isDev",
+                "mangledName": "$s7Arutana0A15MediationParamsC5isDevSbvg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeoutMillis",
+            "printedName": "timeoutMillis",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(py)timeoutMillis",
+            "mangledName": "$s7Arutana0A15MediationParamsC13timeoutMillisSivp",
+            "moduleName": "Arutana",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(im)timeoutMillis",
+                "mangledName": "$s7Arutana0A15MediationParamsC13timeoutMillisSivg",
+                "moduleName": "Arutana",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationParams",
+                "printedName": "Arutana.ArutanaMediationParams",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams(im)init",
+            "mangledName": "$s7Arutana0A15MediationParamsCACycfc",
+            "moduleName": "Arutana",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams",
+        "mangledName": "$s7Arutana0A15MediationParamsC",
+        "moduleName": "Arutana",
+        "objc_name": "ArutanaMediationParams",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Arutana",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Arutana"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArutanaMediationAdapter",
+        "printedName": "ArutanaMediationAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaMediationAdapter(im)init",
+            "mangledName": "$s7Arutana0A16MediationAdapterPxycfc",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaMediationAdapter>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaMediationAdapter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaMediationAdapter(im)destroy",
+            "mangledName": "$s7Arutana0A16MediationAdapterP7destroyyyF",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaMediationAdapter>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaMediationAdapter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaMediationAdapter(py)adapterVersion",
+            "mangledName": "$s7Arutana0A16MediationAdapterP14adapterVersionSSvp",
+            "moduleName": "Arutana",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Arutana@objc(pl)ArutanaMediationAdapter(im)adapterVersion",
+                "mangledName": "$s7Arutana0A16MediationAdapterP14adapterVersionSSvg",
+                "moduleName": "Arutana",
+                "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaMediationAdapter>",
+                "sugared_genericSig": "<Self where Self : Arutana.ArutanaMediationAdapter>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Arutana@objc(pl)ArutanaMediationAdapter",
+        "mangledName": "$s7Arutana0A16MediationAdapterP",
+        "moduleName": "Arutana",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "objc_name": "ArutanaMediationAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArutanaBannerMediationAdapter",
+        "printedName": "ArutanaBannerMediationAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadBanner",
+            "printedName": "loadBanner(container:params:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationParams",
+                "printedName": "Arutana.ArutanaMediationParams",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaBannerMediationDelegate",
+                "printedName": "any Arutana.ArutanaBannerMediationDelegate",
+                "usr": "c:@M@Arutana@objc(pl)ArutanaBannerMediationDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaBannerMediationAdapter(im)loadBannerWithContainer:params:delegate:",
+            "mangledName": "$s7Arutana0A22BannerMediationAdapterP04loadB09container6params8delegateySo6UIViewC_AA0aC6ParamsCAA0abC8Delegate_ptF",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaBannerMediationAdapter>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaBannerMediationAdapter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Arutana@objc(pl)ArutanaBannerMediationAdapter",
+        "mangledName": "$s7Arutana0A22BannerMediationAdapterP",
+        "moduleName": "Arutana",
+        "genericSig": "<τ_0_0 : Arutana.ArutanaMediationAdapter>",
+        "sugared_genericSig": "<Self : Arutana.ArutanaMediationAdapter>",
+        "objc_name": "ArutanaBannerMediationAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ArutanaMediationAdapter",
+            "printedName": "ArutanaMediationAdapter",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaMediationAdapter",
+            "mangledName": "$s7Arutana0A16MediationAdapterP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArutanaInterstitialMediationAdapter",
+        "printedName": "ArutanaInterstitialMediationAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadInterstitial",
+            "printedName": "loadInterstitial(container:params:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationParams",
+                "printedName": "Arutana.ArutanaMediationParams",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaInterstitialMediationDelegate",
+                "printedName": "any Arutana.ArutanaInterstitialMediationDelegate",
+                "usr": "c:@M@Arutana@objc(pl)ArutanaInterstitialMediationDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaInterstitialMediationAdapter(im)loadInterstitialWithContainer:params:delegate:",
+            "mangledName": "$s7Arutana0A28InterstitialMediationAdapterP04loadB09container6params8delegateySo6UIViewC_AA0aC6ParamsCAA0abC8Delegate_ptF",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaInterstitialMediationAdapter>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaInterstitialMediationAdapter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Arutana@objc(pl)ArutanaInterstitialMediationAdapter",
+        "mangledName": "$s7Arutana0A28InterstitialMediationAdapterP",
+        "moduleName": "Arutana",
+        "genericSig": "<τ_0_0 : Arutana.ArutanaMediationAdapter>",
+        "sugared_genericSig": "<Self : Arutana.ArutanaMediationAdapter>",
+        "objc_name": "ArutanaInterstitialMediationAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ArutanaMediationAdapter",
+            "printedName": "ArutanaMediationAdapter",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaMediationAdapter",
+            "mangledName": "$s7Arutana0A16MediationAdapterP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArutanaBannerMediationDelegate",
+        "printedName": "ArutanaBannerMediationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "mediationBannerDidLoad",
+            "printedName": "mediationBannerDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaBannerMediationDelegate(im)mediationBannerDidLoad",
+            "mangledName": "$s7Arutana0A23BannerMediationDelegateP09mediationB7DidLoadyyF",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaBannerMediationDelegate>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaBannerMediationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mediationBannerDidFail",
+            "printedName": "mediationBannerDidFail(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationError",
+                "printedName": "Arutana.ArutanaMediationError",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaBannerMediationDelegate(im)mediationBannerDidFailWithError:",
+            "mangledName": "$s7Arutana0A23BannerMediationDelegateP09mediationB7DidFail5erroryAA0aC5ErrorC_tF",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaBannerMediationDelegate>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaBannerMediationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mediationBannerDidClick",
+            "printedName": "mediationBannerDidClick()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaBannerMediationDelegate(im)mediationBannerDidClick",
+            "mangledName": "$s7Arutana0A23BannerMediationDelegateP09mediationB8DidClickyyF",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaBannerMediationDelegate>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaBannerMediationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Arutana@objc(pl)ArutanaBannerMediationDelegate",
+        "mangledName": "$s7Arutana0A23BannerMediationDelegateP",
+        "moduleName": "Arutana",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "ArutanaBannerMediationDelegate",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArutanaInterstitialMediationDelegate",
+        "printedName": "ArutanaInterstitialMediationDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "mediationInterstitialDidLoad",
+            "printedName": "mediationInterstitialDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaInterstitialMediationDelegate(im)mediationInterstitialDidLoad",
+            "mangledName": "$s7Arutana0A29InterstitialMediationDelegateP09mediationB7DidLoadyyF",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaInterstitialMediationDelegate>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaInterstitialMediationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mediationInterstitialDidFail",
+            "printedName": "mediationInterstitialDidFail(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationError",
+                "printedName": "Arutana.ArutanaMediationError",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaInterstitialMediationDelegate(im)mediationInterstitialDidFailWithError:",
+            "mangledName": "$s7Arutana0A29InterstitialMediationDelegateP09mediationB7DidFail5erroryAA0aC5ErrorC_tF",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaInterstitialMediationDelegate>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaInterstitialMediationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mediationInterstitialDidClick",
+            "printedName": "mediationInterstitialDidClick()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaInterstitialMediationDelegate(im)mediationInterstitialDidClick",
+            "mangledName": "$s7Arutana0A29InterstitialMediationDelegateP09mediationB8DidClickyyF",
+            "moduleName": "Arutana",
+            "genericSig": "<τ_0_0 where τ_0_0 : Arutana.ArutanaInterstitialMediationDelegate>",
+            "sugared_genericSig": "<Self where Self : Arutana.ArutanaInterstitialMediationDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Custom",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Arutana@objc(pl)ArutanaInterstitialMediationDelegate",
+        "mangledName": "$s7Arutana0A29InterstitialMediationDelegateP",
+        "moduleName": "Arutana",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "ArutanaInterstitialMediationDelegate",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Arutana",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2399,6 +4266,35 @@
           },
           {
             "kind": "Function",
+            "name": "setEnableDevMode",
+            "printedName": "setEnableDevMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaBanner(im)setEnableDevMode:",
+            "mangledName": "$s7Arutana0A6BannerC16setEnableDevModeyySbF",
+            "moduleName": "Arutana",
+            "objc_name": "setEnableDevMode:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "addAdContainerView",
             "printedName": "addAdContainerView(_:)",
             "children": [
@@ -2525,59 +4421,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -2588,11 +4435,70 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Arutana",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -2750,24 +4656,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -2778,17 +4670,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2799,13 +4684,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -2813,17 +4691,45 @@
           },
           {
             "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SendableMetatype",
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3106,8 +5012,7 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3493,6 +5398,35 @@
           },
           {
             "kind": "Function",
+            "name": "setEnableDevMode",
+            "printedName": "setEnableDevMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Arutana@objc(cs)ArutanaInterstitial(im)setEnableDevMode:",
+            "mangledName": "$s7Arutana0A12InterstitialC16setEnableDevModeyySbF",
+            "moduleName": "Arutana",
+            "objc_name": "setEnableDevMode:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setAdBackgroundColor",
             "printedName": "setAdBackgroundColor(_:)",
             "children": [
@@ -3659,24 +5593,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -3687,17 +5607,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3708,13 +5621,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -3722,10 +5628,38 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -3735,6 +5669,23 @@
             "mangledName": "$ss16SendableMetatypeP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Arutana",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Arutana"
       },
       {
         "kind": "Import",
@@ -3820,455 +5771,658 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/InArutunaUtil.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/InArutunaUtil.swift",
       "kind": "BooleanLiteral",
-      "offset": 6238,
+      "offset": 7016,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
       "kind": "StringLiteral",
       "offset": 200,
       "length": 9,
       "value": "\"Arutana\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 307,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 323,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/ArutanaLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 572,
+      "offset": 583,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 744,
+      "offset": 755,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1487,
+      "offset": 1498,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1531,
+      "offset": 1542,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaVideoViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1577,
+      "offset": 1588,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1322,
+      "offset": 2226,
       "length": 13,
       "value": "\"setting_key\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1379,
+      "offset": 2283,
       "length": 19,
       "value": "\"setting_check_key\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1449,
+      "offset": 2452,
       "length": 20,
       "value": "\"interval_check_key\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1516,
+      "offset": 2519,
       "length": 14,
       "value": "\"interval_key\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1573,
+      "offset": 2576,
       "length": 11,
       "value": "\"count_key\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
       "kind": "StringLiteral",
-      "offset": 1629,
+      "offset": 2632,
       "length": 13,
       "value": "\"current_key\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Utils\/DataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3592,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
       "offset": 1225,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
       "offset": 1409,
       "length": 5,
       "value": "-9999"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "IntegerLiteral",
       "offset": 1451,
       "length": 5,
       "value": "-9999"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "StringLiteral",
       "offset": 1494,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
       "offset": 1528,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 1799,
+      "offset": 1575,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Movie\/ArutanaMovieAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1846,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Network\/InArutanaHttpClient.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Network\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
       "offset": 1994,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Network\/InArutanaHttpClient.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Network\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
       "offset": 2020,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Network\/InArutanaHttpClient.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Network\/InArutanaHttpClient.swift",
       "kind": "IntegerLiteral",
       "offset": 2040,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
-      "kind": "StringLiteral",
-      "offset": 695,
-      "length": 2,
-      "value": "\"\""
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/MediationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1161,
+      "length": 4,
+      "value": "5000"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/MediationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 767,
+      "offset": 2029,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Parts\/InArutanaCloseButton.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/MediationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2060,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/MediationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/ArutanaMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 335,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/ArutanaMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/ArutanaMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/ArutanaMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/ArutanaMediationError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 798,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/ArutanaMediationError.swift",
+      "kind": "StringLiteral",
+      "offset": 1247,
+      "length": 94,
+      "value": "\"ArutanaMediationError(type=\""
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/ArutanaMediationError.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 1,
+      "value": "\", networkCode=\""
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/ArutanaMediationError.swift",
+      "kind": "StringLiteral",
+      "offset": 1319,
+      "length": 1,
+      "value": "\", message=\""
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Mediation\/ArutanaMediationError.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 741,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
+      "kind": "BooleanLiteral",
+      "offset": 788,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Banner\/ArutanaBanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Banner\/BannerMediationFallback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1104,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Parts\/InArutanaCloseButton.swift",
       "kind": "IntegerLiteral",
       "offset": 177,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Parts\/InArutanaCloseButton.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Parts\/InArutanaCloseButton.swift",
       "kind": "IntegerLiteral",
       "offset": 206,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 241,
+      "offset": 153,
+      "length": 39,
+      "value": "\"ad.dev.arutana.sandbox.spikestudio.jp\""
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
       "length": 23,
       "value": "\"ad.stg.ads.arutana.jp\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 308,
+      "offset": 306,
       "length": 19,
       "value": "\"ad.ads.arutana.jp\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 490,
+      "offset": 385,
+      "length": 45,
+      "value": "\"contents.dev.arutana.sandbox.spikestudio.jp\""
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 486,
       "length": 29,
       "value": "\"contents.stg.ads.arutana.jp\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 571,
+      "offset": 567,
       "length": 25,
       "value": "\"contents.ads.arutana.jp\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 636,
+      "offset": 632,
       "length": 8,
       "value": "\"\/v1\/ad\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 666,
+      "offset": 662,
       "length": 8,
       "value": "\"\/v1\/cl\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 697,
+      "offset": 693,
       "length": 9,
       "value": "\"\/v1\/imp\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 728,
+      "offset": 724,
       "length": 8,
       "value": "\"\/v1\/ev\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 762,
+      "offset": 758,
       "length": 4,
       "value": "\"\/1\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 792,
       "length": 12,
       "value": "\"FULLSCREEN\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 834,
+      "offset": 830,
       "length": 9,
       "value": "\"WEBVIEW\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/InArutanaPrivateConstants.swift",
       "kind": "StringLiteral",
-      "offset": 890,
+      "offset": 886,
       "length": 34,
       "value": "\"arutana_interstitial_background_\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1172,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "FloatLiteral",
-      "offset": 517,
+      "offset": 1322,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 602,
+      "offset": 1407,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1454,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "IntegerLiteral",
-      "offset": 703,
+      "offset": 1555,
       "length": 5,
       "value": "-9999"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 746,
+      "offset": 1598,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
+      "offset": 2117,
       "length": 20,
       "value": "\"io.dearone.arutana\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 1215,
+      "offset": 2177,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2651,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/ArutanaInterstitial.swift",
       "kind": "BooleanLiteral",
-      "offset": 1547,
+      "offset": 3136,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Network\/InArutanaResponse.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialMediationFallback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialMediationFallback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialMediationFallback.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1329,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialMediationFallback.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1582,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialMediationFallback.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1959,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialMediationFallback.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2005,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Network\/InArutanaResponse.swift",
       "kind": "StringLiteral",
       "offset": 254,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Network\/InArutanaResponse.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Network\/InArutanaResponse.swift",
       "kind": "IntegerLiteral",
       "offset": 296,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "FloatLiteral",
       "offset": 198,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3260,
+      "offset": 3693,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3266,
+      "offset": 3699,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3276,
+      "offset": 3709,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3288,
+      "offset": 3721,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3385,
+      "offset": 3818,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3426,
+      "offset": 3859,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3469,
+      "offset": 3902,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3520,
+      "offset": 3953,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/s22244\/Documents\/src\/self\/arutana\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/Arutana\/Interstitial\/InterstitialView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3563,
+      "offset": 3996,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/s22244\/Library\/Developer\/Xcode\/DerivedData\/Arutana-bhspgwrpczqvodgdjnjvjtglxvvq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Arutana\/IntermediateBuildFilesPath\/Arutana.build\/Release-iphoneos\/Arutana.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/oishi\/Library\/Developer\/Xcode\/DerivedData\/Arutana-eejigcftntieweelaxnmwqsdhvcv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Arutana\/IntermediateBuildFilesPath\/Arutana.build\/Release-iphoneos\/Arutana.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 25,
       "value": "\"InterstitialCloseButton\""
     },
     {
-      "filePath": "\/Users\/s22244\/Library\/Developer\/Xcode\/DerivedData\/Arutana-bhspgwrpczqvodgdjnjvjtglxvvq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Arutana\/IntermediateBuildFilesPath\/Arutana.build\/Release-iphoneos\/Arutana.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/oishi\/Library\/Developer\/Xcode\/DerivedData\/Arutana-eejigcftntieweelaxnmwqsdhvcv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Arutana\/IntermediateBuildFilesPath\/Arutana.build\/Release-iphoneos\/Arutana.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 924,
       "length": 17,
       "value": "\"VideoViewButton\""
     },
     {
-      "filePath": "\/Users\/s22244\/Library\/Developer\/Xcode\/DerivedData\/Arutana-bhspgwrpczqvodgdjnjvjtglxvvq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Arutana\/IntermediateBuildFilesPath\/Arutana.build\/Release-iphoneos\/Arutana.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/oishi\/Library\/Developer\/Xcode\/DerivedData\/Arutana-eejigcftntieweelaxnmwqsdhvcv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Arutana\/IntermediateBuildFilesPath\/Arutana.build\/Release-iphoneos\/Arutana.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1074,
       "length": 16,
       "value": "\"VolumeOffImage\""
     },
     {
-      "filePath": "\/Users\/s22244\/Library\/Developer\/Xcode\/DerivedData\/Arutana-bhspgwrpczqvodgdjnjvjtglxvvq\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Arutana\/IntermediateBuildFilesPath\/Arutana.build\/Release-iphoneos\/Arutana.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/oishi\/Library\/Developer\/Xcode\/DerivedData\/Arutana-eejigcftntieweelaxnmwqsdhvcv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Arutana\/IntermediateBuildFilesPath\/Arutana.build\/Release-iphoneos\/Arutana.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1221,
       "length": 15,

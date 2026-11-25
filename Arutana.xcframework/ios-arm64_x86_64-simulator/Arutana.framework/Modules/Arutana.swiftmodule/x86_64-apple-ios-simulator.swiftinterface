@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3.3 (swiftlang-6.3.3.1.1 clang-2100.1.1.101)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -O -enable-experimental-feature DebugDescriptionMacro -module-name Arutana
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+// swift-compiler-version: Apple Swift version 6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name Arutana
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -17,7 +17,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc open class InArutunaUtil : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open class func clearTimer(_ timer: Foundation.Timer?)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -27,14 +29,18 @@ import _SwiftConcurrencyShims
     case info
     case warning
     case error
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
     }
   }
   @objc nonisolated(unsafe) public static var logLevel: Arutana.ArutanaLogger.LogLevel
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func outputDebug(_ str: Swift.String, cls: Swift.AnyClass? = nil, method: ObjectiveC.Selector? = nil)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -57,11 +63,16 @@ import _SwiftConcurrencyShims
   @objc public var rootViewController: UIKit.UIViewController?
   @objc override dynamic public init()
   @objc(setLocationId:) public func setLocationId(_ locationId: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(setIDFA:) public func setIDFA(_ idfa: Swift.String?)
+  #endif
   @objc(setTopMargin:) public func setTopMargin(_ margin: Swift.Int)
   @objc(setBottomMargin:) public func setBottomMargin(_ margin: Swift.Int)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
+  @objc(setEnableDevMode:) public func setEnableDevMode(_ isDev: Swift.Bool)
   @objc(setTextColor:) public func setTextColor(_ color: UIKit.UIColor)
   @objc(useSafeAreaInsets:) public func useSafeAreaInsets(_ use: Swift.Bool)
   @_Concurrency.MainActor @objc public func dismiss()
@@ -73,6 +84,61 @@ extension Arutana.ArutanaMovieAd : SafariServices.SFSafariViewControllerDelegate
   @objc nonisolated dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
   @objc nonisolated dynamic public func safariViewController(_ controller: SafariServices.SFSafariViewController, initialLoadDidRedirectTo URL: Foundation.URL)
 }
+@objc(ArutanaMediationErrorType) public enum ArutanaMediationErrorType : Swift.Int, Swift.Sendable {
+  case noAd
+  case timeout
+  case network
+  case invalidConfig
+  case other
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(ArutanaMediationError) final public class ArutanaMediationError : ObjectiveC.NSObject, Swift.Sendable {
+  @objc public static let noNetworkCode: Swift.Int
+  @objc final public let type: Arutana.ArutanaMediationErrorType
+  @objc final public let networkCode: Swift.Int
+  @objc final public let message: Swift.String
+  @objc public init(type: Arutana.ArutanaMediationErrorType, networkCode: Swift.Int, message: Swift.String)
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(ArutanaMediationParams) final public class ArutanaMediationParams : ObjectiveC.NSObject, Swift.Sendable {
+  @objc final public let placementId: Swift.String
+  @objc final public let groupId: Swift.String
+  @objc final public let unitId: Swift.String
+  @objc final public let isTest: Swift.Bool
+  @objc final public let isDev: Swift.Bool
+  @objc final public let timeoutMillis: Swift.Int
+  @objc deinit
+}
+@objc(ArutanaMediationAdapter) public protocol ArutanaMediationAdapter : ObjectiveC.NSObjectProtocol {
+  @objc init()
+  @objc @_Concurrency.MainActor func destroy()
+  @objc var adapterVersion: Swift.String { get }
+}
+@objc(ArutanaBannerMediationAdapter) public protocol ArutanaBannerMediationAdapter : Arutana.ArutanaMediationAdapter {
+  @objc @_Concurrency.MainActor func loadBanner(container: UIKit.UIView, params: Arutana.ArutanaMediationParams, delegate: any Arutana.ArutanaBannerMediationDelegate)
+}
+@objc(ArutanaInterstitialMediationAdapter) public protocol ArutanaInterstitialMediationAdapter : Arutana.ArutanaMediationAdapter {
+  @objc @_Concurrency.MainActor func loadInterstitial(container: UIKit.UIView, params: Arutana.ArutanaMediationParams, delegate: any Arutana.ArutanaInterstitialMediationDelegate)
+}
+@objc(ArutanaBannerMediationDelegate) public protocol ArutanaBannerMediationDelegate {
+  @objc @_Concurrency.MainActor func mediationBannerDidLoad()
+  @objc @_Concurrency.MainActor func mediationBannerDidFail(error: Arutana.ArutanaMediationError)
+  @objc @_Concurrency.MainActor func mediationBannerDidClick()
+}
+@objc(ArutanaInterstitialMediationDelegate) public protocol ArutanaInterstitialMediationDelegate {
+  @objc @_Concurrency.MainActor func mediationInterstitialDidLoad()
+  @objc @_Concurrency.MainActor func mediationInterstitialDidFail(error: Arutana.ArutanaMediationError)
+  @objc @_Concurrency.MainActor func mediationInterstitialDidClick()
+}
 @objc public protocol ArutanaBannerDelegate {
   @objc(arutanaBannerReceiveAd) func arutanaBannerReceiveAd()
   @objc(arutanaBannerFailedToReceiveAd:) func arutanaBannerFailedToReceiveAd(code: Arutana.kArutanaErrorCode)
@@ -81,12 +147,17 @@ extension Arutana.ArutanaMovieAd : SafariServices.SFSafariViewControllerDelegate
 @objc public class ArutanaBanner : ObjectiveC.NSObject, @unchecked Swift.Sendable {
   @objc public var delegate: (any Arutana.ArutanaBannerDelegate)?
   @objc public init(locationId: Swift.String, adType: Arutana.ArutanaAdType)
+  @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(setIDFA:) public func setIDFA(_ idfa: Swift.String?)
+  #endif
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
+  @objc(setEnableDevMode:) public func setEnableDevMode(_ isDev: Swift.Bool)
   @objc public func addAdContainerView(_ adContainerView: UIKit.UIView)
   @objc public func loadRequest()
-  @objc deinit
 }
 extension Arutana.ArutanaBanner : SafariServices.SFSafariViewControllerDelegate {
   @objc nonisolated dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
@@ -104,25 +175,35 @@ extension Arutana.ArutanaBanner : SafariServices.SFSafariViewControllerDelegate 
   @objc(arutanaInterstitialFailedToReceiveAd:code:) func arutanaInterstitialFailedToReceiveAd(arutanaInterstitial: Arutana.ArutanaInterstitial, code: Arutana.kArutanaErrorCode)
 }
 @_inheritsConvenienceInitializers @objc public class ArutanaInterstitial : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  @objc deinit
   @objc public var delegate: (any Arutana.ArutanaInterstitialDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var rootViewController: UIKit.UIViewController? {
     @objc get
     @objc set(value)
   }
+  #endif
   @objc override dynamic public init()
   @objc(setLocationId:) public func setLocationId(_ locationId: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(setUserId:) public func setUserId(_ userId: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(setIDFA:) public func setIDFA(_ idfa: Swift.String?)
+  #endif
   @objc(setTopMargin:) public func setTopMargin(_ margin: Swift.Int)
   @objc(setEnableTestMode:) public func setEnableTestMode(_ isTest: Swift.Bool)
+  @objc(setEnableDevMode:) public func setEnableDevMode(_ isDev: Swift.Bool)
   @objc(setAdBackgroundColor:) public func setAdBackgroundColor(_ color: UIKit.UIColor)
   @objc(setAdTextColor:) public func setAdTextColor(_ color: UIKit.UIColor)
   @objc(setWidth:) public func setWidth(_ widthPercentage: CoreFoundation.CGFloat)
   @objc public func preload()
   @_Concurrency.MainActor @objc public func show()
   @_Concurrency.MainActor @objc public func dismiss()
-  @objc deinit
 }
 extension Arutana.ArutanaLogger.LogLevel : Swift.Equatable {}
 extension Arutana.ArutanaLogger.LogLevel : Swift.Hashable {}
 extension Arutana.ArutanaLogger.LogLevel : Swift.RawRepresentable {}
+extension Arutana.ArutanaMediationErrorType : Swift.Equatable {}
+extension Arutana.ArutanaMediationErrorType : Swift.Hashable {}
+extension Arutana.ArutanaMediationErrorType : Swift.RawRepresentable {}

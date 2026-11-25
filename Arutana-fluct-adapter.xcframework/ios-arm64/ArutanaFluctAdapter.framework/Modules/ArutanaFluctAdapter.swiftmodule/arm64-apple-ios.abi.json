@@ -1,0 +1,885 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ArutanaFluctAdapter",
+    "printedName": "ArutanaFluctAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Arutana",
+        "printedName": "Arutana",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "FluctSDK",
+        "printedName": "FluctSDK",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FluctBannerMediationAdapter",
+        "printedName": "FluctBannerMediationAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FluctBannerMediationAdapter",
+                "printedName": "ArutanaFluctAdapter.FluctBannerMediationAdapter",
+                "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter(im)init",
+            "mangledName": "$s19ArutanaFluctAdapter0b15BannerMediationC0CACycfc",
+            "moduleName": "ArutanaFluctAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter(py)adapterVersion",
+            "mangledName": "$s19ArutanaFluctAdapter0b15BannerMediationC0C14adapterVersionSSvp",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter(im)adapterVersion",
+                "mangledName": "$s19ArutanaFluctAdapter0b15BannerMediationC0C14adapterVersionSSvg",
+                "moduleName": "ArutanaFluctAdapter",
+                "objc_name": "adapterVersion",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadBanner",
+            "printedName": "loadBanner(container:params:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationParams",
+                "printedName": "Arutana.ArutanaMediationParams",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaBannerMediationDelegate",
+                "printedName": "any Arutana.ArutanaBannerMediationDelegate",
+                "usr": "c:@M@Arutana@objc(pl)ArutanaBannerMediationDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter(im)loadBannerWithContainer:params:delegate:",
+            "mangledName": "$s19ArutanaFluctAdapter0b15BannerMediationC0C04loadD09container6params8delegateySo6UIViewC_0A00aE6ParamsCAJ0adE8Delegate_ptF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "loadBannerWithContainer:params:delegate:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter(im)destroy",
+            "mangledName": "$s19ArutanaFluctAdapter0b15BannerMediationC0C7destroyyyF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "destroy",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adViewDidStoreAd",
+            "printedName": "adViewDidStoreAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSSAdView",
+                "printedName": "FluctSDK.FSSAdView",
+                "usr": "c:objc(cs)FSSAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter(im)adViewDidStoreAd:",
+            "mangledName": "$s19ArutanaFluctAdapter0b15BannerMediationC0C16adViewDidStoreAdyySo05FSSAdG0CF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "adViewDidStoreAd:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adView",
+            "printedName": "adView(_:didFailToStoreAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSSAdView",
+                "printedName": "FluctSDK.FSSAdView",
+                "usr": "c:objc(cs)FSSAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter(im)adView:didFailToStoreAdWithError:",
+            "mangledName": "$s19ArutanaFluctAdapter0b15BannerMediationC0C6adView_25didFailToStoreAdWithErrorySo05FSSAdG0C_s0N0_ptF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "adView:didFailToStoreAdWithError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "willLeaveApplicationForAdView",
+            "printedName": "willLeaveApplicationForAdView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSSAdView",
+                "printedName": "FluctSDK.FSSAdView",
+                "usr": "c:objc(cs)FSSAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter(im)willLeaveApplicationForAdView:",
+            "mangledName": "$s19ArutanaFluctAdapter0b15BannerMediationC0C29willLeaveApplicationForAdViewyySo05FSSAdK0CF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "willLeaveApplicationForAdView:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctBannerMediationAdapter",
+        "mangledName": "$s19ArutanaFluctAdapter0b15BannerMediationC0C",
+        "moduleName": "ArutanaFluctAdapter",
+        "objc_name": "FluctBannerMediationAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ArutanaBannerMediationAdapter",
+            "printedName": "ArutanaBannerMediationAdapter",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaBannerMediationAdapter",
+            "mangledName": "$s7Arutana0A22BannerMediationAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ArutanaMediationAdapter",
+            "printedName": "ArutanaMediationAdapter",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaMediationAdapter",
+            "mangledName": "$s7Arutana0A16MediationAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Arutana",
+        "printedName": "Arutana",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "FluctSDK",
+        "printedName": "FluctSDK",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FluctInterstitialMediationAdapter",
+        "printedName": "FluctInterstitialMediationAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FluctInterstitialMediationAdapter",
+                "printedName": "ArutanaFluctAdapter.FluctInterstitialMediationAdapter",
+                "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter(im)init",
+            "mangledName": "$s19ArutanaFluctAdapter0b21InterstitialMediationC0CACycfc",
+            "moduleName": "ArutanaFluctAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter(py)adapterVersion",
+            "mangledName": "$s19ArutanaFluctAdapter0b21InterstitialMediationC0C14adapterVersionSSvp",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter(im)adapterVersion",
+                "mangledName": "$s19ArutanaFluctAdapter0b21InterstitialMediationC0C14adapterVersionSSvg",
+                "moduleName": "ArutanaFluctAdapter",
+                "objc_name": "adapterVersion",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadInterstitial",
+            "printedName": "loadInterstitial(container:params:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaMediationParams",
+                "printedName": "Arutana.ArutanaMediationParams",
+                "usr": "c:@M@Arutana@objc(cs)ArutanaMediationParams"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArutanaInterstitialMediationDelegate",
+                "printedName": "any Arutana.ArutanaInterstitialMediationDelegate",
+                "usr": "c:@M@Arutana@objc(pl)ArutanaInterstitialMediationDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter(im)loadInterstitialWithContainer:params:delegate:",
+            "mangledName": "$s19ArutanaFluctAdapter0b21InterstitialMediationC0C04loadD09container6params8delegateySo6UIViewC_0A00aE6ParamsCAJ0adE8Delegate_ptF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "loadInterstitialWithContainer:params:delegate:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter(im)destroy",
+            "mangledName": "$s19ArutanaFluctAdapter0b21InterstitialMediationC0C7destroyyyF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "destroy",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adViewDidStoreAd",
+            "printedName": "adViewDidStoreAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSSAdView",
+                "printedName": "FluctSDK.FSSAdView",
+                "usr": "c:objc(cs)FSSAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter(im)adViewDidStoreAd:",
+            "mangledName": "$s19ArutanaFluctAdapter0b21InterstitialMediationC0C16adViewDidStoreAdyySo05FSSAdG0CF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "adViewDidStoreAd:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adView",
+            "printedName": "adView(_:didFailToStoreAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSSAdView",
+                "printedName": "FluctSDK.FSSAdView",
+                "usr": "c:objc(cs)FSSAdView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter(im)adView:didFailToStoreAdWithError:",
+            "mangledName": "$s19ArutanaFluctAdapter0b21InterstitialMediationC0C6adView_25didFailToStoreAdWithErrorySo05FSSAdG0C_s0N0_ptF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "adView:didFailToStoreAdWithError:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "willLeaveApplicationForAdView",
+            "printedName": "willLeaveApplicationForAdView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FSSAdView",
+                "printedName": "FluctSDK.FSSAdView",
+                "usr": "c:objc(cs)FSSAdView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter(im)willLeaveApplicationForAdView:",
+            "mangledName": "$s19ArutanaFluctAdapter0b21InterstitialMediationC0C29willLeaveApplicationForAdViewyySo05FSSAdK0CF",
+            "moduleName": "ArutanaFluctAdapter",
+            "objc_name": "willLeaveApplicationForAdView:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ArutanaFluctAdapter@objc(cs)FluctInterstitialMediationAdapter",
+        "mangledName": "$s19ArutanaFluctAdapter0b21InterstitialMediationC0C",
+        "moduleName": "ArutanaFluctAdapter",
+        "objc_name": "FluctInterstitialMediationAdapter",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ArutanaInterstitialMediationAdapter",
+            "printedName": "ArutanaInterstitialMediationAdapter",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaInterstitialMediationAdapter",
+            "mangledName": "$s7Arutana0A28InterstitialMediationAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ArutanaMediationAdapter",
+            "printedName": "ArutanaMediationAdapter",
+            "usr": "c:@M@Arutana@objc(pl)ArutanaMediationAdapter",
+            "mangledName": "$s7Arutana0A16MediationAdapterP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Arutana",
+        "printedName": "Arutana",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "FluctSDK",
+        "printedName": "FluctSDK",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ArutanaFluctAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctBannerMediationAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 3,
+      "value": "320"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctBannerMediationAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 644,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctBannerMediationAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 830,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctBannerMediationAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 861,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctBannerMediationAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 3707,
+      "length": 277,
+      "value": "\"(function(){var s=document.createElement('style');s.textContent='html,body{height:100%;margin:0;padding:0}body{display:flex;flex-direction:column;justify-content:center}';(document.head||document.documentElement).appendChild(s);})();\""
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctInterstitialMediationAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 834,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctInterstitialMediationAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 847,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctInterstitialMediationAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1039,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctInterstitialMediationAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1070,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/oishi\/Documents\/src\/work\/SpikeStudio\/ad-sdk-ios\/ArutanaFluctAdapter\/FluctAdapterVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 7,
+      "value": "\"0.0.1\""
+    }
+  ]
+}

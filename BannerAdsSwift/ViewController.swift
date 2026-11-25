@@ -11,10 +11,17 @@ import Arutana
 class ViewController: UIViewController {
     @IBOutlet weak var adView: UIView!
     private var banner:ArutanaBanner?;
+    // true にすると、dev 環境の Fluct 確認用の枠（1132）を表示する。この枠は Arutana の広告を返さず、Fluct の広告を表示する
+    private static let useFluctTestPlacement = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.banner = ArutanaBanner(locationId: "1", adType: ArutanaAdType.sp); // 広告枠IDを指定して初期化
+        if Self.useFluctTestPlacement {
+            self.banner = ArutanaBanner(locationId: "1132", adType: ArutanaAdType.sp); // Fluct 確認用の広告枠ID
+            self.banner?.setEnableDevMode(true); // dev 環境に接続する
+        } else {
+            self.banner = ArutanaBanner(locationId: "1", adType: ArutanaAdType.sp); // 広告枠IDを指定して初期化
+        }
         self.banner?.addAdContainerView(self.adView) // 広告Viewを配置するViewを指定
         self.banner?.delegate = self;
         self.banner?.setUserId("1"); // ログイン中のユーザーの会員ID
