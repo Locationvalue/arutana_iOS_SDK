@@ -15,9 +15,6 @@
 
 @end
 
-// YES にすると、dev 環境の Fluct 確認用の枠（1133）を表示する。この枠は Arutana の広告を返さず、Fluct の 300x250 の広告をモーダルの中に表示する
-static const BOOL kUseFluctTestPlacement = NO;
-
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -26,12 +23,7 @@ static const BOOL kUseFluctTestPlacement = NO;
     self.interstitial = [[ArutanaInterstitial alloc] init];
     self.interstitial.delegate = self;
     self.interstitial.rootViewController = self;
-    if (kUseFluctTestPlacement) {
-        [self.interstitial setLocationId:@"1133"]; // Fluct 確認用の広告枠ID
-        [self.interstitial setEnableDevMode:YES]; // dev 環境に接続する
-    } else {
-        [self.interstitial setLocationId:@"4"]; // 管理画面から払い出された広告枠ID
-    }
+    [self.interstitial setLocationId:@"4"]; // 管理画面から払い出された広告枠ID
     [self.interstitial setUserId:@"xxxx"]; // ログイン中ユーザーの会員ID
     [self.interstitial setEnableTestMode:YES]; // テストモードを有効化. 本番リリース時は削除
     // 広告の表示準備を開始(下記1か2の処理どちらかを選択してください。)
