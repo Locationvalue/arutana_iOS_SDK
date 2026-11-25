@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.license      = "PROPRIETARY"
   spec.author       = { "DearOne, Inc." => "info@dearone.io" }
   spec.platform     = :ios
-  spec.source       = { :git => "https://github.com/Locationvalue/arutana_iOS_SDK", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Locationvalue/arutana_iOS_SDK", :tag => "v#{spec.version}" }
   spec.vendored_frameworks = "Arutana.xcframework"
   spec.platform     = :ios, "13.0"
   spec.public_header_files = 'Headers/**/*.h'
