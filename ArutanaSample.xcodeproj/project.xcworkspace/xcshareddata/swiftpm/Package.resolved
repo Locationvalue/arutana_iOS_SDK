@@ -1,0 +1,15 @@
+{
+  "originHash" : "51aaf1746e22e262bea8429e5d398afe23551cf3fd724a2b1b91e78a8d3f0a31",
+  "pins" : [
+    {
+      "identity" : "fluctsdk-ios-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/voyagegroup/FluctSDK-iOS-Swift-Package",
+      "state" : {
+        "revision" : "7e967032acd36acf379899580504dc75b45fe973",
+        "version" : "6.45.1"
+      }
+    }
+  ],
+  "version" : 3
+}

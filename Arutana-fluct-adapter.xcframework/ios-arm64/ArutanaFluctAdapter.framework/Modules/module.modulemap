@@ -1,0 +1,4 @@
+framework module ArutanaFluctAdapter {
+  header "ArutanaFluctAdapter-Swift.h"
+  requires objc
+}

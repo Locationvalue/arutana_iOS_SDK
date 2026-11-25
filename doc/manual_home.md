@@ -9,6 +9,7 @@
 - [動画広告導入手順](./movie_ad.md)
 - [モーダル広告および動画広告の表示順序制御について](./control_modal_and_movie.md)
 - [IDFAを利用した配信実施時の実装方法について](./idfa.md)
+- [Fluct メディエーション導入手順](./mediation_fluct.md)
 
 # リファレンス
 
